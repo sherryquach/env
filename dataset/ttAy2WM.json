@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    {
+      "agenticDefault": false,
+      "bypassOverrideLimit": false,
+      "dataExpirationDate": null,
+      "datasetName": "sherrytest query",
+      "identifier": "ttAy2WM",
+      "injectStreamTime": false,
+      "metaHash": -2117847450,
+      "metadataConfig": "{\"fields\":[{\"fieldName\":\"bounced\",\"fieldType\":\"java.lang.Integer\",\"ntz\":false},{\"fieldName\":\"campaign_name\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"clicks\",\"fieldType\":\"java.lang.Integer\",\"ntz\":false},{\"fieldName\":\"conversions\",\"fieldType\":\"java.lang.Integer\",\"ntz\":false},{\"fieldName\":\"customer\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"date\",\"fieldType\":\"java.util.Date\",\"ntz\":false},{\"fieldName\":\"delivered\",\"fieldType\":\"java.lang.Integer\",\"ntz\":false},{\"fieldName\":\"id\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"message_type\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"opened\",\"fieldType\":\"java.lang.Integer\",\"ntz\":false},{\"fieldName\":\"sent\",\"fieldType\":\"java.lang.Integer\",\"ntz\":false},{\"fieldName\":\"spam\",\"fieldType\":\"java.lang.Integer\",\"ntz\":false},{\"fieldName\":\"week\",\"fieldType\":\"java.util.Date\",\"ntz\":false},{\"fieldName\":\"_stream_time\",\"fieldType\":\"java.util.Date\",\"ntz\":false}]}",
+      "mongoConnectUri": "provisioned",
+      "nlpBotEnabled": true,
+      "nlpConfig": null,
+      "nlpEnabled": true,
+      "nlpIndexInterval": 360,
+      "refreshMeta": false,
+      "synonymHash": 0,
+      "timeZone": null
+    }
+  ],
+  "format": 1
+}
