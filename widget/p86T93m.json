@@ -1,0 +1,109 @@
+{
+  "categoryAssets": [
+    {
+      "categoryIdentifier": "${ref:category:_00001O}",
+      "identifier": "p86T93m",
+      "objectType": 2
+    }
+  ],
+  "chartProperties": [
+    {
+      "chartUrl": "p86T93m",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "recommendation"
+    },
+    {
+      "chartUrl": "p86T93m",
+      "dashboardIdentifier": null,
+      "property": "recommendation.mode",
+      "value": "1"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "Sending Activity - Recommendations",
+      "datasetId": "${ref:dataset:ExSYzO}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": {
+        "fields": [
+          {
+            "fieldName": "Bounced",
+            "fieldType": "java.lang.Integer",
+            "ntz": false
+          },
+          {
+            "fieldName": "Campaign_name",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "Clicks",
+            "fieldType": "java.lang.Integer",
+            "ntz": false
+          },
+          {
+            "fieldName": "Conversions",
+            "fieldType": "java.lang.Integer",
+            "ntz": false
+          },
+          {
+            "fieldName": "Customer",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "Date",
+            "fieldType": "java.util.Date",
+            "ntz": false
+          },
+          {
+            "fieldName": "Delivered",
+            "fieldType": "java.lang.Integer",
+            "ntz": false
+          },
+          {
+            "fieldName": "id",
+            "fieldType": "java.lang.Long",
+            "ntz": false
+          },
+          {
+            "fieldName": "message_type",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "Opened",
+            "fieldType": "java.lang.Integer",
+            "ntz": false
+          },
+          {
+            "fieldName": "Sent",
+            "fieldType": "java.lang.Integer",
+            "ntz": false
+          },
+          {
+            "fieldName": "Spam",
+            "fieldType": "java.lang.Integer",
+            "ntz": false
+          },
+          {
+            "fieldName": "Week",
+            "fieldType": "java.util.Date",
+            "ntz": false
+          }
+        ]
+      },
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 26,
+      "url": "p86T93m",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

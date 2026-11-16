@@ -1,0 +1,123 @@
+{
+  "categoryAssets": [
+    {
+      "categoryIdentifier": "${ref:category:_00001O}",
+      "identifier": "FxLvS3r",
+      "objectType": 2
+    }
+  ],
+  "chartProperties": [
+    {
+      "chartUrl": "FxLvS3r",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "spreadsheet"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "SALES - Cached - Data",
+      "datasetId": "${ref:dataset:4Vwq3nq}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": {
+        "fields": [
+          {
+            "fieldName": "CATEGORY",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "CITY",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "ITEM_NAME",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "ITEM_PRICE",
+            "fieldType": "java.lang.Double",
+            "ntz": false
+          },
+          {
+            "fieldName": "LINE_TOTAL",
+            "fieldType": "java.lang.Double",
+            "ntz": false
+          },
+          {
+            "fieldName": "LOCATION_ID",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "LOCATION_NAME",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "MODIFIER_CHARGE",
+            "fieldType": "java.lang.Double",
+            "ntz": false
+          },
+          {
+            "fieldName": "MODIFIERS",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "ORDER_CHANNEL",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "ORDER_DATE_NTZ",
+            "fieldType": "com.cloud9.core.DateNTZ",
+            "ntz": true
+          },
+          {
+            "fieldName": "ORDER_ID",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "ORDER_MONTH",
+            "fieldType": "java.util.Date",
+            "ntz": false
+          },
+          {
+            "fieldName": "ORDER_TIMESTAMP_TZ",
+            "fieldType": "java.util.Date",
+            "ntz": false
+          },
+          {
+            "fieldName": "PAYMENT_METHOD",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "QUANTITY",
+            "fieldType": "java.lang.Long",
+            "ntz": false
+          },
+          {
+            "fieldName": "STATE",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          }
+        ]
+      },
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 24,
+      "url": "FxLvS3r",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

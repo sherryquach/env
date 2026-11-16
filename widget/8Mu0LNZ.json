@@ -1,0 +1,104 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "8Mu0LNZ",
+      "dashboardIdentifier": null,
+      "property": "chart.firstRow",
+      "value": "[\"Korea\",89]"
+    },
+    {
+      "chartUrl": "8Mu0LNZ",
+      "dashboardIdentifier": null,
+      "property": "chart.quickpickers",
+      "value": "0"
+    },
+    {
+      "chartUrl": "8Mu0LNZ",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "georegion"
+    },
+    {
+      "chartUrl": "8Mu0LNZ",
+      "dashboardIdentifier": null,
+      "property": "chart.wBorderVisibility",
+      "value": "inherit_from_dash"
+    },
+    {
+      "chartUrl": "8Mu0LNZ",
+      "dashboardIdentifier": null,
+      "property": "chart.wTitleVisibility",
+      "value": "inherit_from_dash"
+    },
+    {
+      "chartUrl": "8Mu0LNZ",
+      "dashboardIdentifier": null,
+      "property": "maps.end.color",
+      "value": "#731842"
+    },
+    {
+      "chartUrl": "8Mu0LNZ",
+      "dashboardIdentifier": null,
+      "property": "maps.start.color",
+      "value": "#F7C6CE"
+    },
+    {
+      "chartUrl": "8Mu0LNZ",
+      "dashboardIdentifier": null,
+      "property": "widget.footnote",
+      "value": "JPEG / PNG / PDF Export Works"
+    },
+    {
+      "chartUrl": "8Mu0LNZ",
+      "dashboardIdentifier": null,
+      "property": "widgetCache.enabled",
+      "value": "true"
+    },
+    {
+      "chartUrl": "8Mu0LNZ",
+      "dashboardIdentifier": null,
+      "property": "widgetDisplayOptions",
+      "value": "w-export-to-excel:true,highchart-context-menu:true"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "Geo - Countries",
+      "datasetId": "${ref:dataset:8Mu0LNZ}",
+      "description": "",
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": {
+        "fields": [
+          {
+            "fieldName": "Count of All",
+            "fieldType": "java.lang.Integer",
+            "ntz": false
+          },
+          {
+            "fieldName": "Country",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          }
+        ]
+      },
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 6,
+      "url": "8Mu0LNZ",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "8Mu0LNZ",
+      "jsonConfig": [],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

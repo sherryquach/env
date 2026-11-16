@@ -1,0 +1,46 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "NrSuQVY",
+      "dashboardIdentifier": null,
+      "property": "chart.series.type",
+      "value": "time"
+    },
+    {
+      "chartUrl": "NrSuQVY",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "column"
+    },
+    {
+      "chartUrl": "NrSuQVY",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.column",
+      "value": "create_time"
+    },
+    {
+      "chartUrl": "NrSuQVY",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.order",
+      "value": "1"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "Copy of TikTok",
+      "datasetId": "${ref:dataset:NrSuQVY}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 1,
+      "url": "NrSuQVY",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

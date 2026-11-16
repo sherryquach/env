@@ -1,0 +1,186 @@
+{
+  "categoryAssets": [
+    {
+      "categoryIdentifier": "${ref:category:_00001O}",
+      "identifier": "4iiDeJe",
+      "objectType": 2
+    }
+  ],
+  "chartProperties": [
+    {
+      "chartUrl": "4iiDeJe",
+      "dashboardIdentifier": null,
+      "property": "chart.firstRow",
+      "value": "[\"ORD-000992\",\"LOC008\",\"Wicker Park\",\"Chicago\",\"IL\",\"Pad Thai\",\"Asian\",null,1,14.5,0,14.5,\"Delivery\",\"Gift Card\",\"Wed Jan 01 14:08:22 UTC 2025\",{\"date\":1,\"seconds\":22,\"hours\":8,\"month\":0,\"year\":125,\"timezoneOffset\":0,\"minutes\":8,\"time\":1735718902000,\"day\":3},\"Wed Jan 01 00:00:00 UTC 2025\"]"
+    },
+    {
+      "chartUrl": "4iiDeJe",
+      "dashboardIdentifier": null,
+      "property": "chart.quickpickers",
+      "value": "0"
+    },
+    {
+      "chartUrl": "4iiDeJe",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "recommendation"
+    },
+    {
+      "chartUrl": "4iiDeJe",
+      "dashboardIdentifier": null,
+      "property": "recommendation.chunking",
+      "value": "true"
+    },
+    {
+      "chartUrl": "4iiDeJe",
+      "dashboardIdentifier": null,
+      "property": "recommendation.mode",
+      "value": "1"
+    },
+    {
+      "chartUrl": "4iiDeJe",
+      "dashboardIdentifier": null,
+      "property": "recommendation.prompt",
+      "value": "sum(line_total) by location_name\n"
+    },
+    {
+      "chartUrl": "4iiDeJe",
+      "dashboardIdentifier": null,
+      "property": "recommendation.showActions",
+      "value": "true"
+    },
+    {
+      "chartUrl": "4iiDeJe",
+      "dashboardIdentifier": null,
+      "property": "repeatableWidget.showRepeatingPanel",
+      "value": "false"
+    },
+    {
+      "chartUrl": "4iiDeJe",
+      "dashboardIdentifier": null,
+      "property": "widgetCache.enabled",
+      "value": "true"
+    },
+    {
+      "chartUrl": "4iiDeJe",
+      "dashboardIdentifier": null,
+      "property": "widgetDisplayOptions",
+      "value": "w-export-to-excel:false,highchart-context-menu:true"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "SALES - Cached - Recommendations",
+      "datasetId": "${ref:dataset:4Vwq3nq}",
+      "description": "",
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": {
+        "fields": [
+          {
+            "fieldName": "CATEGORY",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "CITY",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "ITEM_NAME",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "ITEM_PRICE",
+            "fieldType": "java.lang.Double",
+            "ntz": false
+          },
+          {
+            "fieldName": "LINE_TOTAL",
+            "fieldType": "java.lang.Double",
+            "ntz": false
+          },
+          {
+            "fieldName": "LOCATION_ID",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "LOCATION_NAME",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "MODIFIER_CHARGE",
+            "fieldType": "java.lang.Double",
+            "ntz": false
+          },
+          {
+            "fieldName": "MODIFIERS",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "ORDER_CHANNEL",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "ORDER_DATE_NTZ",
+            "fieldType": "com.cloud9.core.DateNTZ",
+            "ntz": true
+          },
+          {
+            "fieldName": "ORDER_ID",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "ORDER_MONTH",
+            "fieldType": "java.util.Date",
+            "ntz": false
+          },
+          {
+            "fieldName": "ORDER_TIMESTAMP_TZ",
+            "fieldType": "java.util.Date",
+            "ntz": false
+          },
+          {
+            "fieldName": "PAYMENT_METHOD",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "QUANTITY",
+            "fieldType": "java.lang.Long",
+            "ntz": false
+          },
+          {
+            "fieldName": "STATE",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          }
+        ]
+      },
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 26,
+      "url": "4iiDeJe",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "4iiDeJe",
+      "jsonConfig": [],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

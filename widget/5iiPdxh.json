@@ -1,0 +1,126 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "5iiPdxh",
+      "dashboardIdentifier": null,
+      "property": "chart.firstRow",
+      "value": "[\"Supplier_040\",31.39046653144016]"
+    },
+    {
+      "chartUrl": "5iiPdxh",
+      "dashboardIdentifier": null,
+      "property": "chart.series.data",
+      "value": "avg_lead_time"
+    },
+    {
+      "chartUrl": "5iiPdxh",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "bar"
+    },
+    {
+      "chartUrl": "5iiPdxh",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.column",
+      "value": "supplier"
+    },
+    {
+      "chartUrl": "5iiPdxh",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.order",
+      "value": "-1"
+    },
+    {
+      "chartUrl": "5iiPdxh",
+      "dashboardIdentifier": null,
+      "property": "widget.name",
+      "value": "Top 10 Suppliers by Average Lead Time"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "",
+      "datasetId": "${ref:dataset:6tPTaP}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": {
+        "fields": [
+          {
+            "fieldName": "avg_lead_time",
+            "fieldType": "java.lang.Double",
+            "ntz": false
+          },
+          {
+            "fieldName": "supplier",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          }
+        ]
+      },
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 1,
+      "url": "5iiPdxh",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": [
+        "select 'supplier',",
+        "  AVG('lead_time_days') as 'avg_lead_time'",
+        "group by 'supplier'",
+        "order by 'avg_lead_time' desc",
+        "limit 10"
+      ],
+      "chartUrl": "5iiPdxh",
+      "jsonConfig": [
+        {
+          "dimensions": [
+            {
+              "customized": false,
+              "fieldName": "supplier",
+              "fieldType": "java.lang.String",
+              "label": "supplier"
+            }
+          ],
+          "limit": 10,
+          "metrics": [
+            {
+              "customized": false,
+              "fieldName": "supplier",
+              "fieldType": "java.lang.String",
+              "label": "supplier"
+            },
+            {
+              "customized": false,
+              "fieldName": "lead_time_days",
+              "fieldType": "java.lang.Double",
+              "label": "avg_lead_time",
+              "operation": "AVG",
+              "operationStr": "AVG"
+            }
+          ],
+          "sort": [
+            {
+              "field": {
+                "customized": false,
+                "fieldName": "avg_lead_time",
+                "fieldType": "java.lang.Double",
+                "label": "avg_lead_time"
+              },
+              "operation": "DESC",
+              "operationStr": "DESC"
+            }
+          ]
+        }
+      ],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

@@ -1,0 +1,72 @@
+{
+  "dashboardCharts": [
+    {
+      "chartUrl": "${ref:widget:4Vwq3nq}",
+      "col": 1,
+      "dashboardIdentifier": "_0000hZ",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 1,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 24,
+      "sizeY": 12,
+      "sizeYOriginal": 0,
+      "width": 0
+    },
+    {
+      "chartUrl": "${ref:widget:iptbVgD}",
+      "col": 1,
+      "dashboardIdentifier": "_0000hZ",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 25,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 12,
+      "sizeY": 12,
+      "sizeYOriginal": 0,
+      "width": 0
+    },
+    {
+      "chartUrl": "${ref:widget:p5UI4Yz}",
+      "col": 1,
+      "dashboardIdentifier": "_0000hZ",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 13,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 12,
+      "sizeY": 12,
+      "sizeYOriginal": 0,
+      "width": 0
+    }
+  ],
+  "dashboards": [
+    {
+      "dashAccessLevel": 0,
+      "displayOrder": 0,
+      "filterSettings": "{\"state\":\"enable\",\"fields\":false,\"cascadingSuggestions\":\"disable\",\"filteringResult\":false,\"lockFilterSet\":false,\"filterBarPlacement\":\"top\",\"filterBarStyle\":\"compact\",\"dateGrouping\":{\"enabled\":true,\"options\":[\"minute\",\"week\",\"month\"]}}",
+      "identifier": "_0000hZ",
+      "jsonConfig": {
+        "excludeExpandedGridFromPdfExport": false,
+        "excludeGridWidgetsFromPdfExport": false
+      },
+      "locked": 0,
+      "name": "Sending Activity",
+      "screenAdjust": 1,
+      "screenHeight": 0,
+      "screenWidth": 1165,
+      "type": 1,
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

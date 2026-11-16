@@ -1,0 +1,225 @@
+{
+  "categoryAssets": [
+    {
+      "categoryIdentifier": "${ref:category:_00001O}",
+      "identifier": "3rRVXr5",
+      "objectType": 2
+    }
+  ],
+  "chartProperties": [
+    {
+      "chartUrl": "3rRVXr5",
+      "dashboardIdentifier": null,
+      "property": "chart.alignTicks",
+      "value": "true"
+    },
+    {
+      "chartUrl": "3rRVXr5",
+      "dashboardIdentifier": null,
+      "property": "chart.firstRow",
+      "value": "[\"Wed Jan 01 00:00:00 UTC 2025\",22.241176470588236]"
+    },
+    {
+      "chartUrl": "3rRVXr5",
+      "dashboardIdentifier": null,
+      "property": "chart.primary.ylabel",
+      "value": "avg_line_total"
+    },
+    {
+      "chartUrl": "3rRVXr5",
+      "dashboardIdentifier": null,
+      "property": "chart.quickpickers",
+      "value": "0"
+    },
+    {
+      "chartUrl": "3rRVXr5",
+      "dashboardIdentifier": null,
+      "property": "chart.secondary.sync",
+      "value": "false"
+    },
+    {
+      "chartUrl": "3rRVXr5",
+      "dashboardIdentifier": null,
+      "property": "chart.secondary.type",
+      "value": "column"
+    },
+    {
+      "chartUrl": "3rRVXr5",
+      "dashboardIdentifier": null,
+      "property": "chart.secondary.y",
+      "value": "sales"
+    },
+    {
+      "chartUrl": "3rRVXr5",
+      "dashboardIdentifier": null,
+      "property": "chart.secondary.ylabel",
+      "value": "sales"
+    },
+    {
+      "chartUrl": "3rRVXr5",
+      "dashboardIdentifier": null,
+      "property": "chart.secondary.zIndex",
+      "value": "false"
+    },
+    {
+      "chartUrl": "3rRVXr5",
+      "dashboardIdentifier": null,
+      "property": "chart.series.data",
+      "value": "avg_line_total"
+    },
+    {
+      "chartUrl": "3rRVXr5",
+      "dashboardIdentifier": null,
+      "property": "chart.series.type",
+      "value": "time"
+    },
+    {
+      "chartUrl": "3rRVXr5",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "area"
+    },
+    {
+      "chartUrl": "3rRVXr5",
+      "dashboardIdentifier": null,
+      "property": "chart.useLocalTime",
+      "value": "false"
+    },
+    {
+      "chartUrl": "3rRVXr5",
+      "dashboardIdentifier": null,
+      "property": "chart.wBorderVisibility",
+      "value": "inherit_from_dash"
+    },
+    {
+      "chartUrl": "3rRVXr5",
+      "dashboardIdentifier": null,
+      "property": "chart.wTitleVisibility",
+      "value": "inherit_from_dash"
+    },
+    {
+      "chartUrl": "3rRVXr5",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.column",
+      "value": "month"
+    },
+    {
+      "chartUrl": "3rRVXr5",
+      "dashboardIdentifier": null,
+      "property": "chart.xaxis.scroll",
+      "value": "false"
+    },
+    {
+      "chartUrl": "3rRVXr5",
+      "dashboardIdentifier": null,
+      "property": "legendAlias",
+      "value": "{}"
+    },
+    {
+      "chartUrl": "3rRVXr5",
+      "dashboardIdentifier": null,
+      "property": "loadUponPrompt",
+      "value": "false"
+    },
+    {
+      "chartUrl": "3rRVXr5",
+      "dashboardIdentifier": null,
+      "property": "repeatableWidget.showRepeatingPanel",
+      "value": "false"
+    },
+    {
+      "chartUrl": "3rRVXr5",
+      "dashboardIdentifier": null,
+      "property": "widgetCache.enabled",
+      "value": "true"
+    },
+    {
+      "chartUrl": "3rRVXr5",
+      "dashboardIdentifier": null,
+      "property": "widgetDisplayOptions",
+      "value": "w-export-to-excel:true,highchart-context-menu:true"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "SALES - Cached - Data",
+      "datasetId": "${ref:dataset:4Vwq3nq}",
+      "description": "",
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": {
+        "fields": [
+          {
+            "fieldName": "avg_line_total",
+            "fieldType": "java.lang.Double",
+            "ntz": false
+          },
+          {
+            "fieldName": "month",
+            "fieldType": "java.util.Date",
+            "ntz": false
+          }
+        ]
+      },
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 1,
+      "url": "3rRVXr5",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": [
+        "select MONTH(ORDER_TIMESTAMP_TZ) as 'month',",
+        "  AVG('LINE_TOTAL') as 'avg_line_total'",
+        "group by MONTH(ORDER_TIMESTAMP_TZ)",
+        "order by 'month'"
+      ],
+      "chartUrl": "3rRVXr5",
+      "jsonConfig": [
+        {
+          "dimensions": [
+            {
+              "customized": true,
+              "fieldName": "MONTH(ORDER_TIMESTAMP_TZ)",
+              "label": "month"
+            }
+          ],
+          "limit": 0,
+          "metrics": [
+            {
+              "customized": true,
+              "fieldName": "MONTH(ORDER_TIMESTAMP_TZ)",
+              "label": "month"
+            },
+            {
+              "customized": false,
+              "fieldName": "LINE_TOTAL",
+              "fieldType": "java.lang.Double",
+              "label": "avg_line_total",
+              "operation": "AVG",
+              "operationStr": "avg"
+            }
+          ],
+          "sort": [
+            {
+              "field": {
+                "customized": false,
+                "fieldName": "month",
+                "label": "month"
+              },
+              "operation": "ASC",
+              "operationStr": "asc"
+            }
+          ]
+        }
+      ],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

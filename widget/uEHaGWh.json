@@ -1,0 +1,132 @@
+{
+  "categoryAssets": [
+    {
+      "categoryIdentifier": "${ref:category:_00001O}",
+      "identifier": "uEHaGWh",
+      "objectType": 2
+    }
+  ],
+  "chartProperties": [
+    {
+      "chartUrl": "uEHaGWh",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "recommendation"
+    },
+    {
+      "chartUrl": "uEHaGWh",
+      "dashboardIdentifier": null,
+      "property": "recommendation.mode",
+      "value": "4"
+    },
+    {
+      "chartUrl": "uEHaGWh",
+      "dashboardIdentifier": null,
+      "property": "recommendation.prompt",
+      "value": "generate a dashboard on oakland crime"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "Oakland Crime Dashboard - Summary",
+      "datasetId": "${ref:dataset:bytVkLe}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": {
+        "fields": [
+          {
+            "fieldName": "address",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "casenumber",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "city",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "crimetype",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "date2",
+            "fieldType": "java.util.Date",
+            "ntz": false
+          },
+          {
+            "fieldName": "datetime",
+            "fieldType": "java.util.Date",
+            "ntz": false
+          },
+          {
+            "fieldName": "description",
+            "fieldType": "java.util.List",
+            "nestedFields": [
+              {
+                "fieldName": "[*]",
+                "fieldType": "java.lang.String",
+                "ntz": false
+              }
+            ],
+            "ntz": false
+          },
+          {
+            "fieldName": "latitude",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "longitude",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "month",
+            "fieldType": "java.util.Date",
+            "ntz": false
+          },
+          {
+            "fieldName": "month_str",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "policebeat",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "type",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "year",
+            "fieldType": "java.util.Date",
+            "ntz": false
+          },
+          {
+            "fieldName": "year_num",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          }
+        ]
+      },
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 26,
+      "url": "uEHaGWh",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

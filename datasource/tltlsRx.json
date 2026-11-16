@@ -1,0 +1,29 @@
+{
+  "datasources": [
+    {
+      "acl": null,
+      "connectSchema": false,
+      "connectorId": 1,
+      "datasource": "restapi",
+      "directQueryOnly": false,
+      "inUse": true,
+      "jsonConfig": {
+        "authHeaders": "${secret:datasource:tltlsRx:authHeaders}",
+        "authType": "other",
+        "datasource": "restapi",
+        "enableQueryAgent": true,
+        "name": "Oakland Crime",
+        "proxy": false,
+        "refreshType": "LongLivedRefreshToken",
+        "url": "${secret:datasource:tltlsRx:url}"
+      },
+      "name": "Oakland Crime",
+      "op": 2,
+      "proxy": false,
+      "strId": "tltlsRx",
+      "tunnel": false,
+      "writable": false
+    }
+  ],
+  "format": 1
+}

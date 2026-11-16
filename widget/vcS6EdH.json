@@ -1,0 +1,34 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "vcS6EdH",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "text"
+    },
+    {
+      "chartUrl": "vcS6EdH",
+      "dashboardIdentifier": null,
+      "property": "scale",
+      "value": "true"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "TikTok",
+      "datasetId": "${ref:dataset:vcS6EdH}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 4,
+      "url": "vcS6EdH",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

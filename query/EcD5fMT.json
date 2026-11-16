@@ -1,0 +1,53 @@
+{
+  "dataConfigs": [
+    {
+      "datasetIdentifier": "${ref:dataset:4Vwq3nq}",
+      "queryIdentifier": "7C0zIFy",
+      "queryStrId": "EcD5fMT"
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "",
+      "jsonConfig": [],
+      "queryIdentifier": "7C0zIFy",
+      "queryStrId": "EcD5fMT"
+    }
+  ],
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:CmeR9b}",
+      "description": null,
+      "direct": true,
+      "directPush": true,
+      "entityName": "Direct Token",
+      "identifier": "7C0zIFy",
+      "inUse": true,
+      "jsonConfig": {
+        "c9ExportDataset": "${ref:dataset:4Vwq3nq}",
+        "c9ExportEntityName": "SALES - Cached",
+        "c9ExportIdentifier": "4Vwq3nq",
+        "datasourceId": "${ref:datasource:CmeR9b}",
+        "direct": true,
+        "discovery": {
+          "limit": 10000,
+          "tableName": "${ref:dataset:4Vwq3nq}"
+        },
+        "entityName": "Direct Token",
+        "queryStr": "select *\nwhere city in ($c9_city$[CITY]${list|'|,}$)",
+        "triggerOnAny": false,
+        "triggered": false,
+        "visual": false
+      },
+      "op": 4,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "EcD5fMT",
+      "triggerDatasetId": 0
+    }
+  ]
+}

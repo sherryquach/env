@@ -1,0 +1,47 @@
+{
+  "categoryAssets": [
+    {
+      "categoryIdentifier": "${ref:category:_00001O}",
+      "identifier": "9bisKn1",
+      "objectType": 2
+    }
+  ],
+  "chartProperties": [
+    {
+      "chartUrl": "9bisKn1",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "recommendation"
+    },
+    {
+      "chartUrl": "9bisKn1",
+      "dashboardIdentifier": null,
+      "property": "recommendation.mode",
+      "value": "4"
+    },
+    {
+      "chartUrl": "9bisKn1",
+      "dashboardIdentifier": null,
+      "property": "recommendation.prompt",
+      "value": "show me sales by location and add it to a new dashboard"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "Sales Dashboard 2 - Summary",
+      "datasetId": "${ref:dataset:4Vwq3nq}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 26,
+      "url": "9bisKn1",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

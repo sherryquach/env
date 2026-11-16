@@ -1,0 +1,218 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "4Vwq3nq",
+      "dashboardIdentifier": null,
+      "property": "chart.alignTicks",
+      "value": "true"
+    },
+    {
+      "chartUrl": "4Vwq3nq",
+      "dashboardIdentifier": null,
+      "property": "chart.firstRow",
+      "value": "[115.25,{\"date\":1,\"seconds\":0,\"hours\":0,\"month\":0,\"year\":125,\"timezoneOffset\":0,\"minutes\":0,\"time\":1735689600000,\"day\":3}]"
+    },
+    {
+      "chartUrl": "4Vwq3nq",
+      "dashboardIdentifier": null,
+      "property": "chart.primary.ylabel",
+      "value": "Sum of ITEM_PRICE"
+    },
+    {
+      "chartUrl": "4Vwq3nq",
+      "dashboardIdentifier": null,
+      "property": "chart.quickpickers",
+      "value": "0"
+    },
+    {
+      "chartUrl": "4Vwq3nq",
+      "dashboardIdentifier": null,
+      "property": "chart.secondary.sync",
+      "value": "false"
+    },
+    {
+      "chartUrl": "4Vwq3nq",
+      "dashboardIdentifier": null,
+      "property": "chart.secondary.zIndex",
+      "value": "false"
+    },
+    {
+      "chartUrl": "4Vwq3nq",
+      "dashboardIdentifier": null,
+      "property": "chart.series.data",
+      "value": "Sum of ITEM_PRICE"
+    },
+    {
+      "chartUrl": "4Vwq3nq",
+      "dashboardIdentifier": null,
+      "property": "chart.series.type",
+      "value": "time"
+    },
+    {
+      "chartUrl": "4Vwq3nq",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "column"
+    },
+    {
+      "chartUrl": "4Vwq3nq",
+      "dashboardIdentifier": null,
+      "property": "chart.useLocalTime",
+      "value": "false"
+    },
+    {
+      "chartUrl": "4Vwq3nq",
+      "dashboardIdentifier": null,
+      "property": "chart.wBorderVisibility",
+      "value": "inherit_from_dash"
+    },
+    {
+      "chartUrl": "4Vwq3nq",
+      "dashboardIdentifier": null,
+      "property": "chart.wTitleVisibility",
+      "value": "inherit_from_dash"
+    },
+    {
+      "chartUrl": "4Vwq3nq",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.column",
+      "value": "ORDER_DATE_NTZ"
+    },
+    {
+      "chartUrl": "4Vwq3nq",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.order",
+      "value": "1"
+    },
+    {
+      "chartUrl": "4Vwq3nq",
+      "dashboardIdentifier": null,
+      "property": "chart.xaxis.scroll",
+      "value": "false"
+    },
+    {
+      "chartUrl": "4Vwq3nq",
+      "dashboardIdentifier": null,
+      "property": "grid.column.ORDER_DATE_NTZ.widthPerc",
+      "value": "0.5"
+    },
+    {
+      "chartUrl": "4Vwq3nq",
+      "dashboardIdentifier": null,
+      "property": "grid.column.Sum of ITEM_PRICE.widthPerc",
+      "value": "0.5"
+    },
+    {
+      "chartUrl": "4Vwq3nq",
+      "dashboardIdentifier": null,
+      "property": "grid.columnWidths",
+      "value": "[]"
+    },
+    {
+      "chartUrl": "4Vwq3nq",
+      "dashboardIdentifier": null,
+      "property": "legendAlias",
+      "value": "{}"
+    },
+    {
+      "chartUrl": "4Vwq3nq",
+      "dashboardIdentifier": null,
+      "property": "loadUponPrompt",
+      "value": "false"
+    },
+    {
+      "chartUrl": "4Vwq3nq",
+      "dashboardIdentifier": null,
+      "property": "repeatableWidget.showRepeatingPanel",
+      "value": "false"
+    },
+    {
+      "chartUrl": "4Vwq3nq",
+      "dashboardIdentifier": null,
+      "property": "widgetDisplayOptions",
+      "value": "w-export-to-excel:true,highchart-context-menu:true"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "SALES - Cached",
+      "datasetId": "${ref:dataset:4Vwq3nq}",
+      "description": "",
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": {
+        "fields": [
+          {
+            "fieldName": "ORDER_DATE_NTZ",
+            "fieldType": "com.cloud9.core.DateNTZ",
+            "ntz": true
+          },
+          {
+            "fieldName": "Sum of ITEM_PRICE",
+            "fieldType": "java.lang.Double",
+            "ntz": false
+          }
+        ]
+      },
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 1,
+      "url": "4Vwq3nq",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": [
+        "select SUM('ITEM_PRICE') as 'Sum of ITEM_PRICE',",
+        "  $c9_sys_timegrain$(date)$('ORDER_DATE_NTZ') as 'ORDER_DATE_NTZ'",
+        "group by $c9_sys_timegrain$(date)$('ORDER_DATE_NTZ')"
+      ],
+      "chartUrl": "4Vwq3nq",
+      "jsonConfig": [
+        {
+          "dimensions": [
+            {
+              "customized": false,
+              "fieldName": "ORDER_DATE_NTZ",
+              "fieldType": "com.cloud9.core.DateNTZ",
+              "label": "ORDER_DATE_NTZ",
+              "operation": "DATE",
+              "operationStr": "date",
+              "properties": {
+                "dynamicDateGrouping": true
+              }
+            }
+          ],
+          "limit": 0,
+          "metrics": [
+            {
+              "customized": false,
+              "fieldName": "ITEM_PRICE",
+              "fieldType": "java.lang.Double",
+              "label": "Sum of ITEM_PRICE",
+              "operation": "SUM",
+              "operationStr": "sum"
+            },
+            {
+              "customized": false,
+              "fieldName": "ORDER_DATE_NTZ",
+              "fieldType": "com.cloud9.core.DateNTZ",
+              "label": "ORDER_DATE_NTZ",
+              "operation": "DATE",
+              "operationStr": "date",
+              "properties": {
+                "dynamicDateGrouping": true
+              }
+            }
+          ]
+        }
+      ],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

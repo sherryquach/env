@@ -1,0 +1,28 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "P7TZmkU",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "datagrid2"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "Oakland Crime 10Y",
+      "datasetId": "${ref:dataset:P7TZmkU}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 21,
+      "url": "P7TZmkU",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

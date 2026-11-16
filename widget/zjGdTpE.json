@@ -1,0 +1,67 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "zjGdTpE",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "singletext"
+    },
+    {
+      "chartUrl": "zjGdTpE",
+      "dashboardIdentifier": null,
+      "property": "scale",
+      "value": "true"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "Modifier Revenue Share Top Location",
+      "datasetId": "${ref:dataset:hoKvma}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": {
+        "fields": [
+          {
+            "fieldName": "percent_with_modifier",
+            "fieldType": "java.lang.Double",
+            "ntz": false
+          }
+        ]
+      },
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 4,
+      "url": "zjGdTpE",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": [
+        "select (SUM(CASE WHEN modifier IS NOT NULL AND modifier != '' AND modifier != 'None' THEN line_total ELSE 0 END) / SUM(line_total)) * 100 as 'percent_with_modifier'",
+        "limit 1"
+      ],
+      "chartUrl": "zjGdTpE",
+      "jsonConfig": [
+        {
+          "limit": 1,
+          "metrics": [
+            {
+              "customized": true,
+              "fieldName": "(SUM(CASE WHEN modifier IS NOT NULL AND modifier != '' AND modifier != 'None' THEN line_total ELSE 0 END) / SUM(line_total)) * 100",
+              "label": "percent_with_modifier",
+              "operation": "SUM",
+              "operationStr": "SUM"
+            }
+          ]
+        }
+      ],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

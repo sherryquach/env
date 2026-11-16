@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    {
+      "agenticDefault": false,
+      "bypassOverrideLimit": false,
+      "dataExpirationDate": null,
+      "datasetName": "Oakland Crime This Year",
+      "identifier": "bytVkLe",
+      "injectStreamTime": false,
+      "metaHash": -459636229,
+      "metadataConfig": "{\"fields\":[{\"fieldName\":\"address\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"casenumber\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"city\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"crimetype\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"date2\",\"fieldType\":\"java.util.Date\",\"ntz\":false},{\"fieldName\":\"datetime\",\"fieldType\":\"java.util.Date\",\"ntz\":false},{\"fieldName\":\"description\",\"fieldType\":\"java.util.List\",\"nestedFields\":[{\"fieldName\":\"[*]\",\"fieldType\":\"java.lang.String\",\"ntz\":false}],\"ntz\":false},{\"fieldName\":\"latitude\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"longitude\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"month\",\"fieldType\":\"java.util.Date\",\"ntz\":false},{\"fieldName\":\"month_str\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"policebeat\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"type\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"year\",\"fieldType\":\"java.util.Date\",\"ntz\":false},{\"fieldName\":\"year_num\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"_stream_time\",\"fieldType\":\"java.util.Date\",\"ntz\":false}]}",
+      "mongoConnectUri": "provisioned",
+      "nlpBotEnabled": true,
+      "nlpConfig": null,
+      "nlpEnabled": true,
+      "nlpIndexInterval": 360,
+      "refreshMeta": false,
+      "synonymHash": 0,
+      "timeZone": null
+    }
+  ],
+  "format": 1
+}

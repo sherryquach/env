@@ -1,0 +1,123 @@
+{
+  "categoryAssets": [
+    {
+      "categoryIdentifier": "${ref:category:_00001O}",
+      "identifier": "Tp9dis",
+      "objectType": 2
+    }
+  ],
+  "chartProperties": [
+    {
+      "chartUrl": "Tp9dis",
+      "dashboardIdentifier": null,
+      "property": "chart.series.data",
+      "value": "total_sales"
+    },
+    {
+      "chartUrl": "Tp9dis",
+      "dashboardIdentifier": null,
+      "property": "chart.series.type",
+      "value": "time"
+    },
+    {
+      "chartUrl": "Tp9dis",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "column"
+    },
+    {
+      "chartUrl": "Tp9dis",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.column",
+      "value": "datetime"
+    },
+    {
+      "chartUrl": "Tp9dis",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.order",
+      "value": "1"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "Total Sales Over Time",
+      "datasetId": "${ref:dataset:Fuq7aG}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": {
+        "fields": [
+          {
+            "fieldName": "datetime",
+            "fieldType": "java.util.Date"
+          },
+          {
+            "fieldName": "total_sales",
+            "fieldType": "java.lang.Double"
+          }
+        ]
+      },
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 1,
+      "url": "Tp9dis",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": [
+        "select 'datetime', SUM('line_total') as 'total_sales'",
+        "group by 'datetime'",
+        "order by 'datetime'"
+      ],
+      "chartUrl": "Tp9dis",
+      "jsonConfig": [
+        {
+          "dimensions": [
+            {
+              "customized": false,
+              "fieldName": "datetime",
+              "fieldType": "java.util.Date",
+              "label": "datetime"
+            }
+          ],
+          "limit": 0,
+          "metrics": [
+            {
+              "customized": false,
+              "fieldName": "datetime",
+              "fieldType": "java.util.Date",
+              "label": "datetime"
+            },
+            {
+              "customized": false,
+              "fieldName": "line_total",
+              "fieldType": "java.lang.Double",
+              "label": "total_sales",
+              "operation": "SUM",
+              "operationStr": "SUM"
+            }
+          ],
+          "sort": [
+            {
+              "field": {
+                "customized": false,
+                "fieldName": "datetime",
+                "fieldType": "java.util.Date",
+                "label": "datetime"
+              },
+              "operation": "ASC",
+              "operationStr": "ASC"
+            }
+          ]
+        }
+      ],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

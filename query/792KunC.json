@@ -1,0 +1,32 @@
+{
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:BFbZtd}",
+      "description": null,
+      "direct": false,
+      "directPush": true,
+      "entityName": "SOP-EP-0212_Endoscope_Reprocessing.pdf",
+      "identifier": "OzzmOWW",
+      "inUse": true,
+      "jsonConfig": {
+        "datasourceId": "${ref:datasource:BFbZtd}",
+        "direct": false,
+        "entityName": "SOP-EP-0212_Endoscope_Reprocessing.pdf",
+        "identifier": "OzzmOWW",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "triggered": false,
+        "uploadedFileName": "SOP-EP-0212_Endoscope_Reprocessing.pdf"
+      },
+      "op": 1,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "792KunC",
+      "triggerDatasetId": 0
+    }
+  ]
+}

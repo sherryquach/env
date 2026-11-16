@@ -1,0 +1,100 @@
+{
+  "categoryAssets": [
+    {
+      "categoryIdentifier": "${ref:category:_00001O}",
+      "identifier": "INUThE2",
+      "objectType": 2
+    }
+  ],
+  "chartProperties": [
+    {
+      "chartUrl": "INUThE2",
+      "dashboardIdentifier": null,
+      "property": "chart.series.data",
+      "value": "revenue"
+    },
+    {
+      "chartUrl": "INUThE2",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "bar"
+    },
+    {
+      "chartUrl": "INUThE2",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.column",
+      "value": "LOCATION_NAME"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "Revenue by Location",
+      "datasetId": "${ref:dataset:4Vwq3nq}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": {
+        "fields": [
+          {
+            "fieldName": "LOCATION_NAME",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "revenue",
+            "fieldType": "java.lang.Double",
+            "ntz": false
+          }
+        ]
+      },
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 1,
+      "url": "INUThE2",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": [
+        "select 'LOCATION_NAME', SUM('LINE_TOTAL') as 'revenue'",
+        "group by 'LOCATION_NAME'"
+      ],
+      "chartUrl": "INUThE2",
+      "jsonConfig": [
+        {
+          "dimensions": [
+            {
+              "customized": false,
+              "fieldName": "LOCATION_NAME",
+              "fieldType": "java.lang.String",
+              "label": "LOCATION_NAME"
+            }
+          ],
+          "limit": 0,
+          "metrics": [
+            {
+              "customized": false,
+              "fieldName": "LOCATION_NAME",
+              "fieldType": "java.lang.String",
+              "label": "LOCATION_NAME"
+            },
+            {
+              "customized": false,
+              "fieldName": "LINE_TOTAL",
+              "fieldType": "java.lang.Double",
+              "label": "revenue",
+              "operation": "SUM",
+              "operationStr": "SUM"
+            }
+          ]
+        }
+      ],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

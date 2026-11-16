@@ -1,0 +1,13 @@
+{
+  "format": 1,
+  "userThemes": [
+    {
+      "chartColors": null,
+      "fieldColors": null,
+      "logoUrl": null,
+      "name": "Knowi Dark (Custom)",
+      "themeColors": "{\"brandColor\":\"rgba(251,127,21, 0.9)\",\"primaryColor\":\"#494949\",\"primaryForeground\":\"#262626\",\"primaryBackground\":\"#2C2C2C\",\"borderColor\":\"#3C3C3C\",\"sidebarBgColor\":\"#1E1E1E\",\"sidebarIconColor\":\"#A4A3B1\",\"sidebarTextColor\":\"#A7AEB7\",\"fontFamily\":\"DM Sans\",\"codeEditorBg\":\"#1B2023\",\"codeEditorText\":\"#D0D0D0\",\"titlesColor\":\"rgba(255,255,255, 0.9)\",\"bodyTextColor\":\"#BBBBBB\",\"secondaryTextColor\":\"#9E9E9E\",\"linksColor\":\"rgba(251,127,21, 0.9)\",\"primaryButtonBg\":\"rgba(251,127,21, 0.9)\",\"primaryButtonText\":\"#EDEDED\",\"secondaryButtonBg\":\"rgba(104,104,104, 0.2)\",\"secondaryButtonText\":\"rgba(237,237,237, 0.9)\",\"dashHeaderBgColor\":\"#242424\",\"dashHeaderTitleColor\":\"#CDCDCD\",\"dashHeaderTitleFontSize\":\"16px\",\"dashBgColor\":\"#2B2B2B\",\"dashScrollbarColor\":\"#353535\",\"dashFilterBarColor\":\"#292929\",\"dashFilterPillsColor\":\"rgba(255,255,255, 0.1)\",\"filterTextColor\":\"#C4C4C4\",\"widgetBgColor\":\"#252525\",\"widgetIconColor\":\"#A7A7A7\",\"widgetTitleColor\":\"#D8D8D8\",\"widgetColumnHeaderFontColor\":\"#E6E6E6\",\"widgetColumnHeaderFontSize\":\"14px\",\"widgetColumnHeaderBg\":\"#2D2D2D\",\"widgetBorderColor\":\"rgba(255,255,255, 0.1)\",\"widgetScrollbarColor\":\"rgba(255,255,255, 0.1)\",\"widgetDropShadow\":\"\"}",
+      "themeKey": "darkWnLEJl"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "6vhVii",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "datagrid2"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "pageHits",
+      "datasetId": "${ref:dataset:6vhVii}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": {
+        "fields": [
+          {
+            "fieldName": "deviceId",
+            "fieldType": "java.lang.String"
+          },
+          {
+            "fieldName": "hits",
+            "fieldType": "java.lang.Integer"
+          },
+          {
+            "fieldName": "id",
+            "fieldType": "java.lang.String"
+          },
+          {
+            "fieldName": "lastAccessTime",
+            "fieldType": "java.util.Date"
+          },
+          {
+            "fieldName": "page",
+            "fieldType": "java.lang.String"
+          }
+        ]
+      },
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 21,
+      "url": "6vhVii",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

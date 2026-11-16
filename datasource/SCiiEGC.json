@@ -1,0 +1,34 @@
+{
+  "datasources": [
+    {
+      "acl": null,
+      "connectSchema": false,
+      "connectorId": 1,
+      "datasource": "snowflake",
+      "directQueryOnly": false,
+      "inUse": true,
+      "jsonConfig": {
+        "connectBundle": "${secret:datasource:SCiiEGC:connectBundle}",
+        "connectBundleName": "rsa_key.p8",
+        "connectSchema": false,
+        "datasource": "snowflake",
+        "dbName": "SNOWFLAKE_SAMPLE_DATA",
+        "enableQueryAgent": true,
+        "forceTimeZone": false,
+        "host": "ctnqbby-yt46775.snowflakecomputing.com",
+        "name": "Snowflake Database - Kat 2",
+        "password": "${secret:datasource:SCiiEGC:password}",
+        "schema": "TPCDS_SF100TCL",
+        "userId": "kgrellman",
+        "warehouse": "COMPUTE_WH"
+      },
+      "name": "Snowflake Database - Kat 2",
+      "op": 2,
+      "proxy": false,
+      "strId": "SCiiEGC",
+      "tunnel": false,
+      "writable": false
+    }
+  ],
+  "format": 1
+}

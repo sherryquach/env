@@ -1,0 +1,28 @@
+{
+  "datasources": [
+    {
+      "acl": null,
+      "connectSchema": false,
+      "connectorId": 1,
+      "datasource": "googledrivedoc",
+      "directQueryOnly": false,
+      "inUse": true,
+      "jsonConfig": {
+        "authRefreshToken": "${secret:datasource:NetGVC7:authRefreshToken}",
+        "authToken": "${secret:datasource:NetGVC7:authToken}",
+        "authVersion": "1",
+        "datasource": "googledrivedoc",
+        "name": "Google Drive",
+        "usePickerOnly": true,
+        "userEmail": "sherry@knowi.com"
+      },
+      "name": "Google Drive",
+      "op": 1,
+      "proxy": false,
+      "strId": "NetGVC7",
+      "tunnel": false,
+      "writable": false
+    }
+  ],
+  "format": 1
+}

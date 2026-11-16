@@ -1,0 +1,124 @@
+{
+  "categoryAssets": [
+    {
+      "categoryIdentifier": "${ref:category:_00001P}",
+      "identifier": "_0000hX",
+      "objectType": 1
+    }
+  ],
+  "dashboardCharts": [
+    {
+      "chartUrl": "${ref:widget:6MipLE}",
+      "col": 9,
+      "dashboardIdentifier": "_0000hX",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 1,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 8,
+      "sizeY": 12,
+      "sizeYOriginal": 0,
+      "width": 0
+    },
+    {
+      "chartUrl": "${ref:widget:N9b6et}",
+      "col": 9,
+      "dashboardIdentifier": "_0000hX",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 13,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 8,
+      "sizeY": 12,
+      "sizeYOriginal": 0,
+      "width": 0
+    },
+    {
+      "chartUrl": "${ref:widget:NyOErn}",
+      "col": 1,
+      "dashboardIdentifier": "_0000hX",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 1,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 8,
+      "sizeY": 12,
+      "sizeYOriginal": 0,
+      "width": 0
+    },
+    {
+      "chartUrl": "${ref:widget:ZoSBPy}",
+      "col": 17,
+      "dashboardIdentifier": "_0000hX",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 13,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 8,
+      "sizeY": 12,
+      "sizeYOriginal": 0,
+      "width": 0
+    },
+    {
+      "chartUrl": "${ref:widget:w7TmEY}",
+      "col": 1,
+      "dashboardIdentifier": "_0000hX",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 13,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 8,
+      "sizeY": 12,
+      "sizeYOriginal": 0,
+      "width": 0
+    },
+    {
+      "chartUrl": "${ref:widget:yk72LV}",
+      "col": 17,
+      "dashboardIdentifier": "_0000hX",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 1,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 8,
+      "sizeY": 12,
+      "sizeYOriginal": 0,
+      "width": 0
+    }
+  ],
+  "dashboards": [
+    {
+      "dashAccessLevel": 0,
+      "displayOrder": 0,
+      "filterSettings": null,
+      "identifier": "_0000hX",
+      "jsonConfig": null,
+      "locked": 0,
+      "name": "Sales Dashboard",
+      "screenAdjust": 1,
+      "screenHeight": 0,
+      "screenWidth": 0,
+      "type": 1,
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

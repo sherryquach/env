@@ -1,0 +1,35 @@
+{
+  "categoryAssets": [
+    {
+      "categoryIdentifier": "${ref:category:_00001O}",
+      "identifier": "6OVTfB",
+      "objectType": 2
+    }
+  ],
+  "chartProperties": [
+    {
+      "chartUrl": "6OVTfB",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "spreadsheet"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "Copy of Sales - Data",
+      "datasetId": "${ref:dataset:Fuq7aG}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 24,
+      "url": "6OVTfB",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

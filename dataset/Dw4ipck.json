@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    {
+      "agenticDefault": false,
+      "bypassOverrideLimit": false,
+      "dataExpirationDate": null,
+      "datasetName": "Judge.Me Reviews",
+      "identifier": "Dw4ipck",
+      "injectStreamTime": false,
+      "metaHash": -1379867102,
+      "metadataConfig": "{\"fields\":[{\"fieldName\":\"body\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"created_at\",\"fieldType\":\"java.util.Date\",\"ntz\":false},{\"fieldName\":\"curated\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"hidden\",\"fieldType\":\"java.lang.Boolean\",\"ntz\":false},{\"fieldName\":\"id\",\"fieldType\":\"java.lang.Integer\",\"ntz\":false},{\"fieldName\":\"product_external_id\",\"fieldType\":\"java.lang.Long\",\"ntz\":false},{\"fieldName\":\"rating\",\"fieldType\":\"java.lang.Integer\",\"ntz\":false},{\"fieldName\":\"reviewer_email\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"reviewer_id\",\"fieldType\":\"java.lang.Integer\",\"ntz\":false},{\"fieldName\":\"reviewer_name\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"title\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"updated_at\",\"fieldType\":\"java.util.Date\",\"ntz\":false},{\"fieldName\":\"verified\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"_stream_time\",\"fieldType\":\"java.util.Date\",\"ntz\":false}]}",
+      "mongoConnectUri": "provisioned",
+      "nlpBotEnabled": true,
+      "nlpConfig": null,
+      "nlpEnabled": true,
+      "nlpIndexInterval": 360,
+      "refreshMeta": false,
+      "synonymHash": 0,
+      "timeZone": null
+    }
+  ],
+  "format": 1
+}

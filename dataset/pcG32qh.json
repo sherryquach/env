@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    {
+      "agenticDefault": false,
+      "bypassOverrideLimit": false,
+      "dataExpirationDate": null,
+      "datasetName": "Judge.Me Custom",
+      "identifier": "pcG32qh",
+      "injectStreamTime": false,
+      "metaHash": 908952901,
+      "metadataConfig": "{\"fields\":[{\"fieldName\":\"all_reviews_rating\",\"fieldType\":\"java.lang.Double\",\"ntz\":false},{\"fieldName\":\"_stream_time\",\"fieldType\":\"java.util.Date\",\"ntz\":false}]}",
+      "mongoConnectUri": "provisioned",
+      "nlpBotEnabled": true,
+      "nlpConfig": null,
+      "nlpEnabled": true,
+      "nlpIndexInterval": 360,
+      "refreshMeta": false,
+      "synonymHash": 0,
+      "timeZone": null
+    }
+  ],
+  "format": 1
+}

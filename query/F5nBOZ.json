@@ -1,0 +1,47 @@
+{
+  "dataConfigs": [
+    {
+      "datasetIdentifier": "${ref:dataset:Ovpww0}",
+      "queryIdentifier": "Ovpww0",
+      "queryStrId": "F5nBOZ"
+    }
+  ],
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:CmeR9b}",
+      "description": null,
+      "direct": false,
+      "directPush": true,
+      "entityName": "test_ampersand_fields.csv",
+      "identifier": "Ovpww0",
+      "inUse": true,
+      "jsonConfig": {
+        "c9ExportDataset": "${ref:dataset:Ovpww0}",
+        "c9ExportEntityName": "test_ampersand_fields.csv",
+        "c9ExportIdentifier": "Ovpww0",
+        "datasourceId": "${ref:datasource:CmeR9b}",
+        "direct": false,
+        "discovery": {
+          "discoveryForSuggestions": false,
+          "limit": 10000,
+          "tableName": "${ref:dataset:Ovpww0}"
+        },
+        "entityName": "test_ampersand_fields.csv",
+        "identifier": "Ovpww0",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "queryStr": "select *",
+        "triggered": false
+      },
+      "op": 1,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "F5nBOZ",
+      "triggerDatasetId": 0
+    }
+  ]
+}

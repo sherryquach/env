@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    {
+      "agenticDefault": false,
+      "bypassOverrideLimit": false,
+      "dataExpirationDate": null,
+      "datasetName": "TikTok",
+      "identifier": "vcS6EdH",
+      "injectStreamTime": false,
+      "metaHash": 1870204515,
+      "metadataConfig": "{\"fields\":[{\"fieldName\":\"data_user\",\"fieldType\":\"java.util.Map\",\"nestedFields\":[{\"fieldName\":\"display_name\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"follower_count\",\"fieldType\":\"java.lang.Integer\",\"ntz\":false},{\"fieldName\":\"following_count\",\"fieldType\":\"java.lang.Integer\",\"ntz\":false},{\"fieldName\":\"is_verified\",\"fieldType\":\"java.lang.Boolean\",\"ntz\":false},{\"fieldName\":\"likes_count\",\"fieldType\":\"java.lang.Integer\",\"ntz\":false},{\"fieldName\":\"open_id\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"video_count\",\"fieldType\":\"java.lang.Integer\",\"ntz\":false}],\"ntz\":false},{\"fieldName\":\"_stream_time\",\"fieldType\":\"java.util.Date\",\"ntz\":false}]}",
+      "mongoConnectUri": "provisioned",
+      "nlpBotEnabled": true,
+      "nlpConfig": null,
+      "nlpEnabled": true,
+      "nlpIndexInterval": 360,
+      "refreshMeta": false,
+      "synonymHash": 0,
+      "timeZone": null
+    }
+  ],
+  "format": 1
+}

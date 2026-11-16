@@ -1,0 +1,76 @@
+{
+  "dataConfigs": [
+    {
+      "datasetIdentifier": "${ref:dataset:hoKvma}",
+      "queryIdentifier": "kB0lLi",
+      "queryStrId": "6W74CH"
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "",
+      "jsonConfig": [],
+      "queryIdentifier": "kB0lLi",
+      "queryStrId": "6W74CH"
+    }
+  ],
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:CmeR9b}",
+      "description": null,
+      "direct": false,
+      "directPush": true,
+      "entityName": "test",
+      "identifier": "kB0lLi",
+      "inUse": true,
+      "jsonConfig": {
+        "c9ExportDataset": "${ref:dataset:hoKvma}",
+        "c9ExportEntityName": "Sales",
+        "c9ExportIdentifier": "hoKvma",
+        "datasourceId": "${ref:datasource:CmeR9b}",
+        "direct": false,
+        "discovery": {
+          "discoveryForSuggestions": false,
+          "limit": 10000,
+          "tableName": "${ref:dataset:hoKvma}"
+        },
+        "entityName": "test",
+        "joinQueries": [
+          {
+            "c9QLFilter": "select *",
+            "datasourceId": "${ref:datasource:rUeLOo}",
+            "discovery": {
+              "discoveryForSuggestions": false,
+              "limit": 10000,
+              "tableName": [
+                "customer"
+              ]
+            },
+            "joinKeys": {
+              "test": "{TEST}"
+            },
+            "joinType": "LOOP JOIN",
+            "queryStr": "select *, '{TEST}' as test\nfrom `customer`\nlimit 10",
+            "visual": false
+          }
+        ],
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "queryStr": "select 1 as test\nlimit 1",
+        "startTime": "undefined undefined",
+        "triggered": false,
+        "visual": false
+      },
+      "op": 4,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "6W74CH",
+      "triggerDatasetId": 0
+    }
+  ]
+}

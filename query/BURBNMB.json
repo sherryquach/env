@@ -1,0 +1,53 @@
+{
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "",
+      "jsonConfig": [],
+      "queryIdentifier": "Z9zGZt4",
+      "queryStrId": "BURBNMB"
+    }
+  ],
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:xisZf33}",
+      "description": null,
+      "direct": false,
+      "directPush": true,
+      "entityName": "yt newst",
+      "identifier": "Z9zGZt4",
+      "inUse": true,
+      "jsonConfig": {
+        "apiConfig": {
+          "endPoint": "https://youtubeanalytics.googleapis.com/v2/reports?ids=channel==MINE&startDate={$c9_today-30d:yyyy-MM-dd}&endDate={$c9_today:yyyy-MM-dd}&metrics=views,estimatedMinutesWatched,averageViewDuration,likes,comments,shares,subscribersGained,subscribersLost&dimensions=day",
+          "headers": "Authorization: Bearer {access_token}",
+          "retryOnErrors": true,
+          "type": "GET"
+        },
+        "c9QLFilter": "select expand(rows);\nselect\n  rows[0] as day,\n  rows[1] as views,\n  rows[2] as estimatedMinutesWatched,\n  rows[3] as averageViewDuration,\n  rows[4] as likes,\n  rows[5] as comments,\n  rows[6] as shares,\n  rows[7] as subscribersGained,\n  rows[8] as subscribersLost;",
+        "collections": "channel_analytics",
+        "datasourceId": "${ref:datasource:xisZf33}",
+        "direct": false,
+        "endDate": "{$c9_today:yyyy-MM-dd}",
+        "entityName": "yt newst",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "startDate": "{$c9_today-30d:yyyy-MM-dd}",
+        "triggerOnAny": false,
+        "triggered": false,
+        "visual": true,
+        "ytDimensions": "day",
+        "ytMetrics": "views,estimatedMinutesWatched,averageViewDuration,likes,comments,shares,subscribersGained,subscribersLost"
+      },
+      "op": 4,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "BURBNMB",
+      "triggerDatasetId": 0
+    }
+  ]
+}

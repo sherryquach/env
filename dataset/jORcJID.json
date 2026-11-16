@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    {
+      "agenticDefault": false,
+      "bypassOverrideLimit": false,
+      "dataExpirationDate": null,
+      "datasetName": "States",
+      "identifier": "jORcJID",
+      "injectStreamTime": false,
+      "metaHash": -930804042,
+      "metadataConfig": "{\"fields\":[{\"fieldName\":\"State\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"Total Dependent Students\",\"fieldType\":\"java.lang.Integer\",\"ntz\":false},{\"fieldName\":\"_stream_time\",\"fieldType\":\"java.util.Date\",\"ntz\":false}]}",
+      "mongoConnectUri": "provisioned",
+      "nlpBotEnabled": true,
+      "nlpConfig": null,
+      "nlpEnabled": true,
+      "nlpIndexInterval": 360,
+      "refreshMeta": false,
+      "synonymHash": 0,
+      "timeZone": null
+    }
+  ],
+  "format": 1
+}

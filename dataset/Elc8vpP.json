@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    {
+      "agenticDefault": false,
+      "bypassOverrideLimit": false,
+      "dataExpirationDate": null,
+      "datasetName": "Copy of Frontline",
+      "identifier": "Elc8vpP",
+      "injectStreamTime": false,
+      "metaHash": 1727504792,
+      "metadataConfig": "{\"fields\":[{\"fieldName\":\"Age Bucket\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"billingattorney\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"CLIENT_NAME\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"clientid\",\"fieldType\":\"java.lang.Integer\",\"ntz\":false},{\"fieldName\":\"csm\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"DATEOFLASTPAYMENT\",\"fieldType\":\"java.util.Date\",\"ntz\":false},{\"fieldName\":\"Days Since Last Contact\",\"fieldType\":\"java.lang.Double\",\"ntz\":false},{\"fieldName\":\"Default Prompt\",\"fieldType\":\"java.lang.Integer\",\"ntz\":false},{\"fieldName\":\"expected_pay_date\",\"fieldType\":\"java.util.Date\",\"ntz\":false},{\"fieldName\":\"Fee Balance\",\"fieldType\":\"java.lang.Double\",\"ntz\":false},{\"fieldName\":\"id\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"Likelihood Of Payment\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"matter\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"notes\",\"fieldType\":\"java.util.Date\",\"ntz\":false},{\"fieldName\":\"Practice Group\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"Projection\",\"fieldType\":\"java.lang.Double\",\"ntz\":false},{\"fieldName\":\"Prompt\",\"fieldType\":\"java.lang.Integer\",\"ntz\":false},{\"fieldName\":\"source\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"sourceFile\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"sports_statistics\",\"fieldType\":\"java.util.Map\",\"ntz\":false},{\"fieldName\":\"Target\",\"fieldType\":\"java.lang.Integer\",\"ntz\":false},{\"fieldName\":\"_stream_time\",\"fieldType\":\"java.util.Date\",\"ntz\":false}]}",
+      "mongoConnectUri": "provisioned",
+      "nlpBotEnabled": true,
+      "nlpConfig": null,
+      "nlpEnabled": true,
+      "nlpIndexInterval": 360,
+      "refreshMeta": false,
+      "synonymHash": 0,
+      "timeZone": null
+    }
+  ],
+  "format": 1
+}

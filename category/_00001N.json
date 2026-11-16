@@ -1,0 +1,11 @@
+{
+  "categoryTrees": [
+    {
+      "identifier": "_00001N",
+      "name": "Test3",
+      "objectType": 4,
+      "parentIdentifier": "${ref:category:_00001G}"
+    }
+  ],
+  "format": 1
+}

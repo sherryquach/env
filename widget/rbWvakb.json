@@ -1,0 +1,28 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "rbWvakb",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "datagrid2"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "test",
+      "datasetId": "${ref:dataset:rbWvakb}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 21,
+      "url": "rbWvakb",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

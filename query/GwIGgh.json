@@ -1,0 +1,50 @@
+{
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "",
+      "jsonConfig": [],
+      "queryIdentifier": "ExSYzO",
+      "queryStrId": "GwIGgh"
+    }
+  ],
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:rUeLOo}",
+      "description": null,
+      "direct": false,
+      "directPush": true,
+      "entityName": "Sending Activity",
+      "identifier": "ExSYzO",
+      "inUse": true,
+      "jsonConfig": {
+        "c9QLFilter": "select *",
+        "datasourceId": "${ref:datasource:rUeLOo}",
+        "direct": false,
+        "discovery": {
+          "discoveryForSuggestions": false,
+          "limit": 10000,
+          "tableName": [
+            "demo_sent"
+          ]
+        },
+        "entityName": "Sending Activity",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "queryStr": "select *\nfrom `demo_sent`\nlimit 10000",
+        "startTime": "undefined undefined",
+        "triggered": false,
+        "visual": true
+      },
+      "op": 4,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "GwIGgh",
+      "triggerDatasetId": 0
+    }
+  ]
+}

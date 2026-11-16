@@ -1,0 +1,111 @@
+{
+  "categoryAssets": [
+    {
+      "categoryIdentifier": "${ref:category:_00001O}",
+      "identifier": "egoDyz",
+      "objectType": 2
+    }
+  ],
+  "chartProperties": [
+    {
+      "chartUrl": "egoDyz",
+      "dashboardIdentifier": null,
+      "property": "chart.series.data",
+      "value": "total_revenue"
+    },
+    {
+      "chartUrl": "egoDyz",
+      "dashboardIdentifier": null,
+      "property": "chart.series.type",
+      "value": "time"
+    },
+    {
+      "chartUrl": "egoDyz",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "line"
+    },
+    {
+      "chartUrl": "egoDyz",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.column",
+      "value": "month"
+    },
+    {
+      "chartUrl": "egoDyz",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.order",
+      "value": "1"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "Revenue Trend Over Time",
+      "datasetId": "${ref:dataset:hoKvma}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": {
+        "fields": [
+          {
+            "fieldName": "month",
+            "fieldType": "java.util.Date",
+            "ntz": false
+          },
+          {
+            "fieldName": "total_revenue",
+            "fieldType": "java.lang.Double",
+            "ntz": false
+          }
+        ]
+      },
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 1,
+      "url": "egoDyz",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": [
+        "select MONTH(datetime) as 'month',",
+        "  SUM('line_total') as 'total_revenue'",
+        "group by MONTH(datetime)"
+      ],
+      "chartUrl": "egoDyz",
+      "jsonConfig": [
+        {
+          "dimensions": [
+            {
+              "customized": true,
+              "fieldName": "MONTH(datetime)",
+              "label": "month"
+            }
+          ],
+          "limit": 0,
+          "metrics": [
+            {
+              "customized": true,
+              "fieldName": "MONTH(datetime)",
+              "label": "month"
+            },
+            {
+              "customized": false,
+              "fieldName": "line_total",
+              "fieldType": "java.lang.Double",
+              "label": "total_revenue",
+              "operation": "SUM",
+              "operationStr": "SUM"
+            }
+          ]
+        }
+      ],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

@@ -1,0 +1,112 @@
+{
+  "categoryAssets": [
+    {
+      "categoryIdentifier": "${ref:category:_00001O}",
+      "identifier": "5ipfUC5",
+      "objectType": 2
+    }
+  ],
+  "chartProperties": [
+    {
+      "chartUrl": "5ipfUC5",
+      "dashboardIdentifier": null,
+      "property": "chart.series.data",
+      "value": "count"
+    },
+    {
+      "chartUrl": "5ipfUC5",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "bar"
+    },
+    {
+      "chartUrl": "5ipfUC5",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.column",
+      "value": "item_name"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "Top Items",
+      "datasetId": "${ref:dataset:hoKvma}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": {
+        "fields": [
+          {
+            "fieldName": "count",
+            "fieldType": "java.lang.Integer",
+            "ntz": false
+          },
+          {
+            "fieldName": "item_name",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          }
+        ]
+      },
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 1,
+      "url": "5ipfUC5",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": [
+        "select 'item_name', COUNT(transaction_id) as 'count'",
+        "group by 'item_name'",
+        "order by 'count' desc",
+        "limit 10"
+      ],
+      "chartUrl": "5ipfUC5",
+      "jsonConfig": [
+        {
+          "dimensions": [
+            {
+              "customized": false,
+              "fieldName": "item_name",
+              "fieldType": "java.lang.String",
+              "label": "item_name"
+            }
+          ],
+          "limit": 10,
+          "metrics": [
+            {
+              "customized": false,
+              "fieldName": "item_name",
+              "fieldType": "java.lang.String",
+              "label": "item_name"
+            },
+            {
+              "customized": true,
+              "fieldName": "COUNT(transaction_id)",
+              "fieldType": "java.lang.Number",
+              "label": "count"
+            }
+          ],
+          "sort": [
+            {
+              "field": {
+                "customized": false,
+                "fieldName": "count",
+                "fieldType": "java.lang.Number",
+                "label": "count"
+              },
+              "operation": "DESC",
+              "operationStr": "DESC"
+            }
+          ]
+        }
+      ],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

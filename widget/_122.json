@@ -1,0 +1,209 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "_122",
+      "dashboardIdentifier": null,
+      "property": "chart.alignTicks",
+      "value": "true"
+    },
+    {
+      "chartUrl": "_122",
+      "dashboardIdentifier": null,
+      "property": "chart.firstRow",
+      "value": "[343.5,\"Mon Jun 23 00:00:00 UTC 2025\"]"
+    },
+    {
+      "chartUrl": "_122",
+      "dashboardIdentifier": null,
+      "property": "chart.labelPercent",
+      "value": "false"
+    },
+    {
+      "chartUrl": "_122",
+      "dashboardIdentifier": null,
+      "property": "chart.labelValue",
+      "value": "true"
+    },
+    {
+      "chartUrl": "_122",
+      "dashboardIdentifier": null,
+      "property": "chart.legend.ordering",
+      "value": "abc-asc"
+    },
+    {
+      "chartUrl": "_122",
+      "dashboardIdentifier": null,
+      "property": "chart.percent",
+      "value": "false"
+    },
+    {
+      "chartUrl": "_122",
+      "dashboardIdentifier": null,
+      "property": "chart.percentView",
+      "value": "false"
+    },
+    {
+      "chartUrl": "_122",
+      "dashboardIdentifier": null,
+      "property": "chart.primary.ylabel",
+      "value": "total_sales"
+    },
+    {
+      "chartUrl": "_122",
+      "dashboardIdentifier": null,
+      "property": "chart.quickpickers",
+      "value": "0"
+    },
+    {
+      "chartUrl": "_122",
+      "dashboardIdentifier": null,
+      "property": "chart.secondary.sync",
+      "value": "false"
+    },
+    {
+      "chartUrl": "_122",
+      "dashboardIdentifier": null,
+      "property": "chart.secondary.zIndex",
+      "value": "false"
+    },
+    {
+      "chartUrl": "_122",
+      "dashboardIdentifier": null,
+      "property": "chart.series.data",
+      "value": "total_sales"
+    },
+    {
+      "chartUrl": "_122",
+      "dashboardIdentifier": null,
+      "property": "chart.series.type",
+      "value": "time"
+    },
+    {
+      "chartUrl": "_122",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "stacked column"
+    },
+    {
+      "chartUrl": "_122",
+      "dashboardIdentifier": null,
+      "property": "chart.useLocalTime",
+      "value": "false"
+    },
+    {
+      "chartUrl": "_122",
+      "dashboardIdentifier": null,
+      "property": "chart.wBorderVisibility",
+      "value": "inherit_from_dash"
+    },
+    {
+      "chartUrl": "_122",
+      "dashboardIdentifier": null,
+      "property": "chart.wTitleVisibility",
+      "value": "inherit_from_dash"
+    },
+    {
+      "chartUrl": "_122",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.column",
+      "value": "Date"
+    },
+    {
+      "chartUrl": "_122",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.order",
+      "value": "1"
+    },
+    {
+      "chartUrl": "_122",
+      "dashboardIdentifier": null,
+      "property": "chart.xaxis.scroll",
+      "value": "false"
+    },
+    {
+      "chartUrl": "_122",
+      "dashboardIdentifier": null,
+      "property": "chartColor",
+      "value": "#316280:Bay Bistro - SoMa,#4D94FF:Lakefront Kitchen - Loop,#5DADE2:Hudson House - Midtown,#7FB3D5:Lone Star Grill - Downtown"
+    },
+    {
+      "chartUrl": "_122",
+      "dashboardIdentifier": null,
+      "property": "custom.field",
+      "value": "plotOptions.series.dataLabels.enabled:true,    yAxis.0.stackLabels.enabled:false,  tooltip.format.primary:0, 000, custom.labelFormatter.decimalFormat.primary:$0,000"
+    },
+    {
+      "chartUrl": "_122",
+      "dashboardIdentifier": null,
+      "property": "legendAlias",
+      "value": "{}"
+    },
+    {
+      "chartUrl": "_122",
+      "dashboardIdentifier": null,
+      "property": "loadUponPrompt",
+      "value": "false"
+    },
+    {
+      "chartUrl": "_122",
+      "dashboardIdentifier": null,
+      "property": "repeatableWidget.showRepeatingPanel",
+      "value": "false"
+    },
+    {
+      "chartUrl": "_122",
+      "dashboardIdentifier": null,
+      "property": "widgetDisplayOptions",
+      "value": "w-export-to-excel:false,highchart-context-menu:true"
+    }
+  ],
+  "chartQueries": [
+    {
+      "chartUrl": "_122",
+      "queryStr": [
+        "select sum(line_total) as total_sales, $c9_sys_timegrain$(week)$(datetime, 1) as Date",
+        "group by $c9_sys_timegrain$(week)$(datetime, 1) "
+      ]
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "Sales by Location",
+      "datasetId": "${ref:dataset:hoKvma}",
+      "description": "",
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": {
+        "fields": [
+          {
+            "fieldName": "Date",
+            "fieldType": "java.util.Date",
+            "ntz": false
+          },
+          {
+            "fieldName": "total_sales",
+            "fieldType": "java.lang.Double",
+            "ntz": false
+          }
+        ]
+      },
+      "liveRefresh": -1,
+      "query": 1,
+      "type": 1,
+      "url": "_122",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "_122",
+      "jsonConfig": [],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

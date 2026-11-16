@@ -1,0 +1,47 @@
+{
+  "categoryAssets": [
+    {
+      "categoryIdentifier": "${ref:category:_00001O}",
+      "identifier": "DQUAqQD",
+      "objectType": 2
+    }
+  ],
+  "chartProperties": [
+    {
+      "chartUrl": "DQUAqQD",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "recommendation"
+    },
+    {
+      "chartUrl": "DQUAqQD",
+      "dashboardIdentifier": null,
+      "property": "recommendation.mode",
+      "value": "1"
+    },
+    {
+      "chartUrl": "DQUAqQD",
+      "dashboardIdentifier": null,
+      "property": "recommendation.prompt",
+      "value": "sum(line_total) by location_name\nsum(line_total) by sales_category\ntop 10 sum(quantity) by item_name\n"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "Sales - Recommendations",
+      "datasetId": "${ref:dataset:hoKvma}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 26,
+      "url": "DQUAqQD",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

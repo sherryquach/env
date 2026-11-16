@@ -1,0 +1,92 @@
+{
+  "categoryAssets": [
+    {
+      "categoryIdentifier": "${ref:category:_00001P}",
+      "identifier": "_0000hU",
+      "objectType": 1
+    }
+  ],
+  "dashboardCharts": [
+    {
+      "chartUrl": "${ref:widget:4Vjtgo}",
+      "col": 13,
+      "dashboardIdentifier": "_0000hU",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 31,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 12,
+      "sizeY": 7,
+      "sizeYOriginal": 7,
+      "width": 0
+    },
+    {
+      "chartUrl": "${ref:widget:URcDdr}",
+      "col": 1,
+      "dashboardIdentifier": "_0000hU",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 24,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 12,
+      "sizeY": 7,
+      "sizeYOriginal": 7,
+      "width": 0
+    },
+    {
+      "chartUrl": "${ref:widget:byw4L6}",
+      "col": 1,
+      "dashboardIdentifier": "_0000hU",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 17,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 24,
+      "sizeY": 7,
+      "sizeYOriginal": 7,
+      "width": 0
+    },
+    {
+      "chartUrl": "${ref:widget:dfmAa6}",
+      "col": 1,
+      "dashboardIdentifier": "_0000hU",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 13,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 24,
+      "sizeY": 4,
+      "sizeYOriginal": 4,
+      "width": 0
+    }
+  ],
+  "dashboards": [
+    {
+      "dashAccessLevel": 0,
+      "displayOrder": 0,
+      "filterSettings": null,
+      "identifier": "_0000hU",
+      "jsonConfig": null,
+      "locked": 0,
+      "name": "Sales Revenue & Trends",
+      "screenAdjust": 1,
+      "screenHeight": 0,
+      "screenWidth": 0,
+      "type": 1,
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

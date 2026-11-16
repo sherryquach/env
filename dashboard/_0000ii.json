@@ -1,0 +1,92 @@
+{
+  "categoryAssets": [
+    {
+      "categoryIdentifier": "${ref:category:_00001P}",
+      "identifier": "_0000ii",
+      "objectType": 1
+    }
+  ],
+  "dashboardCharts": [
+    {
+      "chartUrl": "${ref:widget:4iiDeJe}",
+      "col": 17,
+      "dashboardIdentifier": "_0000ii",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 10,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 8,
+      "sizeY": 12,
+      "sizeYOriginal": 0,
+      "width": 0
+    },
+    {
+      "chartUrl": "${ref:widget:FxLvS3r}",
+      "col": 1,
+      "dashboardIdentifier": "_0000ii",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 10,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 8,
+      "sizeY": 12,
+      "sizeYOriginal": 0,
+      "width": 0
+    },
+    {
+      "chartUrl": "${ref:widget:TjipCac}",
+      "col": 9,
+      "dashboardIdentifier": "_0000ii",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 10,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 8,
+      "sizeY": 12,
+      "sizeYOriginal": 0,
+      "width": 0
+    },
+    {
+      "chartUrl": "${ref:widget:ySkZsYx}",
+      "col": 1,
+      "dashboardIdentifier": "_0000ii",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 1,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 24,
+      "sizeY": 9,
+      "sizeYOriginal": 5,
+      "width": 0
+    }
+  ],
+  "dashboards": [
+    {
+      "dashAccessLevel": 1,
+      "displayOrder": 0,
+      "filterSettings": null,
+      "identifier": "_0000ii",
+      "jsonConfig": null,
+      "locked": 0,
+      "name": "Sales Dashboard 3",
+      "screenAdjust": 1,
+      "screenHeight": 0,
+      "screenWidth": 0,
+      "type": 1,
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

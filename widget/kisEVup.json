@@ -1,0 +1,79 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "kisEVup",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "text"
+    },
+    {
+      "chartUrl": "kisEVup",
+      "dashboardIdentifier": null,
+      "property": "scale",
+      "value": "true"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "Modifier Line Total Percentage",
+      "datasetId": "${ref:dataset:hoKvma}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": {
+        "fields": [
+          {
+            "fieldName": "percent",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          }
+        ]
+      },
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 4,
+      "url": "kisEVup",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": [
+        "select SUM(CASE WHEN modifier != 'None' THEN line_total ELSE 0 END) * 100.0 / SUM(line_total) as 'percent'",
+        "where 'location_name' = 'Lakefront Kitchen - Loop'"
+      ],
+      "chartUrl": "kisEVup",
+      "jsonConfig": [
+        {
+          "filters": [
+            {
+              "field": {
+                "customized": false,
+                "fieldName": "location_name",
+                "fieldType": "java.lang.String",
+                "label": "location_name"
+              },
+              "operator": "EQUALS",
+              "operatorStr": "=",
+              "value": "Lakefront Kitchen - Loop"
+            }
+          ],
+          "limit": 0,
+          "metrics": [
+            {
+              "customized": true,
+              "fieldName": "SUM(CASE WHEN modifier != 'None' THEN line_total ELSE 0 END) * 100.0 / SUM(line_total)",
+              "fieldType": "java.lang.Number",
+              "label": "percent"
+            }
+          ]
+        }
+      ],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

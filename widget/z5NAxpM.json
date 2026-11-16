@@ -1,0 +1,34 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "z5NAxpM",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "text"
+    },
+    {
+      "chartUrl": "z5NAxpM",
+      "dashboardIdentifier": null,
+      "property": "scale",
+      "value": "true"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "Judge.Me Product",
+      "datasetId": "${ref:dataset:z5NAxpM}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 4,
+      "url": "z5NAxpM",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

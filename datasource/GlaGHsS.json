@@ -1,0 +1,32 @@
+{
+  "datasources": [
+    {
+      "acl": null,
+      "connectSchema": false,
+      "connectorId": 1,
+      "datasource": "sqlserver",
+      "directQueryOnly": false,
+      "inUse": true,
+      "jsonConfig": {
+        "connectSchema": false,
+        "datasource": "sqlserver",
+        "dbName": "sherry1",
+        "enableQueryAgent": true,
+        "host": "sherry1.ccsixtg95k9d.us-east-1.rds.amazonaws.com",
+        "name": "SQLServer Database test",
+        "password": "${secret:datasource:GlaGHsS:password}",
+        "port": "1433",
+        "proxy": false,
+        "userId": "sherry1",
+        "writable": true
+      },
+      "name": "SQLServer Database test",
+      "op": 2,
+      "proxy": false,
+      "strId": "GlaGHsS",
+      "tunnel": false,
+      "writable": true
+    }
+  ],
+  "format": 1
+}

@@ -1,0 +1,104 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "iptbVgD",
+      "dashboardIdentifier": null,
+      "property": "chart.firstRow",
+      "value": "[\"CA\",1176082]"
+    },
+    {
+      "chartUrl": "iptbVgD",
+      "dashboardIdentifier": null,
+      "property": "chart.quickpickers",
+      "value": "0"
+    },
+    {
+      "chartUrl": "iptbVgD",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "geostate"
+    },
+    {
+      "chartUrl": "iptbVgD",
+      "dashboardIdentifier": null,
+      "property": "chart.wBorderVisibility",
+      "value": "inherit_from_dash"
+    },
+    {
+      "chartUrl": "iptbVgD",
+      "dashboardIdentifier": null,
+      "property": "chart.wTitleVisibility",
+      "value": "inherit_from_dash"
+    },
+    {
+      "chartUrl": "iptbVgD",
+      "dashboardIdentifier": null,
+      "property": "maps.end.color",
+      "value": "#CE0000"
+    },
+    {
+      "chartUrl": "iptbVgD",
+      "dashboardIdentifier": null,
+      "property": "maps.start.color",
+      "value": "#F7C6CE"
+    },
+    {
+      "chartUrl": "iptbVgD",
+      "dashboardIdentifier": null,
+      "property": "widget.footnote",
+      "value": "JPEG / PNG / PDF Export Works"
+    },
+    {
+      "chartUrl": "iptbVgD",
+      "dashboardIdentifier": null,
+      "property": "widgetCache.enabled",
+      "value": "true"
+    },
+    {
+      "chartUrl": "iptbVgD",
+      "dashboardIdentifier": null,
+      "property": "widgetDisplayOptions",
+      "value": "w-export-to-excel:false,highchart-context-menu:true"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "Geo - US States",
+      "datasetId": "${ref:dataset:jORcJID}",
+      "description": "",
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": {
+        "fields": [
+          {
+            "fieldName": "State",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "Total Dependent Students",
+            "fieldType": "java.lang.Integer",
+            "ntz": false
+          }
+        ]
+      },
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 9,
+      "url": "iptbVgD",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "iptbVgD",
+      "jsonConfig": [],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

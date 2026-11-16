@@ -1,0 +1,47 @@
+{
+  "categoryAssets": [
+    {
+      "categoryIdentifier": "${ref:category:_00001D}",
+      "identifier": "_0000hN",
+      "objectType": 1
+    }
+  ],
+  "dashboardCharts": [
+    {
+      "chartUrl": "${ref:widget:6tPTaP}",
+      "col": 1,
+      "dashboardIdentifier": "_0000hN",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 1,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 24,
+      "sizeY": 24,
+      "sizeYOriginal": 0,
+      "width": 0
+    }
+  ],
+  "dashboards": [
+    {
+      "dashAccessLevel": 1,
+      "displayOrder": 0,
+      "filterSettings": null,
+      "identifier": "_0000hN",
+      "jsonConfig": {
+        "excludeExpandedGridFromPdfExport": false,
+        "excludeGridWidgetsFromPdfExport": false
+      },
+      "locked": 0,
+      "name": "Shipping",
+      "screenAdjust": 1,
+      "screenHeight": 0,
+      "screenWidth": 1472,
+      "type": 1,
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

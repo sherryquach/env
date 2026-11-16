@@ -1,0 +1,123 @@
+{
+  "categoryAssets": [
+    {
+      "categoryIdentifier": "${ref:category:_00001O}",
+      "identifier": "Xy4STz",
+      "objectType": 2
+    }
+  ],
+  "chartProperties": [
+    {
+      "chartUrl": "Xy4STz",
+      "dashboardIdentifier": null,
+      "property": "chart.series.data",
+      "value": "total_sent"
+    },
+    {
+      "chartUrl": "Xy4STz",
+      "dashboardIdentifier": null,
+      "property": "chart.series.type",
+      "value": "time"
+    },
+    {
+      "chartUrl": "Xy4STz",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "area"
+    },
+    {
+      "chartUrl": "Xy4STz",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.column",
+      "value": "Date"
+    },
+    {
+      "chartUrl": "Xy4STz",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.order",
+      "value": "1"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "Total Sent Over Time",
+      "datasetId": "${ref:dataset:ExSYzO}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": {
+        "fields": [
+          {
+            "fieldName": "Date",
+            "fieldType": "java.util.Date"
+          },
+          {
+            "fieldName": "total_sent",
+            "fieldType": "java.lang.Double"
+          }
+        ]
+      },
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 1,
+      "url": "Xy4STz",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": [
+        "select 'Date', SUM('Sent') as 'total_sent'",
+        "group by 'Date'",
+        "order by 'Date'"
+      ],
+      "chartUrl": "Xy4STz",
+      "jsonConfig": [
+        {
+          "dimensions": [
+            {
+              "customized": false,
+              "fieldName": "Date",
+              "fieldType": "java.util.Date",
+              "label": "Date"
+            }
+          ],
+          "limit": 0,
+          "metrics": [
+            {
+              "customized": false,
+              "fieldName": "Date",
+              "fieldType": "java.util.Date",
+              "label": "Date"
+            },
+            {
+              "customized": false,
+              "fieldName": "Sent",
+              "fieldType": "java.lang.Double",
+              "label": "total_sent",
+              "operation": "SUM",
+              "operationStr": "SUM"
+            }
+          ],
+          "sort": [
+            {
+              "field": {
+                "customized": false,
+                "fieldName": "Date",
+                "fieldType": "java.util.Date",
+                "label": "Date"
+              },
+              "operation": "ASC",
+              "operationStr": "ASC"
+            }
+          ]
+        }
+      ],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

@@ -1,0 +1,76 @@
+{
+  "categoryAssets": [
+    {
+      "categoryIdentifier": "${ref:category:_00001P}",
+      "identifier": "_0000io",
+      "objectType": 1
+    }
+  ],
+  "dashboardCharts": [
+    {
+      "chartUrl": "${ref:widget:ED7hOt8}",
+      "col": 1,
+      "dashboardIdentifier": "_0000io",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 6,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 16,
+      "sizeY": 12,
+      "sizeYOriginal": 0,
+      "width": 0
+    },
+    {
+      "chartUrl": "${ref:widget:p86T93m}",
+      "col": 17,
+      "dashboardIdentifier": "_0000io",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 6,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 8,
+      "sizeY": 12,
+      "sizeYOriginal": 0,
+      "width": 0
+    },
+    {
+      "chartUrl": "${ref:widget:rSEQNvP}",
+      "col": 1,
+      "dashboardIdentifier": "_0000io",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 1,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 24,
+      "sizeY": 5,
+      "sizeYOriginal": 0,
+      "width": 0
+    }
+  ],
+  "dashboards": [
+    {
+      "dashAccessLevel": 0,
+      "displayOrder": 0,
+      "filterSettings": null,
+      "identifier": "_0000io",
+      "jsonConfig": null,
+      "locked": 0,
+      "name": "Email Campaign Metrics Dashboard",
+      "screenAdjust": 1,
+      "screenHeight": 0,
+      "screenWidth": 0,
+      "type": 1,
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

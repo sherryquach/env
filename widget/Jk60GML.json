@@ -1,0 +1,47 @@
+{
+  "categoryAssets": [
+    {
+      "categoryIdentifier": "${ref:category:_00001O}",
+      "identifier": "Jk60GML",
+      "objectType": 2
+    }
+  ],
+  "chartProperties": [
+    {
+      "chartUrl": "Jk60GML",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "recommendation"
+    },
+    {
+      "chartUrl": "Jk60GML",
+      "dashboardIdentifier": null,
+      "property": "recommendation.mode",
+      "value": "1"
+    },
+    {
+      "chartUrl": "Jk60GML",
+      "dashboardIdentifier": null,
+      "property": "recommendation.prompt",
+      "value": "sum(line_total) by location_name\nsum(line_total) by order_timestamp_tz over time\n"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "SALES - Cached - Recommendations",
+      "datasetId": "${ref:dataset:4Vwq3nq}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 26,
+      "url": "Jk60GML",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

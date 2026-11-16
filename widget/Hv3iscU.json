@@ -1,0 +1,47 @@
+{
+  "categoryAssets": [
+    {
+      "categoryIdentifier": "${ref:category:_00001O}",
+      "identifier": "Hv3iscU",
+      "objectType": 2
+    }
+  ],
+  "chartProperties": [
+    {
+      "chartUrl": "Hv3iscU",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "recommendation"
+    },
+    {
+      "chartUrl": "Hv3iscU",
+      "dashboardIdentifier": null,
+      "property": "recommendation.mode",
+      "value": "4"
+    },
+    {
+      "chartUrl": "Hv3iscU",
+      "dashboardIdentifier": null,
+      "property": "recommendation.prompt",
+      "value": "Save it as a widget called QA Steak Frites Monthly and put it on a new dashboard called QA Lakefront Review"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "QA Lakefront Review 4 - Summary",
+      "datasetId": "${ref:dataset:hoKvma}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 26,
+      "url": "Hv3iscU",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

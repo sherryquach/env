@@ -1,0 +1,92 @@
+{
+  "categoryAssets": [
+    {
+      "categoryIdentifier": "${ref:category:_00001P}",
+      "identifier": "_0000hT",
+      "objectType": 1
+    }
+  ],
+  "dashboardCharts": [
+    {
+      "chartUrl": "${ref:widget:Xy4STz}",
+      "col": 1,
+      "dashboardIdentifier": "_0000hT",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 13,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 8,
+      "sizeY": 12,
+      "sizeYOriginal": 0,
+      "width": 0
+    },
+    {
+      "chartUrl": "${ref:widget:gpv3DN}",
+      "col": 1,
+      "dashboardIdentifier": "_0000hT",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 1,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 24,
+      "sizeY": 12,
+      "sizeYOriginal": 0,
+      "width": 0
+    },
+    {
+      "chartUrl": "${ref:widget:o4oEOO}",
+      "col": 17,
+      "dashboardIdentifier": "_0000hT",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 13,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 8,
+      "sizeY": 12,
+      "sizeYOriginal": 0,
+      "width": 0
+    },
+    {
+      "chartUrl": "${ref:widget:zlHDcf}",
+      "col": 9,
+      "dashboardIdentifier": "_0000hT",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 13,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 8,
+      "sizeY": 12,
+      "sizeYOriginal": 0,
+      "width": 0
+    }
+  ],
+  "dashboards": [
+    {
+      "dashAccessLevel": 0,
+      "displayOrder": 0,
+      "filterSettings": null,
+      "identifier": "_0000hT",
+      "jsonConfig": null,
+      "locked": 0,
+      "name": "Sending Activity Dashboard",
+      "screenAdjust": 1,
+      "screenHeight": 0,
+      "screenWidth": 0,
+      "type": 1,
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

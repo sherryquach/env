@@ -1,0 +1,46 @@
+{
+  "dataConfigs": [
+    {
+      "datasetIdentifier": "${ref:dataset:8Mu0LNZ}",
+      "queryIdentifier": "8Mu0LNZ",
+      "queryStrId": "pmO3EhW"
+    }
+  ],
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:CmeR9b}",
+      "description": null,
+      "direct": false,
+      "directPush": true,
+      "entityName": "Country",
+      "identifier": "8Mu0LNZ",
+      "inUse": true,
+      "jsonConfig": {
+        "c9ExportDataset": "${ref:dataset:8Mu0LNZ}",
+        "c9ExportEntityName": "Country",
+        "c9ExportIdentifier": "8Mu0LNZ",
+        "datasourceId": "${ref:datasource:CmeR9b}",
+        "direct": false,
+        "discovery": {
+          "limit": 10000,
+          "tableName": "${ref:dataset:8Mu0LNZ}"
+        },
+        "entityName": "Country",
+        "identifier": "8Mu0LNZ",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "queryStr": "select *",
+        "triggered": false
+      },
+      "op": 4,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "pmO3EhW",
+      "triggerDatasetId": 0
+    }
+  ]
+}

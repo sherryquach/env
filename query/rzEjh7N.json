@@ -1,0 +1,47 @@
+{
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:OqrAuqv}",
+      "description": "",
+      "direct": false,
+      "directPush": true,
+      "entityName": "Judge.Me Reviews",
+      "identifier": "Dw4ipck",
+      "inUse": true,
+      "jsonConfig": {
+        "apiConfig": {
+          "endPoint": "https://api.judge.me/api/v1/reviews?api_token={authToken}&shop_domain={host}&per_page=100",
+          "pagination": {
+            "paginationC9QLFilter": "select expand(reviews); select * where id > 0;",
+            "requestParameterName": "page",
+            "responseFieldName": "current_page",
+            "responseKind": "JustPageNumberStarting1"
+          },
+          "type": "GET"
+        },
+        "c9QLFilter": "select expand(reviews);\nselect id, rating, title, body, reviewer.id as reviewer_id, reviewer.name as reviewer_name, reviewer.email as reviewer_email, product_external_id, verified, curated, hidden, created_at, updated_at where id > 0 order by created_at desc;",
+        "collections": "reviews",
+        "datasourceId": "${ref:datasource:OqrAuqv}",
+        "direct": false,
+        "entityName": "Judge.Me Reviews",
+        "frequency": "3",
+        "frequencyType": "days",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "startTime": "06/04/2026 00:09 UTC",
+        "triggerOnAny": false,
+        "triggered": false,
+        "visual": true
+      },
+      "op": 4,
+      "scheduled": 1,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "rzEjh7N",
+      "triggerDatasetId": 0
+    }
+  ]
+}

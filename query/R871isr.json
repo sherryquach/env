@@ -1,0 +1,49 @@
+{
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "",
+      "jsonConfig": [],
+      "queryIdentifier": "iiAIgTa",
+      "queryStrId": "R871isr"
+    }
+  ],
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:DY6Qg2F}",
+      "description": "",
+      "direct": false,
+      "directPush": true,
+      "entityName": "SALES - City Listing",
+      "identifier": "iiAIgTa",
+      "inUse": true,
+      "jsonConfig": {
+        "c9QLFilter": "select *",
+        "datasourceId": "${ref:datasource:DY6Qg2F}",
+        "direct": false,
+        "discovery": {
+          "limit": 10000,
+          "tableName": [
+            "SALES"
+          ]
+        },
+        "entityName": "SALES - City Listing",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "queryStr": "select\ndistinct city as CITY\nfrom\n  \"SALES\"\n",
+        "triggerOnAny": false,
+        "triggered": false,
+        "visual": false
+      },
+      "op": 4,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "R871isr",
+      "triggerDatasetId": 0
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "categoryAssets": [
+    {
+      "categoryIdentifier": "${ref:category:_00001O}",
+      "identifier": "4iiV0xJ",
+      "objectType": 2
+    }
+  ],
+  "chartProperties": [
+    {
+      "chartUrl": "4iiV0xJ",
+      "dashboardIdentifier": null,
+      "property": "chart.series.data",
+      "value": "revenue"
+    },
+    {
+      "chartUrl": "4iiV0xJ",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "bar"
+    },
+    {
+      "chartUrl": "4iiV0xJ",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.column",
+      "value": "item_name"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "Top 10 Items by Revenue",
+      "datasetId": "${ref:dataset:hoKvma}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": {
+        "fields": [
+          {
+            "fieldName": "item_name",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "revenue",
+            "fieldType": "java.lang.Double",
+            "ntz": false
+          }
+        ]
+      },
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 1,
+      "url": "4iiV0xJ",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": [
+        "select 'item_name', SUM('line_total') as 'revenue'",
+        "group by 'item_name'",
+        "order by 'revenue' desc",
+        "limit 10"
+      ],
+      "chartUrl": "4iiV0xJ",
+      "jsonConfig": [
+        {
+          "dimensions": [
+            {
+              "customized": false,
+              "fieldName": "item_name",
+              "fieldType": "java.lang.String",
+              "label": "item_name"
+            }
+          ],
+          "limit": 10,
+          "metrics": [
+            {
+              "customized": false,
+              "fieldName": "item_name",
+              "fieldType": "java.lang.String",
+              "label": "item_name"
+            },
+            {
+              "customized": false,
+              "fieldName": "line_total",
+              "fieldType": "java.lang.Double",
+              "label": "revenue",
+              "operation": "SUM",
+              "operationStr": "SUM"
+            }
+          ],
+          "sort": [
+            {
+              "field": {
+                "customized": false,
+                "fieldName": "revenue",
+                "fieldType": "java.lang.Double",
+                "label": "revenue"
+              },
+              "operation": "DESC",
+              "operationStr": "DESC"
+            }
+          ]
+        }
+      ],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

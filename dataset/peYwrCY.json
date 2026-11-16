@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    {
+      "agenticDefault": false,
+      "bypassOverrideLimit": false,
+      "dataExpirationDate": null,
+      "datasetName": "Copy of Copy of Copy of DBWrite Restaurants",
+      "identifier": "peYwrCY",
+      "injectStreamTime": false,
+      "metaHash": 350597179,
+      "metadataConfig": "{\"fields\":[{\"fieldName\":\"address\",\"fieldType\":\"java.util.Map\",\"nestedFields\":[{\"fieldName\":\"building\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"coord\",\"fieldType\":\"java.util.List\",\"nestedFields\":[{\"fieldName\":\"[*]\",\"fieldType\":\"java.lang.Double\",\"ntz\":false}],\"ntz\":false},{\"fieldName\":\"street\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"zipcode\",\"fieldType\":\"java.lang.String\",\"ntz\":false}],\"ntz\":false},{\"fieldName\":\"borough\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"cuisine\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"grades\",\"fieldType\":\"java.util.List\",\"nestedFields\":[{\"fieldName\":\"[*]\",\"fieldType\":\"java.util.Map\",\"nestedFields\":[{\"fieldName\":\"date\",\"fieldType\":\"java.util.Date\",\"ntz\":false},{\"fieldName\":\"grade\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"score\",\"fieldType\":\"java.lang.Integer\",\"ntz\":false}],\"ntz\":false}],\"ntz\":false},{\"fieldName\":\"id\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"name\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"restaurant_id\",\"fieldType\":\"java.lang.String\",\"ntz\":false}]}",
+      "mongoConnectUri": "provisioned",
+      "nlpBotEnabled": true,
+      "nlpConfig": null,
+      "nlpEnabled": true,
+      "nlpIndexInterval": 360,
+      "refreshMeta": false,
+      "synonymHash": 0,
+      "timeZone": null
+    }
+  ],
+  "format": 1
+}

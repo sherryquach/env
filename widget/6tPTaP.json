@@ -1,0 +1,395 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "6tPTaP",
+      "dashboardIdentifier": null,
+      "property": "chart.alignTicks",
+      "value": "true"
+    },
+    {
+      "chartUrl": "6tPTaP",
+      "dashboardIdentifier": null,
+      "property": "chart.firstRow",
+      "value": "[12338,\"Air\"]"
+    },
+    {
+      "chartUrl": "6tPTaP",
+      "dashboardIdentifier": null,
+      "property": "chart.primary.ylabel",
+      "value": "total_orders"
+    },
+    {
+      "chartUrl": "6tPTaP",
+      "dashboardIdentifier": null,
+      "property": "chart.quickpickers",
+      "value": "0"
+    },
+    {
+      "chartUrl": "6tPTaP",
+      "dashboardIdentifier": null,
+      "property": "chart.secondary.sync",
+      "value": "false"
+    },
+    {
+      "chartUrl": "6tPTaP",
+      "dashboardIdentifier": null,
+      "property": "chart.secondary.zIndex",
+      "value": "false"
+    },
+    {
+      "chartUrl": "6tPTaP",
+      "dashboardIdentifier": null,
+      "property": "chart.series.data",
+      "value": "total_orders"
+    },
+    {
+      "chartUrl": "6tPTaP",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "column"
+    },
+    {
+      "chartUrl": "6tPTaP",
+      "dashboardIdentifier": null,
+      "property": "chart.useLocalTime",
+      "value": "false"
+    },
+    {
+      "chartUrl": "6tPTaP",
+      "dashboardIdentifier": null,
+      "property": "chart.wBorderVisibility",
+      "value": "inherit_from_dash"
+    },
+    {
+      "chartUrl": "6tPTaP",
+      "dashboardIdentifier": null,
+      "property": "chart.wTitleVisibility",
+      "value": "inherit_from_dash"
+    },
+    {
+      "chartUrl": "6tPTaP",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.column",
+      "value": "mode"
+    },
+    {
+      "chartUrl": "6tPTaP",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.order",
+      "value": "1"
+    },
+    {
+      "chartUrl": "6tPTaP",
+      "dashboardIdentifier": null,
+      "property": "chart.xaxis.scroll",
+      "value": "true"
+    },
+    {
+      "chartUrl": "6tPTaP",
+      "dashboardIdentifier": null,
+      "property": "grid.column.as Column.widthPerc",
+      "value": "0.037037037037037035"
+    },
+    {
+      "chartUrl": "6tPTaP",
+      "dashboardIdentifier": null,
+      "property": "grid.column.carbon_kg.widthPerc",
+      "value": "0.037037037037037035"
+    },
+    {
+      "chartUrl": "6tPTaP",
+      "dashboardIdentifier": null,
+      "property": "grid.column.customer.widthPerc",
+      "value": "0.037037037037037035"
+    },
+    {
+      "chartUrl": "6tPTaP",
+      "dashboardIdentifier": null,
+      "property": "grid.column.duty_cost.widthPerc",
+      "value": "0.037037037037037035"
+    },
+    {
+      "chartUrl": "6tPTaP",
+      "dashboardIdentifier": null,
+      "property": "grid.column.freight_cost.widthPerc",
+      "value": "0.037037037037037035"
+    },
+    {
+      "chartUrl": "6tPTaP",
+      "dashboardIdentifier": null,
+      "property": "grid.column.incoterm.widthPerc",
+      "value": "0.037037037037037035"
+    },
+    {
+      "chartUrl": "6tPTaP",
+      "dashboardIdentifier": null,
+      "property": "grid.column.late_by_days.widthPerc",
+      "value": "0.037037037037037035"
+    },
+    {
+      "chartUrl": "6tPTaP",
+      "dashboardIdentifier": null,
+      "property": "grid.column.lead_time_days.widthPerc",
+      "value": "0.037037037037037035"
+    },
+    {
+      "chartUrl": "6tPTaP",
+      "dashboardIdentifier": null,
+      "property": "grid.column.line_id.widthPerc",
+      "value": "0.037037037037037035"
+    },
+    {
+      "chartUrl": "6tPTaP",
+      "dashboardIdentifier": null,
+      "property": "grid.column.mode.widthPerc",
+      "value": "0.037037037037037035"
+    },
+    {
+      "chartUrl": "6tPTaP",
+      "dashboardIdentifier": null,
+      "property": "grid.column.on_time_flag.widthPerc",
+      "value": "0.037037037037037035"
+    },
+    {
+      "chartUrl": "6tPTaP",
+      "dashboardIdentifier": null,
+      "property": "grid.column.order_date.widthPerc",
+      "value": "0.037037037037037035"
+    },
+    {
+      "chartUrl": "6tPTaP",
+      "dashboardIdentifier": null,
+      "property": "grid.column.order_id.widthPerc",
+      "value": "0.037037037037037035"
+    },
+    {
+      "chartUrl": "6tPTaP",
+      "dashboardIdentifier": null,
+      "property": "grid.column.planned_delivery_date.widthPerc",
+      "value": "0.037037037037037035"
+    },
+    {
+      "chartUrl": "6tPTaP",
+      "dashboardIdentifier": null,
+      "property": "grid.column.planned_ship_date.widthPerc",
+      "value": "0.037037037037037035"
+    },
+    {
+      "chartUrl": "6tPTaP",
+      "dashboardIdentifier": null,
+      "property": "grid.column.priority.widthPerc",
+      "value": "0.037037037037037035"
+    },
+    {
+      "chartUrl": "6tPTaP",
+      "dashboardIdentifier": null,
+      "property": "grid.column.product.widthPerc",
+      "value": "0.037037037037037035"
+    },
+    {
+      "chartUrl": "6tPTaP",
+      "dashboardIdentifier": null,
+      "property": "grid.column.quantity.widthPerc",
+      "value": "0.037037037037037035"
+    },
+    {
+      "chartUrl": "6tPTaP",
+      "dashboardIdentifier": null,
+      "property": "grid.column.region.widthPerc",
+      "value": "0.037037037037037035"
+    },
+    {
+      "chartUrl": "6tPTaP",
+      "dashboardIdentifier": null,
+      "property": "grid.column.ship_from_warehouse.widthPerc",
+      "value": "0.037037037037037035"
+    },
+    {
+      "chartUrl": "6tPTaP",
+      "dashboardIdentifier": null,
+      "property": "grid.column.sku.widthPerc",
+      "value": "0.037037037037037035"
+    },
+    {
+      "chartUrl": "6tPTaP",
+      "dashboardIdentifier": null,
+      "property": "grid.column.status.widthPerc",
+      "value": "0.037037037037037035"
+    },
+    {
+      "chartUrl": "6tPTaP",
+      "dashboardIdentifier": null,
+      "property": "grid.column.supplier.widthPerc",
+      "value": "0.037037037037037035"
+    },
+    {
+      "chartUrl": "6tPTaP",
+      "dashboardIdentifier": null,
+      "property": "grid.column.total_cost.widthPerc",
+      "value": "0.037037037037037035"
+    },
+    {
+      "chartUrl": "6tPTaP",
+      "dashboardIdentifier": null,
+      "property": "grid.column.total_orders.widthPerc",
+      "value": "0.5"
+    },
+    {
+      "chartUrl": "6tPTaP",
+      "dashboardIdentifier": null,
+      "property": "grid.column.unit_cost.widthPerc",
+      "value": "0.037037037037037035"
+    },
+    {
+      "chartUrl": "6tPTaP",
+      "dashboardIdentifier": null,
+      "property": "grid.column.week.widthPerc",
+      "value": "0.5"
+    },
+    {
+      "chartUrl": "6tPTaP",
+      "dashboardIdentifier": null,
+      "property": "grid.columnWidths",
+      "value": "[0.5,0.5]"
+    },
+    {
+      "chartUrl": "6tPTaP",
+      "dashboardIdentifier": null,
+      "property": "legendAlias",
+      "value": "{}"
+    },
+    {
+      "chartUrl": "6tPTaP",
+      "dashboardIdentifier": null,
+      "property": "loadUponPrompt",
+      "value": "false"
+    },
+    {
+      "chartUrl": "6tPTaP",
+      "dashboardIdentifier": null,
+      "property": "repeatableWidget.showRepeatingPanel",
+      "value": "false"
+    },
+    {
+      "chartUrl": "6tPTaP",
+      "dashboardIdentifier": null,
+      "property": "widget.footnote",
+      "value": "testing"
+    },
+    {
+      "chartUrl": "6tPTaP",
+      "dashboardIdentifier": null,
+      "property": "widgetDisplayOptions",
+      "value": "w-export-to-excel:false,highchart-context-menu:true"
+    }
+  ],
+  "chartQueries": [
+    {
+      "chartUrl": "6tPTaP",
+      "queryStr": "select *, $c9_test$()${list|'|,}$ as Column"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "total on time by region",
+      "datasetId": "${ref:dataset:6tPTaP}",
+      "description": "",
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": {
+        "fields": [
+          {
+            "fieldName": "mode",
+            "fieldType": "java.lang.String"
+          },
+          {
+            "fieldName": "total_orders",
+            "fieldType": "java.lang.Integer"
+          }
+        ],
+        "macroFields": [
+          {
+            "fieldName": "$c9_test$",
+            "fieldType": "java.lang.String"
+          }
+        ]
+      },
+      "liveRefresh": -1,
+      "query": 1,
+      "type": 1,
+      "url": "6tPTaP",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": [
+        "select COUNT(*) as 'total_orders', 'mode'",
+        "group by 'mode'"
+      ],
+      "chartUrl": "6tPTaP",
+      "jsonConfig": [
+        {
+          "dataFieldNames": [
+            "order_id",
+            "line_id",
+            "order_date",
+            "planned_ship_date",
+            "planned_delivery_date",
+            "supplier",
+            "customer",
+            "ship_from_warehouse",
+            "region",
+            "mode",
+            "status",
+            "incoterm",
+            "priority",
+            "product",
+            "sku",
+            "quantity",
+            "unit_cost",
+            "freight_cost",
+            "duty_cost",
+            "total_cost",
+            "lead_time_days",
+            "on_time_flag",
+            "late_by_days",
+            "carbon_kg",
+            "as Column"
+          ],
+          "dimensions": [
+            {
+              "customized": false,
+              "fieldName": "mode",
+              "fieldType": "java.lang.String",
+              "label": "mode"
+            }
+          ],
+          "discoveryForSuggestions": false,
+          "limit": 0,
+          "metrics": [
+            {
+              "customized": false,
+              "fieldName": "All",
+              "fieldType": "java.lang.Object",
+              "label": "total_orders",
+              "operation": "COUNT",
+              "operationStr": "count"
+            },
+            {
+              "customized": false,
+              "fieldName": "mode",
+              "fieldType": "java.lang.String",
+              "label": "mode"
+            }
+          ]
+        }
+      ],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

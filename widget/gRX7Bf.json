@@ -1,0 +1,145 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "gRX7Bf",
+      "dashboardIdentifier": null,
+      "property": "chart.firstRow",
+      "value": "[\"T20250818142145054\",\"Mon Aug 18 14:21:45 UTC 2025\",\"SFO01\",\"Bay Bistro - SoMa\",\"Fish Tacos\",\"Entree\",\"Large Size\",1,18.5]"
+    },
+    {
+      "chartUrl": "gRX7Bf",
+      "dashboardIdentifier": null,
+      "property": "chart.quickpickers",
+      "value": "0"
+    },
+    {
+      "chartUrl": "gRX7Bf",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "recommendation"
+    },
+    {
+      "chartUrl": "gRX7Bf",
+      "dashboardIdentifier": null,
+      "property": "loadUponPrompt",
+      "value": "false"
+    },
+    {
+      "chartUrl": "gRX7Bf",
+      "dashboardIdentifier": null,
+      "property": "recommendation.limit",
+      "value": "8"
+    },
+    {
+      "chartUrl": "gRX7Bf",
+      "dashboardIdentifier": null,
+      "property": "recommendation.mode",
+      "value": "1"
+    },
+    {
+      "chartUrl": "gRX7Bf",
+      "dashboardIdentifier": null,
+      "property": "recommendation.prompt",
+      "value": "Give me recommendations specific to modifiers"
+    },
+    {
+      "chartUrl": "gRX7Bf",
+      "dashboardIdentifier": null,
+      "property": "recommendation.showActions",
+      "value": "true"
+    },
+    {
+      "chartUrl": "gRX7Bf",
+      "dashboardIdentifier": null,
+      "property": "repeatableWidget.showRepeatingPanel",
+      "value": "false"
+    },
+    {
+      "chartUrl": "gRX7Bf",
+      "dashboardIdentifier": null,
+      "property": "widgetCache.enabled",
+      "value": "true"
+    },
+    {
+      "chartUrl": "gRX7Bf",
+      "dashboardIdentifier": null,
+      "property": "widgetDisplayOptions",
+      "value": "w-export-to-excel:false,highchart-context-menu:true"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "Sales - Recommendations",
+      "datasetId": "${ref:dataset:hoKvma}",
+      "description": "",
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": {
+        "fields": [
+          {
+            "fieldName": "datetime",
+            "fieldType": "java.util.Date",
+            "ntz": false
+          },
+          {
+            "fieldName": "item_name",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "line_total",
+            "fieldType": "java.lang.Double",
+            "ntz": false
+          },
+          {
+            "fieldName": "location_id",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "location_name",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "modifier",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "quantity",
+            "fieldType": "java.lang.Integer",
+            "ntz": false
+          },
+          {
+            "fieldName": "sales_category",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "transaction_id",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          }
+        ]
+      },
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 26,
+      "url": "gRX7Bf",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "gRX7Bf",
+      "jsonConfig": [],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

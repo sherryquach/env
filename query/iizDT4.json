@@ -1,0 +1,32 @@
+{
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:BFbZtd}",
+      "description": null,
+      "direct": false,
+      "directPush": true,
+      "entityName": "SaaS_B2B_Contract_10.pdf",
+      "identifier": "PBV6v8",
+      "inUse": true,
+      "jsonConfig": {
+        "datasourceId": "${ref:datasource:BFbZtd}",
+        "direct": false,
+        "entityName": "SaaS_B2B_Contract_10.pdf",
+        "identifier": "PBV6v8",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "triggered": false,
+        "uploadedFileName": "SaaS_B2B_Contract_10.pdf"
+      },
+      "op": 1,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "iizDT4",
+      "triggerDatasetId": 0
+    }
+  ]
+}

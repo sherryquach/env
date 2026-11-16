@@ -1,0 +1,58 @@
+{
+  "categoryAssets": [
+    {
+      "categoryIdentifier": "${ref:category:_00001N}",
+      "identifier": "30yGnrk",
+      "objectType": 4
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "",
+      "jsonConfig": [],
+      "queryIdentifier": "wiizxis",
+      "queryStrId": "30yGnrk"
+    }
+  ],
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:TgipXB}",
+      "description": null,
+      "direct": false,
+      "directPush": true,
+      "entityName": "Copy of Copy of DBWrite Restaurants",
+      "identifier": "wiizxis",
+      "inUse": true,
+      "jsonConfig": {
+        "c9QLFilter": "select *",
+        "datasourceId": "${ref:datasource:TgipXB}",
+        "direct": false,
+        "discovery": {
+          "limit": 10000,
+          "tableName": "restaurants"
+        },
+        "entityName": "Copy of Copy of DBWrite Restaurants",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "queryStr": "db['restaurants'].find().limit(10000)",
+        "storeConfig": "{\"table\":\"restaurants2\"}",
+        "storeDatasourceId": 120,
+        "triggerOnAny": false,
+        "triggered": false,
+        "visual": true
+      },
+      "op": 4,
+      "scheduled": 0,
+      "storeConfig": {
+        "table": "restaurants2"
+      },
+      "storeDatasourceId": "${ref:datasource:1TX1is8}",
+      "strId": "30yGnrk",
+      "triggerDatasetId": 0
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "categoryAssets": [
+    {
+      "categoryIdentifier": "${ref:category:_00001O}",
+      "identifier": "Q18R3Bd",
+      "objectType": 2
+    }
+  ],
+  "chartProperties": [
+    {
+      "chartUrl": "Q18R3Bd",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "recommendation"
+    },
+    {
+      "chartUrl": "Q18R3Bd",
+      "dashboardIdentifier": null,
+      "property": "recommendation.mode",
+      "value": "1"
+    },
+    {
+      "chartUrl": "Q18R3Bd",
+      "dashboardIdentifier": null,
+      "property": "recommendation.prompt",
+      "value": "total line_total for Steak Frites by month\n"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "Sales - Recommendations",
+      "datasetId": "${ref:dataset:hoKvma}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 26,
+      "url": "Q18R3Bd",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

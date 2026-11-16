@@ -1,0 +1,87 @@
+{
+  "categoryAssets": [
+    {
+      "categoryIdentifier": "${ref:category:_00001O}",
+      "identifier": "oSQxE45",
+      "objectType": 2
+    }
+  ],
+  "chartProperties": [
+    {
+      "chartUrl": "oSQxE45",
+      "dashboardIdentifier": null,
+      "property": "chart.series.data",
+      "value": "revenue"
+    },
+    {
+      "chartUrl": "oSQxE45",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "bar"
+    },
+    {
+      "chartUrl": "oSQxE45",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.column",
+      "value": "location_name"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "Revenue by Location",
+      "datasetId": "${ref:dataset:hoKvma}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 1,
+      "url": "oSQxE45",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": [
+        "select 'location_name', SUM('line_total') as 'revenue'",
+        "group by 'location_name'"
+      ],
+      "chartUrl": "oSQxE45",
+      "jsonConfig": [
+        {
+          "dimensions": [
+            {
+              "customized": false,
+              "fieldName": "location_name",
+              "fieldType": "java.lang.String",
+              "label": "location_name"
+            }
+          ],
+          "limit": 0,
+          "metrics": [
+            {
+              "customized": false,
+              "fieldName": "location_name",
+              "fieldType": "java.lang.String",
+              "label": "location_name"
+            },
+            {
+              "customized": false,
+              "fieldName": "line_total",
+              "fieldType": "java.lang.Double",
+              "label": "revenue",
+              "operation": "SUM",
+              "operationStr": "SUM"
+            }
+          ]
+        }
+      ],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

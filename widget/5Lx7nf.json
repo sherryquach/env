@@ -1,0 +1,257 @@
+{
+  "categoryAssets": [
+    {
+      "categoryIdentifier": "${ref:category:_00001O}",
+      "identifier": "5Lx7nf",
+      "objectType": 2
+    }
+  ],
+  "chartProperties": [
+    {
+      "chartUrl": "5Lx7nf",
+      "dashboardIdentifier": null,
+      "property": "ai.recommendations.enabled",
+      "value": "true"
+    },
+    {
+      "chartUrl": "5Lx7nf",
+      "dashboardIdentifier": null,
+      "property": "chart.firstRow",
+      "value": "[\"Steak Frites\",59]"
+    },
+    {
+      "chartUrl": "5Lx7nf",
+      "dashboardIdentifier": null,
+      "property": "chart.quickpickers",
+      "value": "0"
+    },
+    {
+      "chartUrl": "5Lx7nf",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "pivot"
+    },
+    {
+      "chartUrl": "5Lx7nf",
+      "dashboardIdentifier": null,
+      "property": "chart.wBorderVisibility",
+      "value": "inherit_from_dash"
+    },
+    {
+      "chartUrl": "5Lx7nf",
+      "dashboardIdentifier": null,
+      "property": "chart.wTitleVisibility",
+      "value": "inherit_from_dash"
+    },
+    {
+      "chartUrl": "5Lx7nf",
+      "dashboardIdentifier": null,
+      "property": "grid.disableClickToSort",
+      "value": "false"
+    },
+    {
+      "chartUrl": "5Lx7nf",
+      "dashboardIdentifier": null,
+      "property": "loadUponPrompt",
+      "value": "false"
+    },
+    {
+      "chartUrl": "5Lx7nf",
+      "dashboardIdentifier": null,
+      "property": "pivot.autoCollapseRows",
+      "value": "false"
+    },
+    {
+      "chartUrl": "5Lx7nf",
+      "dashboardIdentifier": null,
+      "property": "pivot.columnWidths",
+      "value": "{\"sum_'_total\":757}"
+    },
+    {
+      "chartUrl": "5Lx7nf",
+      "dashboardIdentifier": null,
+      "property": "pivot.columnsSortOrder",
+      "value": "def"
+    },
+    {
+      "chartUrl": "5Lx7nf",
+      "dashboardIdentifier": null,
+      "property": "pivot.config.access.viewers",
+      "value": "true"
+    },
+    {
+      "chartUrl": "5Lx7nf",
+      "dashboardIdentifier": null,
+      "property": "pivot.fitWidgetWidth",
+      "value": "false"
+    },
+    {
+      "chartUrl": "5Lx7nf",
+      "dashboardIdentifier": null,
+      "property": "pivot.footer",
+      "value": "false"
+    },
+    {
+      "chartUrl": "5Lx7nf",
+      "dashboardIdentifier": null,
+      "property": "pivot.headerBgColor",
+      "value": "#CEE7F7"
+    },
+    {
+      "chartUrl": "5Lx7nf",
+      "dashboardIdentifier": null,
+      "property": "pivot.hideLastHeaderRow",
+      "value": "false"
+    },
+    {
+      "chartUrl": "5Lx7nf",
+      "dashboardIdentifier": null,
+      "property": "pivot.hideRatioSourceColumns",
+      "value": "false"
+    },
+    {
+      "chartUrl": "5Lx7nf",
+      "dashboardIdentifier": null,
+      "property": "pivot.resetSorting",
+      "value": "false"
+    },
+    {
+      "chartUrl": "5Lx7nf",
+      "dashboardIdentifier": null,
+      "property": "pivot.resetStructure",
+      "value": "false"
+    },
+    {
+      "chartUrl": "5Lx7nf",
+      "dashboardIdentifier": null,
+      "property": "pivot.showOperation",
+      "value": "false"
+    },
+    {
+      "chartUrl": "5Lx7nf",
+      "dashboardIdentifier": null,
+      "property": "pivot.singleRow",
+      "value": "false"
+    },
+    {
+      "chartUrl": "5Lx7nf",
+      "dashboardIdentifier": null,
+      "property": "pivot.structure",
+      "value": "{\"rows\":[\"item_name\"],\"columns\":[],\"values\":[{\"name\":\"revenue\",\"text\":\"revenue\",\"id\":1789685151069,\"operation\":[\"sum\"]}],\"filters\":[]}"
+    },
+    {
+      "chartUrl": "5Lx7nf",
+      "dashboardIdentifier": null,
+      "property": "pivot.textWrap",
+      "value": "false"
+    },
+    {
+      "chartUrl": "5Lx7nf",
+      "dashboardIdentifier": null,
+      "property": "pivot.totalColumn",
+      "value": "false"
+    },
+    {
+      "chartUrl": "5Lx7nf",
+      "dashboardIdentifier": null,
+      "property": "repeatableWidget.showRepeatingPanel",
+      "value": "false"
+    },
+    {
+      "chartUrl": "5Lx7nf",
+      "dashboardIdentifier": null,
+      "property": "widgetCache.enabled",
+      "value": "true"
+    },
+    {
+      "chartUrl": "5Lx7nf",
+      "dashboardIdentifier": null,
+      "property": "widgetDisplayOptions",
+      "value": "w-export-to-excel:false,highchart-context-menu:true"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "Top Selling Items",
+      "datasetId": "${ref:dataset:hoKvma}",
+      "description": "",
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": {
+        "fields": [
+          {
+            "fieldName": "item_name",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "revenue",
+            "fieldType": "java.lang.Double",
+            "ntz": false
+          }
+        ]
+      },
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 20,
+      "url": "5Lx7nf",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": [
+        "select 'item_name', SUM('line_total') as 'revenue'",
+        "group by 'item_name'",
+        "order by 'revenue' desc"
+      ],
+      "chartUrl": "5Lx7nf",
+      "jsonConfig": [
+        {
+          "dimensions": [
+            {
+              "customized": false,
+              "fieldName": "item_name",
+              "fieldType": "java.lang.String",
+              "label": "item_name"
+            }
+          ],
+          "limit": 0,
+          "metrics": [
+            {
+              "customized": false,
+              "fieldName": "item_name",
+              "fieldType": "java.lang.String",
+              "label": "item_name"
+            },
+            {
+              "customized": false,
+              "fieldName": "line_total",
+              "fieldType": "java.lang.Double",
+              "label": "revenue",
+              "operation": "SUM",
+              "operationStr": "sum"
+            }
+          ],
+          "sort": [
+            {
+              "field": {
+                "customized": false,
+                "fieldName": "revenue",
+                "fieldType": "java.lang.Double",
+                "label": "revenue"
+              },
+              "operation": "DESC",
+              "operationStr": "desc"
+            }
+          ]
+        }
+      ],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

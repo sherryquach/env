@@ -1,0 +1,112 @@
+{
+  "categoryAssets": [
+    {
+      "categoryIdentifier": "${ref:category:_00001O}",
+      "identifier": "jY5b8fI",
+      "objectType": 2
+    }
+  ],
+  "chartProperties": [
+    {
+      "chartUrl": "jY5b8fI",
+      "dashboardIdentifier": null,
+      "property": "chart.series.data",
+      "value": "revenue"
+    },
+    {
+      "chartUrl": "jY5b8fI",
+      "dashboardIdentifier": null,
+      "property": "chart.series.type",
+      "value": "time"
+    },
+    {
+      "chartUrl": "jY5b8fI",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "area"
+    },
+    {
+      "chartUrl": "jY5b8fI",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.column",
+      "value": "month"
+    },
+    {
+      "chartUrl": "jY5b8fI",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.order",
+      "value": "1"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "QA Steak Frites Monthly",
+      "datasetId": "${ref:dataset:hoKvma}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 1,
+      "url": "jY5b8fI",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": [
+        "select MONTH(datetime) as 'month',",
+        "  SUM('line_total') as 'revenue'",
+        "where 'item_name' = 'Steak Frites'",
+        "group by MONTH(datetime)"
+      ],
+      "chartUrl": "jY5b8fI",
+      "jsonConfig": [
+        {
+          "dimensions": [
+            {
+              "customized": true,
+              "fieldName": "MONTH(datetime)",
+              "label": "month"
+            }
+          ],
+          "filters": [
+            {
+              "field": {
+                "customized": false,
+                "fieldName": "item_name",
+                "fieldType": "java.lang.String",
+                "label": "item_name"
+              },
+              "operator": "EQUALS",
+              "operatorStr": "=",
+              "value": "Steak Frites"
+            }
+          ],
+          "limit": 0,
+          "metrics": [
+            {
+              "customized": true,
+              "fieldName": "MONTH(datetime)",
+              "label": "month"
+            },
+            {
+              "customized": false,
+              "fieldName": "line_total",
+              "fieldType": "java.lang.Double",
+              "label": "revenue",
+              "operation": "SUM",
+              "operationStr": "SUM"
+            }
+          ]
+        }
+      ],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

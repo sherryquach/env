@@ -1,0 +1,37 @@
+{
+  "dashboardCharts": [
+    {
+      "chartUrl": "${ref:widget:SKeB1j}",
+      "col": 1,
+      "dashboardIdentifier": "_0000hR",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 1,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 22,
+      "sizeY": 22,
+      "sizeYOriginal": 0,
+      "width": 0
+    }
+  ],
+  "dashboards": [
+    {
+      "dashAccessLevel": 0,
+      "displayOrder": 0,
+      "filterSettings": null,
+      "identifier": "_0000hR",
+      "jsonConfig": null,
+      "locked": 0,
+      "name": "custom widget",
+      "screenAdjust": 1,
+      "screenHeight": 0,
+      "screenWidth": 1890,
+      "type": 1,
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

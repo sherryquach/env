@@ -1,0 +1,56 @@
+{
+  "dataConfigs": [
+    {
+      "datasetIdentifier": "${ref:dataset:P7TZmkU}",
+      "queryIdentifier": "89UuUpZ",
+      "queryStrId": "blKTsB3"
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "",
+      "jsonConfig": [],
+      "queryIdentifier": "89UuUpZ",
+      "queryStrId": "blKTsB3"
+    }
+  ],
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:CmeR9b}",
+      "description": null,
+      "direct": false,
+      "directPush": true,
+      "entityName": "Linked Dataset",
+      "identifier": "89UuUpZ",
+      "inUse": true,
+      "jsonConfig": {
+        "c9ExportDataset": "${ref:dataset:P7TZmkU}",
+        "c9ExportEntityName": "Oakland Crime 10Y",
+        "c9ExportIdentifier": "P7TZmkU",
+        "datasourceId": "${ref:datasource:CmeR9b}",
+        "direct": false,
+        "discovery": {
+          "limit": 0,
+          "tableName": "${ref:dataset:P7TZmkU}"
+        },
+        "entityName": "Linked Dataset",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "queryStr": "select *",
+        "triggerOnAny": false,
+        "triggered": false,
+        "visual": true
+      },
+      "op": 7,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "blKTsB3",
+      "triggerDatasetId": 0
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "categoryAssets": [
+    {
+      "categoryIdentifier": "${ref:category:_00001O}",
+      "identifier": "wLip4yM",
+      "objectType": 2
+    }
+  ],
+  "chartProperties": [
+    {
+      "chartUrl": "wLip4yM",
+      "dashboardIdentifier": null,
+      "property": "chart.legend.column",
+      "value": "crimetype"
+    },
+    {
+      "chartUrl": "wLip4yM",
+      "dashboardIdentifier": null,
+      "property": "chart.series.data",
+      "value": "count"
+    },
+    {
+      "chartUrl": "wLip4yM",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "pie"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "Crime Types Overview",
+      "datasetId": "${ref:dataset:bytVkLe}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": {
+        "fields": [
+          {
+            "fieldName": "count",
+            "fieldType": "java.lang.Integer",
+            "ntz": false
+          },
+          {
+            "fieldName": "crimetype",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          }
+        ]
+      },
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 1,
+      "url": "wLip4yM",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": [
+        "select 'crimetype', COUNT(*) as 'count'",
+        "where datetime >= $c9_thisyear",
+        "group by 'crimetype'"
+      ],
+      "chartUrl": "wLip4yM",
+      "jsonConfig": [
+        {
+          "dimensions": [
+            {
+              "customized": false,
+              "fieldName": "crimetype",
+              "fieldType": "java.lang.String",
+              "label": "crimetype"
+            }
+          ],
+          "filters": [
+            {
+              "field": {
+                "customized": true,
+                "fieldName": "datetime",
+                "fieldType": "java.util.Date",
+                "label": "datetime"
+              },
+              "operator": "GREATER_THAN_OR_EQUALS",
+              "operatorStr": ">=",
+              "value": "$c9_thisyear"
+            }
+          ],
+          "limit": 0,
+          "metrics": [
+            {
+              "customized": false,
+              "fieldName": "crimetype",
+              "fieldType": "java.lang.String",
+              "label": "crimetype"
+            },
+            {
+              "customized": false,
+              "fieldName": "All",
+              "fieldType": "java.lang.Object",
+              "label": "count",
+              "operation": "COUNT",
+              "operationStr": "COUNT"
+            }
+          ]
+        }
+      ],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

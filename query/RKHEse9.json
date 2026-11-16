@@ -1,0 +1,46 @@
+{
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "",
+      "jsonConfig": [],
+      "queryIdentifier": "noIOSqL",
+      "queryStrId": "RKHEse9"
+    }
+  ],
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:DY6Qg2F}",
+      "description": "",
+      "direct": true,
+      "directPush": true,
+      "entityName": "SALES - Direct w Token",
+      "identifier": "noIOSqL",
+      "inUse": true,
+      "jsonConfig": {
+        "c9QLFilter": "select *, ~LOCATION_NAME",
+        "datasourceId": "${ref:datasource:DY6Qg2F}",
+        "direct": true,
+        "discovery": {
+          "limit": 10000,
+          "tableName": [
+            "SALES"
+          ]
+        },
+        "entityName": "SALES - Direct w Token",
+        "queryStr": "select\n  *\nfrom\n  \"SALES\"\nwhere\n  city in ($c9_city$[CITY]${list|'|,}$)",
+        "triggerOnAny": false,
+        "triggered": false,
+        "visual": false
+      },
+      "op": 2,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "RKHEse9",
+      "triggerDatasetId": 0
+    }
+  ]
+}

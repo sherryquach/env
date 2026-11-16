@@ -1,0 +1,47 @@
+{
+  "dataConfigs": [
+    {
+      "datasetIdentifier": "${ref:dataset:P7TZmkU}",
+      "queryIdentifier": "D40rG9W",
+      "queryStrId": "xxPiiZQ"
+    }
+  ],
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:0MCYrQn}",
+      "description": null,
+      "direct": false,
+      "directPush": true,
+      "entityName": "Agent",
+      "identifier": "D40rG9W",
+      "inUse": true,
+      "jsonConfig": {
+        "c9ExportDataset": "${ref:dataset:P7TZmkU}",
+        "c9ExportEntityName": "Oakland Crime 10Y",
+        "c9ExportIdentifier": "P7TZmkU",
+        "datasourceId": "${ref:datasource:0MCYrQn}",
+        "direct": false,
+        "discovery": {
+          "limit": 10000,
+          "tableName": "${ref:dataset:P7TZmkU}"
+        },
+        "entityName": "Agent",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "queryStr": "select *",
+        "triggerOnAny": false,
+        "triggered": false,
+        "visual": false
+      },
+      "op": 7,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "xxPiiZQ",
+      "triggerDatasetId": 0
+    }
+  ]
+}

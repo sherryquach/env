@@ -1,0 +1,29 @@
+{
+  "datasources": [
+    {
+      "acl": null,
+      "connectSchema": false,
+      "connectorId": 1,
+      "datasource": "mysql",
+      "directQueryOnly": false,
+      "inUse": true,
+      "jsonConfig": {
+        "connectSchema": false,
+        "datasource": "mysql",
+        "dbName": "cloud9demo",
+        "host": "demo.knowi.com",
+        "name": "MySQL Database",
+        "password": "${secret:datasource:rUeLOo:password}",
+        "port": "3306",
+        "userId": "c9MySQLD3mo"
+      },
+      "name": "MySQL Database",
+      "op": 1,
+      "proxy": false,
+      "strId": "rUeLOo",
+      "tunnel": false,
+      "writable": false
+    }
+  ],
+  "format": 1
+}

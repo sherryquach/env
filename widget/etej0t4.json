@@ -1,0 +1,105 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "etej0t4",
+      "dashboardIdentifier": null,
+      "property": "chart.series.data",
+      "value": "revenue"
+    },
+    {
+      "chartUrl": "etej0t4",
+      "dashboardIdentifier": null,
+      "property": "chart.series.type",
+      "value": "time"
+    },
+    {
+      "chartUrl": "etej0t4",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "column"
+    },
+    {
+      "chartUrl": "etej0t4",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.column",
+      "value": "datetime"
+    },
+    {
+      "chartUrl": "etej0t4",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.order",
+      "value": "1"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "Revenue Trend Over Time",
+      "datasetId": "${ref:dataset:hoKvma}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 1,
+      "url": "etej0t4",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": [
+        "select 'datetime', SUM('line_total') as 'revenue'",
+        "group by 'datetime'",
+        "order by 'datetime'"
+      ],
+      "chartUrl": "etej0t4",
+      "jsonConfig": [
+        {
+          "dimensions": [
+            {
+              "customized": false,
+              "fieldName": "datetime",
+              "fieldType": "java.util.Date",
+              "label": "datetime"
+            }
+          ],
+          "limit": 0,
+          "metrics": [
+            {
+              "customized": false,
+              "fieldName": "datetime",
+              "fieldType": "java.util.Date",
+              "label": "datetime"
+            },
+            {
+              "customized": false,
+              "fieldName": "line_total",
+              "fieldType": "java.lang.Double",
+              "label": "revenue",
+              "operation": "SUM",
+              "operationStr": "SUM"
+            }
+          ],
+          "sort": [
+            {
+              "field": {
+                "customized": false,
+                "fieldName": "datetime",
+                "fieldType": "java.util.Date",
+                "label": "datetime"
+              },
+              "operation": "ASC",
+              "operationStr": "ASC"
+            }
+          ]
+        }
+      ],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

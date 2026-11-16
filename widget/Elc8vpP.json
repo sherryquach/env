@@ -1,0 +1,325 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "Elc8vpP",
+      "dashboardIdentifier": null,
+      "property": "chart.firstRow",
+      "value": "[358,\"Perry, Lawanna\",\"Shah, Kalpesh\",\"\",\"\",\"\",2943886.29,0,\"73321-00002\",\"\",\"\",\"\",\"Intellectual Property\",\"\",1,1,1,null,null,null,null]"
+    },
+    {
+      "chartUrl": "Elc8vpP",
+      "dashboardIdentifier": null,
+      "property": "chart.quickpickers",
+      "value": "0"
+    },
+    {
+      "chartUrl": "Elc8vpP",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "recommendation"
+    },
+    {
+      "chartUrl": "Elc8vpP",
+      "dashboardIdentifier": null,
+      "property": "grid.column.Age Bucket.widthPerc",
+      "value": "0.04761904761904762"
+    },
+    {
+      "chartUrl": "Elc8vpP",
+      "dashboardIdentifier": null,
+      "property": "grid.column.CLIENT_NAME.widthPerc",
+      "value": "0.04761904761904762"
+    },
+    {
+      "chartUrl": "Elc8vpP",
+      "dashboardIdentifier": null,
+      "property": "grid.column.DATEOFLASTPAYMENT.widthPerc",
+      "value": "0.04761904761904762"
+    },
+    {
+      "chartUrl": "Elc8vpP",
+      "dashboardIdentifier": null,
+      "property": "grid.column.Days Since Last Contact.widthPerc",
+      "value": "0.04761904761904762"
+    },
+    {
+      "chartUrl": "Elc8vpP",
+      "dashboardIdentifier": null,
+      "property": "grid.column.Default Prompt.widthPerc",
+      "value": "0.04761904761904762"
+    },
+    {
+      "chartUrl": "Elc8vpP",
+      "dashboardIdentifier": null,
+      "property": "grid.column.Fee Balance.widthPerc",
+      "value": "0.04761904761904762"
+    },
+    {
+      "chartUrl": "Elc8vpP",
+      "dashboardIdentifier": null,
+      "property": "grid.column.Likelihood Of Payment.widthPerc",
+      "value": "0.04761904761904762"
+    },
+    {
+      "chartUrl": "Elc8vpP",
+      "dashboardIdentifier": null,
+      "property": "grid.column.Practice Group.widthPerc",
+      "value": "0.04761904761904762"
+    },
+    {
+      "chartUrl": "Elc8vpP",
+      "dashboardIdentifier": null,
+      "property": "grid.column.Projection.widthPerc",
+      "value": "0.04761904761904762"
+    },
+    {
+      "chartUrl": "Elc8vpP",
+      "dashboardIdentifier": null,
+      "property": "grid.column.Prompt.widthPerc",
+      "value": "0.04761904761904762"
+    },
+    {
+      "chartUrl": "Elc8vpP",
+      "dashboardIdentifier": null,
+      "property": "grid.column.Target.widthPerc",
+      "value": "0.04761904761904762"
+    },
+    {
+      "chartUrl": "Elc8vpP",
+      "dashboardIdentifier": null,
+      "property": "grid.column.billingattorney.widthPerc",
+      "value": "0.04761904761904762"
+    },
+    {
+      "chartUrl": "Elc8vpP",
+      "dashboardIdentifier": null,
+      "property": "grid.column.clientid.widthPerc",
+      "value": "0.04761904761904762"
+    },
+    {
+      "chartUrl": "Elc8vpP",
+      "dashboardIdentifier": null,
+      "property": "grid.column.csm.widthPerc",
+      "value": "0.04761904761904762"
+    },
+    {
+      "chartUrl": "Elc8vpP",
+      "dashboardIdentifier": null,
+      "property": "grid.column.expected_pay_date.widthPerc",
+      "value": "0.04761904761904762"
+    },
+    {
+      "chartUrl": "Elc8vpP",
+      "dashboardIdentifier": null,
+      "property": "grid.column.id .widthPerc",
+      "value": "0.04761904761904762"
+    },
+    {
+      "chartUrl": "Elc8vpP",
+      "dashboardIdentifier": null,
+      "property": "grid.column.matter.widthPerc",
+      "value": "0.04761904761904762"
+    },
+    {
+      "chartUrl": "Elc8vpP",
+      "dashboardIdentifier": null,
+      "property": "grid.column.notes.widthPerc",
+      "value": "0.04761904761904762"
+    },
+    {
+      "chartUrl": "Elc8vpP",
+      "dashboardIdentifier": null,
+      "property": "grid.column.source.widthPerc",
+      "value": "0.04761904761904762"
+    },
+    {
+      "chartUrl": "Elc8vpP",
+      "dashboardIdentifier": null,
+      "property": "grid.column.sourceFile.widthPerc",
+      "value": "0.04761904761904762"
+    },
+    {
+      "chartUrl": "Elc8vpP",
+      "dashboardIdentifier": null,
+      "property": "grid.column.sports_statistics.widthPerc",
+      "value": "0.04761904761904762"
+    },
+    {
+      "chartUrl": "Elc8vpP",
+      "dashboardIdentifier": null,
+      "property": "grid.columnWidths",
+      "value": "[]"
+    },
+    {
+      "chartUrl": "Elc8vpP",
+      "dashboardIdentifier": null,
+      "property": "recommendation.chunking",
+      "value": "false"
+    },
+    {
+      "chartUrl": "Elc8vpP",
+      "dashboardIdentifier": null,
+      "property": "recommendation.mode",
+      "value": "1"
+    },
+    {
+      "chartUrl": "Elc8vpP",
+      "dashboardIdentifier": null,
+      "property": "recommendation.showActions",
+      "value": "true"
+    },
+    {
+      "chartUrl": "Elc8vpP",
+      "dashboardIdentifier": null,
+      "property": "repeatableWidget.showRepeatingPanel",
+      "value": "false"
+    },
+    {
+      "chartUrl": "Elc8vpP",
+      "dashboardIdentifier": null,
+      "property": "widgetCache.enabled",
+      "value": "true"
+    },
+    {
+      "chartUrl": "Elc8vpP",
+      "dashboardIdentifier": null,
+      "property": "widgetDisplayOptions",
+      "value": "w-export-to-excel:true,highchart-context-menu:true"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "Widget Dataset",
+      "datasetId": "${ref:dataset:Elc8vpP}",
+      "description": "",
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": {
+        "fields": [
+          {
+            "fieldName": "Age Bucket",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "billingattorney",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "CLIENT_NAME",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "clientid",
+            "fieldType": "java.lang.Integer",
+            "ntz": false
+          },
+          {
+            "fieldName": "csm",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "DATEOFLASTPAYMENT",
+            "fieldType": "java.util.Date",
+            "ntz": false
+          },
+          {
+            "fieldName": "Days Since Last Contact",
+            "fieldType": "java.lang.Double",
+            "ntz": false
+          },
+          {
+            "fieldName": "Default Prompt",
+            "fieldType": "java.lang.Integer",
+            "ntz": false
+          },
+          {
+            "fieldName": "expected_pay_date",
+            "fieldType": "java.util.Date",
+            "ntz": false
+          },
+          {
+            "fieldName": "Fee Balance",
+            "fieldType": "java.lang.Double",
+            "ntz": false
+          },
+          {
+            "fieldName": "Likelihood Of Payment",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "matter",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "notes",
+            "fieldType": "java.util.Date",
+            "ntz": false
+          },
+          {
+            "fieldName": "Practice Group",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "Projection",
+            "fieldType": "java.lang.Double",
+            "ntz": false
+          },
+          {
+            "fieldName": "Prompt",
+            "fieldType": "java.lang.Integer",
+            "ntz": false
+          },
+          {
+            "fieldName": "Target",
+            "fieldType": "java.lang.Integer",
+            "ntz": false
+          }
+        ]
+      },
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 26,
+      "url": "Elc8vpP",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": [
+        "select *",
+        "order by 'expected_pay_date' desc",
+        "limit 100"
+      ],
+      "chartUrl": "Elc8vpP",
+      "jsonConfig": [
+        {
+          "limit": 100,
+          "sort": [
+            {
+              "field": {
+                "customized": false,
+                "fieldName": "expected_pay_date",
+                "fieldType": "java.util.Date",
+                "label": "expected_pay_date"
+              },
+              "operation": "DESC",
+              "operationStr": "desc"
+            }
+          ]
+        }
+      ],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

@@ -1,0 +1,72 @@
+{
+  "categoryAssets": [
+    {
+      "categoryIdentifier": "${ref:category:_00001O}",
+      "identifier": "r2RLQa",
+      "objectType": 2
+    }
+  ],
+  "chartProperties": [
+    {
+      "chartUrl": "r2RLQa",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "text"
+    },
+    {
+      "chartUrl": "r2RLQa",
+      "dashboardIdentifier": null,
+      "property": "scale",
+      "value": "true"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "Total Revenue KPI",
+      "datasetId": "${ref:dataset:hoKvma}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": {
+        "fields": [
+          {
+            "fieldName": "total_line_total",
+            "fieldType": "java.lang.Double",
+            "ntz": false
+          }
+        ]
+      },
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 4,
+      "url": "r2RLQa",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": "select SUM('line_total') as 'total_line_total'",
+      "chartUrl": "r2RLQa",
+      "jsonConfig": [
+        {
+          "limit": 0,
+          "metrics": [
+            {
+              "customized": false,
+              "fieldName": "line_total",
+              "fieldType": "java.lang.Double",
+              "label": "total_line_total",
+              "operation": "SUM",
+              "operationStr": "SUM"
+            }
+          ]
+        }
+      ],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

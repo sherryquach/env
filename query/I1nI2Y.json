@@ -1,0 +1,32 @@
+{
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:BFbZtd}",
+      "description": null,
+      "direct": false,
+      "directPush": true,
+      "entityName": "SaaS_B2B_Contract_9.pdf",
+      "identifier": "nyDyzN",
+      "inUse": true,
+      "jsonConfig": {
+        "datasourceId": "${ref:datasource:BFbZtd}",
+        "direct": false,
+        "entityName": "SaaS_B2B_Contract_9.pdf",
+        "identifier": "nyDyzN",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "triggered": false,
+        "uploadedFileName": "SaaS_B2B_Contract_9.pdf"
+      },
+      "op": 1,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "I1nI2Y",
+      "triggerDatasetId": 0
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "",
+      "jsonConfig": [],
+      "queryIdentifier": "bytVkLe",
+      "queryStrId": "82BhLbv"
+    }
+  ],
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:tltlsRx}",
+      "description": "",
+      "direct": false,
+      "directPush": true,
+      "entityName": "Oakland Crime This Year",
+      "identifier": "bytVkLe",
+      "inUse": true,
+      "jsonConfig": {
+        "c9QLFilter": "select *, date(datetime) as date2,\nsubstring_after(substring_after(SUBSTRING_BEFORE(location,')'),' '),' ') as latitude,\nsubstring_before(SUBSTRING_AFTER(location,'('),' ') as longitude,\nyear(datetime) as year, month(datetime) as month,\ndate_format(datetime,MMM-yy) as month_str, \ndate_format(datetime,yyyy) as year_num,\ncase when crimetype is null then description else crimetype end as type_tmp, \narray(description) as description,\npolicebeat as pbeat_tmp,\n~State, ~location, ~policebeat\nwhere datetime >= $c9_thisyear\ngroup by casenumber\norder by datetime desc;\n\nselect *,  \n\tcase when type_tmp like Burg - auto or type_tmp like Burglary-Auto then BURGLARY-AUTO\n\t\t when type_tmp like VEHICLE THEFT - AUTO then STOLEN VEHICLE\n\t\t else type_tmp end as type, \n\tcase when length(pbeat_tmp) =2 then concat(\"0\",pbeat_tmp) else pbeat_tmp end as policebeat,\n\t~pbeat_tmp, ~type_tmp",
+        "datasourceId": "${ref:datasource:tltlsRx}",
+        "direct": false,
+        "entityName": "Oakland Crime This Year",
+        "frequency": "1",
+        "frequencyType": "days",
+        "httpPost": false,
+        "httpPost2": false,
+        "ignoreHttpErrors": false,
+        "limitPages": "100",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "paginationDataPreview": false,
+        "paginationResponseKind": "Empty",
+        "paginationUseHTTPResponseHeaders": false,
+        "retryOnErrors": false,
+        "startTime": "07/28/2026 08:00 America/Los_Angeles",
+        "triggerOnAny": false,
+        "triggered": false,
+        "urlParams": "$where=datetime between '{$c9_thisyear:yyyy-MM-dd}' and '{$c9_now:yyyy-MM-dd}'\n",
+        "visual": false
+      },
+      "op": 4,
+      "scheduled": 1,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "82BhLbv",
+      "triggerDatasetId": 0
+    }
+  ]
+}

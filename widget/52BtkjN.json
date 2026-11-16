@@ -1,0 +1,135 @@
+{
+  "categoryAssets": [
+    {
+      "categoryIdentifier": "${ref:category:_00001O}",
+      "identifier": "52BtkjN",
+      "objectType": 2
+    }
+  ],
+  "chartProperties": [
+    {
+      "chartUrl": "52BtkjN",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "recommendation"
+    },
+    {
+      "chartUrl": "52BtkjN",
+      "dashboardIdentifier": null,
+      "property": "recommendation.mode",
+      "value": "4"
+    },
+    {
+      "chartUrl": "52BtkjN",
+      "dashboardIdentifier": null,
+      "property": "recommendation.prompt",
+      "value": "Build me a dashboard called local-qa-sep17 covering sales performance by location and over time"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "local-qa-sep17 covering sales performance by location and over time - Summary",
+      "datasetId": "${ref:dataset:4Vwq3nq}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": {
+        "fields": [
+          {
+            "fieldName": "CATEGORY",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "CITY",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "ITEM_NAME",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "ITEM_PRICE",
+            "fieldType": "java.lang.Double",
+            "ntz": false
+          },
+          {
+            "fieldName": "LINE_TOTAL",
+            "fieldType": "java.lang.Double",
+            "ntz": false
+          },
+          {
+            "fieldName": "LOCATION_ID",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "LOCATION_NAME",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "MODIFIER_CHARGE",
+            "fieldType": "java.lang.Double",
+            "ntz": false
+          },
+          {
+            "fieldName": "MODIFIERS",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "ORDER_CHANNEL",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "ORDER_DATE_NTZ",
+            "fieldType": "com.cloud9.core.DateNTZ",
+            "ntz": true
+          },
+          {
+            "fieldName": "ORDER_ID",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "ORDER_MONTH",
+            "fieldType": "java.util.Date",
+            "ntz": false
+          },
+          {
+            "fieldName": "ORDER_TIMESTAMP_TZ",
+            "fieldType": "java.util.Date",
+            "ntz": false
+          },
+          {
+            "fieldName": "PAYMENT_METHOD",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "QUANTITY",
+            "fieldType": "java.lang.Long",
+            "ntz": false
+          },
+          {
+            "fieldName": "STATE",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          }
+        ]
+      },
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 26,
+      "url": "52BtkjN",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

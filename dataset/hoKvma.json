@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    {
+      "agenticDefault": false,
+      "bypassOverrideLimit": false,
+      "dataExpirationDate": null,
+      "datasetName": "Sales",
+      "identifier": "hoKvma",
+      "injectStreamTime": false,
+      "metaHash": -222112940,
+      "metadataConfig": "{\"fields\":[{\"fieldName\":\"datetime\",\"fieldType\":\"java.util.Date\"},{\"fieldName\":\"item_name\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"line_total\",\"fieldType\":\"java.lang.Double\"},{\"fieldName\":\"location_id\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"location_name\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"modifier\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"quantity\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"sales_category\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"transaction_id\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"_stream_time\",\"fieldType\":\"java.util.Date\"}]}",
+      "mongoConnectUri": "provisioned",
+      "nlpBotEnabled": true,
+      "nlpConfig": null,
+      "nlpEnabled": true,
+      "nlpIndexInterval": 360,
+      "refreshMeta": false,
+      "synonymHash": 0,
+      "timeZone": null
+    }
+  ],
+  "format": 1
+}

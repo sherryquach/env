@@ -1,0 +1,27 @@
+{
+  "datasources": [
+    {
+      "acl": null,
+      "connectSchema": false,
+      "connectorId": 1,
+      "datasource": "sheets",
+      "directQueryOnly": false,
+      "inUse": true,
+      "jsonConfig": {
+        "authRefreshToken": "${secret:datasource:UxzvWSj:authRefreshToken}",
+        "authToken": "${secret:datasource:UxzvWSj:authToken}",
+        "authVersion": "1",
+        "datasource": "sheets",
+        "name": "Google Sheet",
+        "usePickerOnly": true
+      },
+      "name": "Google Sheet",
+      "op": 1,
+      "proxy": false,
+      "strId": "UxzvWSj",
+      "tunnel": false,
+      "writable": false
+    }
+  ],
+  "format": 1
+}

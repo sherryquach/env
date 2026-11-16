@@ -1,0 +1,50 @@
+{
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "",
+      "jsonConfig": [],
+      "queryIdentifier": "pcG32qh",
+      "queryStrId": "ann9eSX"
+    }
+  ],
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:OqrAuqv}",
+      "description": "",
+      "direct": false,
+      "directPush": true,
+      "entityName": "Judge.Me Custom",
+      "identifier": "pcG32qh",
+      "inUse": true,
+      "jsonConfig": {
+        "apiConfig": {
+          "endPoint": "https://api.judge.me/api/v1/widgets/all_reviews_rating?api_token={authToken}&shop_domain={host}",
+          "type": "GET"
+        },
+        "collections": "custom",
+        "datasourceId": "${ref:datasource:OqrAuqv}",
+        "direct": false,
+        "entityName": "Judge.Me Custom",
+        "frequency": "3",
+        "frequencyType": "days",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "resource": "widgets/all_reviews_rating",
+        "startTime": "06/04/2026 00:09 UTC",
+        "triggerOnAny": false,
+        "triggered": false,
+        "visual": true
+      },
+      "op": 4,
+      "scheduled": 1,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "ann9eSX",
+      "triggerDatasetId": 0
+    }
+  ]
+}

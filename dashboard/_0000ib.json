@@ -1,0 +1,108 @@
+{
+  "categoryAssets": [
+    {
+      "categoryIdentifier": "${ref:category:_00001D}",
+      "identifier": "_0000ib",
+      "objectType": 1
+    }
+  ],
+  "dashboardCharts": [
+    {
+      "chartUrl": "${ref:widget:8Mu0LNZ}",
+      "col": 1,
+      "dashboardIdentifier": "_0000ib",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 13,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 12,
+      "sizeY": 12,
+      "sizeYOriginal": 0,
+      "width": 0
+    },
+    {
+      "chartUrl": "${ref:widget:WeMsKVz}",
+      "col": 13,
+      "dashboardIdentifier": "_0000ib",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 13,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 12,
+      "sizeY": 12,
+      "sizeYOriginal": 0,
+      "width": 0
+    },
+    {
+      "chartUrl": "${ref:widget:cKKGUT3}",
+      "col": 1,
+      "dashboardIdentifier": "_0000ib",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 25,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 12,
+      "sizeY": 12,
+      "sizeYOriginal": 0,
+      "width": 0
+    },
+    {
+      "chartUrl": "${ref:widget:iptbVgD}",
+      "col": 13,
+      "dashboardIdentifier": "_0000ib",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 1,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 12,
+      "sizeY": 12,
+      "sizeYOriginal": 0,
+      "width": 0
+    },
+    {
+      "chartUrl": "${ref:widget:p5UI4Yz}",
+      "col": 1,
+      "dashboardIdentifier": "_0000ib",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 1,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 12,
+      "sizeY": 12,
+      "sizeYOriginal": 0,
+      "width": 0
+    }
+  ],
+  "dashboards": [
+    {
+      "dashAccessLevel": 0,
+      "displayOrder": 0,
+      "filterSettings": null,
+      "identifier": "_0000ib",
+      "jsonConfig": null,
+      "locked": 0,
+      "name": "Maps",
+      "screenAdjust": 1,
+      "screenHeight": 0,
+      "screenWidth": 1800,
+      "type": 1,
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

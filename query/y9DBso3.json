@@ -1,0 +1,51 @@
+{
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "",
+      "jsonConfig": [],
+      "queryIdentifier": "z5NAxpM",
+      "queryStrId": "y9DBso3"
+    }
+  ],
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:OqrAuqv}",
+      "description": null,
+      "direct": false,
+      "directPush": true,
+      "entityName": "Judge.Me Product",
+      "identifier": "z5NAxpM",
+      "inUse": true,
+      "jsonConfig": {
+        "apiConfig": {
+          "endPoint": "https://api.judge.me/api/v1/products/-1?api_token={authToken}&shop_domain={host}{&external_id=8322348155187}",
+          "type": "GET"
+        },
+        "c9QLFilter": "select product.id as judgeme_product_id, product.external_id as shopify_product_id, product.handle, product.title, product.description, product.product_type;",
+        "collections": "products",
+        "datasourceId": "${ref:datasource:OqrAuqv}",
+        "direct": false,
+        "entityName": "Judge.Me Product",
+        "externalId": "8322348155187",
+        "frequency": "3",
+        "frequencyType": "minute",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "startTime": "06/04/2026 00:09 UTC",
+        "triggerOnAny": false,
+        "triggered": false,
+        "visual": true
+      },
+      "op": 4,
+      "scheduled": 1,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "y9DBso3",
+      "triggerDatasetId": 0
+    }
+  ]
+}

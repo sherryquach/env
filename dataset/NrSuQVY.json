@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    {
+      "agenticDefault": false,
+      "bypassOverrideLimit": false,
+      "dataExpirationDate": null,
+      "datasetName": "Copy of TikTok",
+      "identifier": "NrSuQVY",
+      "injectStreamTime": false,
+      "metaHash": -2129172599,
+      "metadataConfig": "{\"fields\":[{\"fieldName\":\"comment_count\",\"fieldType\":\"java.lang.Integer\",\"ntz\":false},{\"fieldName\":\"create_time\",\"fieldType\":\"java.util.Date\",\"ntz\":false},{\"fieldName\":\"id\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"like_count\",\"fieldType\":\"java.lang.Integer\",\"ntz\":false},{\"fieldName\":\"share_count\",\"fieldType\":\"java.lang.Integer\",\"ntz\":false},{\"fieldName\":\"share_url\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"title\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"video_description\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"view_count\",\"fieldType\":\"java.lang.Integer\",\"ntz\":false},{\"fieldName\":\"_stream_time\",\"fieldType\":\"java.util.Date\",\"ntz\":false}]}",
+      "mongoConnectUri": "provisioned",
+      "nlpBotEnabled": true,
+      "nlpConfig": null,
+      "nlpEnabled": true,
+      "nlpIndexInterval": 360,
+      "refreshMeta": false,
+      "synonymHash": 0,
+      "timeZone": null
+    }
+  ],
+  "format": 1
+}

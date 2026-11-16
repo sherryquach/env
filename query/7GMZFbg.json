@@ -1,0 +1,32 @@
+{
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:BFbZtd}",
+      "description": null,
+      "direct": false,
+      "directPush": true,
+      "entityName": "SOP-MDX-0455_Molecular_Diagnostics_PCR.pdf",
+      "identifier": "c3r8ud1",
+      "inUse": true,
+      "jsonConfig": {
+        "datasourceId": "${ref:datasource:BFbZtd}",
+        "direct": false,
+        "entityName": "SOP-MDX-0455_Molecular_Diagnostics_PCR.pdf",
+        "identifier": "c3r8ud1",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "triggered": false,
+        "uploadedFileName": "SOP-MDX-0455_Molecular_Diagnostics_PCR.pdf"
+      },
+      "op": 1,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "7GMZFbg",
+      "triggerDatasetId": 0
+    }
+  ]
+}

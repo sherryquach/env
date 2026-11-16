@@ -1,0 +1,108 @@
+{
+  "categoryAssets": [
+    {
+      "categoryIdentifier": "${ref:category:_00001P}",
+      "identifier": "_0000ia",
+      "objectType": 1
+    }
+  ],
+  "dashboardCharts": [
+    {
+      "chartUrl": "${ref:widget:15B1ZEJ}",
+      "col": 1,
+      "dashboardIdentifier": "_0000ia",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 7,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 24,
+      "sizeY": 12,
+      "sizeYOriginal": 0,
+      "width": 0
+    },
+    {
+      "chartUrl": "${ref:widget:SWPspTq}",
+      "col": 9,
+      "dashboardIdentifier": "_0000ia",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 19,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 8,
+      "sizeY": 12,
+      "sizeYOriginal": 0,
+      "width": 0
+    },
+    {
+      "chartUrl": "${ref:widget:m2VWI0d}",
+      "col": 17,
+      "dashboardIdentifier": "_0000ia",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 19,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 8,
+      "sizeY": 12,
+      "sizeYOriginal": 0,
+      "width": 0
+    },
+    {
+      "chartUrl": "${ref:widget:uEHaGWh}",
+      "col": 1,
+      "dashboardIdentifier": "_0000ia",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 1,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 24,
+      "sizeY": 6,
+      "sizeYOriginal": 5,
+      "width": 0
+    },
+    {
+      "chartUrl": "${ref:widget:wLip4yM}",
+      "col": 1,
+      "dashboardIdentifier": "_0000ia",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 19,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 8,
+      "sizeY": 12,
+      "sizeYOriginal": 0,
+      "width": 0
+    }
+  ],
+  "dashboards": [
+    {
+      "dashAccessLevel": 0,
+      "displayOrder": 0,
+      "filterSettings": null,
+      "identifier": "_0000ia",
+      "jsonConfig": null,
+      "locked": 0,
+      "name": "Oakland Crime Dashboard",
+      "screenAdjust": 1,
+      "screenHeight": 0,
+      "screenWidth": 0,
+      "type": 1,
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

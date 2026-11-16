@@ -1,0 +1,144 @@
+{
+  "categoryAssets": [
+    {
+      "categoryIdentifier": "${ref:category:_00001P}",
+      "identifier": "_0000iq",
+      "objectType": 1
+    }
+  ],
+  "dashboardCharts": [
+    {
+      "chartUrl": "${ref:widget:1alYw5I}",
+      "col": 1,
+      "dashboardIdentifier": "_0000iq",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 1,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 24,
+      "sizeY": 5,
+      "sizeYOriginal": 0,
+      "width": 0
+    },
+    {
+      "chartUrl": "${ref:widget:80bishV}",
+      "col": 1,
+      "dashboardIdentifier": "_0000iq",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 6,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 24,
+      "sizeY": 12,
+      "sizeYOriginal": 0,
+      "width": 0
+    },
+    {
+      "chartUrl": "${ref:widget:DQUAqQD}",
+      "col": 1,
+      "dashboardIdentifier": "_0000iq",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 30,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 8,
+      "sizeY": 12,
+      "sizeYOriginal": 0,
+      "width": 0
+    },
+    {
+      "chartUrl": "${ref:widget:IegPI0A}",
+      "col": 9,
+      "dashboardIdentifier": "_0000iq",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 18,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 8,
+      "sizeY": 12,
+      "sizeYOriginal": 0,
+      "width": 0
+    },
+    {
+      "chartUrl": "${ref:widget:WOs6ARQ}",
+      "col": 17,
+      "dashboardIdentifier": "_0000iq",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 18,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 8,
+      "sizeY": 12,
+      "sizeYOriginal": 0,
+      "width": 0
+    },
+    {
+      "chartUrl": "${ref:widget:oSQxE45}",
+      "col": 1,
+      "dashboardIdentifier": "_0000iq",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 18,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 8,
+      "sizeY": 12,
+      "sizeYOriginal": 0,
+      "width": 0
+    }
+  ],
+  "dashboards": [
+    {
+      "dashAccessLevel": 0,
+      "displayOrder": 0,
+      "filterSettings": null,
+      "identifier": "_0000iq",
+      "jsonConfig": {
+        "excludeExpandedGridFromPdfExport": false,
+        "excludeGridWidgetsFromPdfExport": false,
+        "filters": [
+          {
+            "controlType": "picker",
+            "dynamic": false,
+            "enabled": true,
+            "fieldName": "location_name",
+            "fieldType": "java.lang.String",
+            "inclusiveTime": false,
+            "label": "location_name",
+            "operator": "Equals",
+            "plainControlType": "multiple",
+            "transientFilter": false,
+            "type": "java.lang.String",
+            "values": [],
+            "visible": true
+          }
+        ]
+      },
+      "locked": 0,
+      "name": "QA Ops Review v3",
+      "screenAdjust": 1,
+      "screenHeight": 0,
+      "screenWidth": 0,
+      "type": 1,
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

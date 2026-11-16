@@ -1,0 +1,328 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "vubt7Un",
+      "dashboardIdentifier": null,
+      "property": "chart.changeDataset",
+      "value": "164"
+    },
+    {
+      "chartUrl": "vubt7Un",
+      "dashboardIdentifier": null,
+      "property": "chart.firstRow",
+      "value": "[\"WEAPONS\",\"Thu Jan 08 08:02:00 UTC 2026\",\"26-001057\",\"82ND AV & INTERNATIONAL BLVD\",\"Oakland\",\"Thu Jan 08 00:00:00 UTC 2026\",\"37.75541\",\"-122.1792\",\"Thu Jan 01 00:00:00 UTC 2026\",\"Thu Jan 01 00:00:00 UTC 2026\",\"Jan-26\",\"2026\",[\"ADW NOT F/ARM:PO/FIRE:GBI\",\"POSS STOLEN VEH/VES/ETC\",\"CARRY LOADED FIREARM ON/IN PERSON/VEH: PUBLIC PLACE\",\"FELON/ADDICT/POSSESS/OWN/ETC FIREARM\"],\"WEAPONS\",\"33X\"]"
+    },
+    {
+      "chartUrl": "vubt7Un",
+      "dashboardIdentifier": null,
+      "property": "chart.quickpickers",
+      "value": "0"
+    },
+    {
+      "chartUrl": "vubt7Un",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "recommendation"
+    },
+    {
+      "chartUrl": "vubt7Un",
+      "dashboardIdentifier": null,
+      "property": "grid.column.Age Bucket.widthPerc",
+      "value": "0.04761904761904762"
+    },
+    {
+      "chartUrl": "vubt7Un",
+      "dashboardIdentifier": null,
+      "property": "grid.column.CLIENT_NAME.widthPerc",
+      "value": "0.04761904761904762"
+    },
+    {
+      "chartUrl": "vubt7Un",
+      "dashboardIdentifier": null,
+      "property": "grid.column.DATEOFLASTPAYMENT.widthPerc",
+      "value": "0.04761904761904762"
+    },
+    {
+      "chartUrl": "vubt7Un",
+      "dashboardIdentifier": null,
+      "property": "grid.column.Days Since Last Contact.widthPerc",
+      "value": "0.04761904761904762"
+    },
+    {
+      "chartUrl": "vubt7Un",
+      "dashboardIdentifier": null,
+      "property": "grid.column.Default Prompt.widthPerc",
+      "value": "0.04761904761904762"
+    },
+    {
+      "chartUrl": "vubt7Un",
+      "dashboardIdentifier": null,
+      "property": "grid.column.Fee Balance.widthPerc",
+      "value": "0.04761904761904762"
+    },
+    {
+      "chartUrl": "vubt7Un",
+      "dashboardIdentifier": null,
+      "property": "grid.column.Likelihood Of Payment.widthPerc",
+      "value": "0.04761904761904762"
+    },
+    {
+      "chartUrl": "vubt7Un",
+      "dashboardIdentifier": null,
+      "property": "grid.column.Practice Group.widthPerc",
+      "value": "0.04761904761904762"
+    },
+    {
+      "chartUrl": "vubt7Un",
+      "dashboardIdentifier": null,
+      "property": "grid.column.Projection.widthPerc",
+      "value": "0.04761904761904762"
+    },
+    {
+      "chartUrl": "vubt7Un",
+      "dashboardIdentifier": null,
+      "property": "grid.column.Prompt.widthPerc",
+      "value": "0.04761904761904762"
+    },
+    {
+      "chartUrl": "vubt7Un",
+      "dashboardIdentifier": null,
+      "property": "grid.column.Target.widthPerc",
+      "value": "0.04761904761904762"
+    },
+    {
+      "chartUrl": "vubt7Un",
+      "dashboardIdentifier": null,
+      "property": "grid.column.billingattorney.widthPerc",
+      "value": "0.04761904761904762"
+    },
+    {
+      "chartUrl": "vubt7Un",
+      "dashboardIdentifier": null,
+      "property": "grid.column.clientid.widthPerc",
+      "value": "0.04761904761904762"
+    },
+    {
+      "chartUrl": "vubt7Un",
+      "dashboardIdentifier": null,
+      "property": "grid.column.csm.widthPerc",
+      "value": "0.04761904761904762"
+    },
+    {
+      "chartUrl": "vubt7Un",
+      "dashboardIdentifier": null,
+      "property": "grid.column.expected_pay_date.widthPerc",
+      "value": "0.04761904761904762"
+    },
+    {
+      "chartUrl": "vubt7Un",
+      "dashboardIdentifier": null,
+      "property": "grid.column.id .widthPerc",
+      "value": "0.04761904761904762"
+    },
+    {
+      "chartUrl": "vubt7Un",
+      "dashboardIdentifier": null,
+      "property": "grid.column.matter.widthPerc",
+      "value": "0.04761904761904762"
+    },
+    {
+      "chartUrl": "vubt7Un",
+      "dashboardIdentifier": null,
+      "property": "grid.column.notes.widthPerc",
+      "value": "0.04761904761904762"
+    },
+    {
+      "chartUrl": "vubt7Un",
+      "dashboardIdentifier": null,
+      "property": "grid.column.source.widthPerc",
+      "value": "0.04761904761904762"
+    },
+    {
+      "chartUrl": "vubt7Un",
+      "dashboardIdentifier": null,
+      "property": "grid.column.sourceFile.widthPerc",
+      "value": "0.04761904761904762"
+    },
+    {
+      "chartUrl": "vubt7Un",
+      "dashboardIdentifier": null,
+      "property": "grid.column.sports_statistics.widthPerc",
+      "value": "0.04761904761904762"
+    },
+    {
+      "chartUrl": "vubt7Un",
+      "dashboardIdentifier": null,
+      "property": "grid.columnWidths",
+      "value": "[]"
+    },
+    {
+      "chartUrl": "vubt7Un",
+      "dashboardIdentifier": null,
+      "property": "recommendation.chunking",
+      "value": "false"
+    },
+    {
+      "chartUrl": "vubt7Un",
+      "dashboardIdentifier": null,
+      "property": "recommendation.mode",
+      "value": "2"
+    },
+    {
+      "chartUrl": "vubt7Un",
+      "dashboardIdentifier": null,
+      "property": "recommendation.showActions",
+      "value": "true"
+    },
+    {
+      "chartUrl": "vubt7Un",
+      "dashboardIdentifier": null,
+      "property": "repeatableWidget.showRepeatingPanel",
+      "value": "false"
+    },
+    {
+      "chartUrl": "vubt7Un",
+      "dashboardIdentifier": null,
+      "property": "widgetCache.enabled",
+      "value": "true"
+    },
+    {
+      "chartUrl": "vubt7Un",
+      "dashboardIdentifier": null,
+      "property": "widgetDisplayOptions",
+      "value": "w-export-to-excel:true,highchart-context-menu:true"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "Dashboard",
+      "datasetId": "${ref:dataset:bytVkLe}",
+      "description": "",
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": {
+        "fields": [
+          {
+            "fieldName": "address",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "casenumber",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "city",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "crimetype",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "date2",
+            "fieldType": "java.util.Date",
+            "ntz": false
+          },
+          {
+            "fieldName": "datetime",
+            "fieldType": "java.util.Date",
+            "ntz": false
+          },
+          {
+            "fieldName": "description",
+            "fieldType": "java.util.List",
+            "nestedFields": [
+              {
+                "fieldName": "[*]",
+                "fieldType": "java.lang.String",
+                "ntz": false
+              }
+            ],
+            "ntz": false
+          },
+          {
+            "fieldName": "latitude",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "longitude",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "month",
+            "fieldType": "java.util.Date",
+            "ntz": false
+          },
+          {
+            "fieldName": "month_str",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "policebeat",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "type",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "year",
+            "fieldType": "java.util.Date",
+            "ntz": false
+          },
+          {
+            "fieldName": "year_num",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          }
+        ]
+      },
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 26,
+      "url": "vubt7Un",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": [
+        "select *",
+        "order by 'datetime' desc",
+        "limit 10"
+      ],
+      "chartUrl": "vubt7Un",
+      "jsonConfig": [
+        {
+          "limit": 10,
+          "sort": [
+            {
+              "field": {
+                "customized": false,
+                "fieldName": "datetime",
+                "fieldType": "java.util.Date",
+                "label": "datetime"
+              },
+              "operation": "DESC",
+              "operationStr": "desc"
+            }
+          ]
+        }
+      ],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

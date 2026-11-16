@@ -1,0 +1,37 @@
+{
+  "datasources": [
+    {
+      "acl": null,
+      "connectSchema": false,
+      "connectorId": 1,
+      "datasource": "youtube",
+      "directQueryOnly": false,
+      "inUse": true,
+      "jsonConfig": {
+        "authRefreshToken": "${secret:datasource:YmbGYW3:authRefreshToken}",
+        "authToken": "${secret:datasource:YmbGYW3:authToken}",
+        "authURL": "https://accounts.google.com/o/oauth2/v2/auth?access_type=offline&prompt=consent&scope=https://www.googleapis.com/auth/youtube.readonly%20https://www.googleapis.com/auth/yt-analytics.readonly%20https://www.googleapis.com/auth/yt-analytics-monetary.readonly&client_id={clientId}&redirect_uri={callbackURL}&response_type=code&state={state}",
+        "callbackURL": "{redirectHost}/service/oauth/redirect",
+        "clientId": "82145751125-n8tr3scku0ieehlscnbkn830af256urh.apps.googleusercontent.com",
+        "clientSecret": "${secret:datasource:YmbGYW3:clientSecret}",
+        "datasource": "youtube",
+        "enableQueryAgent": true,
+        "name": "YouTube",
+        "refreshTokenPayload": "refresh_token={refreshToken}&client_id={clientId}&client_secret={clientSecret}&grant_type=refresh_token",
+        "refreshTokenURL": "https://oauth2.googleapis.com/token",
+        "refreshType": "LongLivedRefreshToken",
+        "serviceType": "youtube",
+        "tokenHeader": "Content-Type: application/x-www-form-urlencoded",
+        "tokenPayload": "code={code}&client_id={clientId}&client_secret={clientSecret}&redirect_uri={callbackURL}&grant_type=authorization_code",
+        "tokenURL": "https://oauth2.googleapis.com/token"
+      },
+      "name": "YouTube",
+      "op": 1,
+      "proxy": false,
+      "strId": "YmbGYW3",
+      "tunnel": false,
+      "writable": false
+    }
+  ],
+  "format": 1
+}

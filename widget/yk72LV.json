@@ -1,0 +1,64 @@
+{
+  "categoryAssets": [
+    {
+      "categoryIdentifier": "${ref:category:_00001O}",
+      "identifier": "yk72LV",
+      "objectType": 2
+    }
+  ],
+  "chartProperties": [
+    {
+      "chartUrl": "yk72LV",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "text"
+    },
+    {
+      "chartUrl": "yk72LV",
+      "dashboardIdentifier": null,
+      "property": "scale",
+      "value": "true"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "Total Items Sold KPI",
+      "datasetId": "${ref:dataset:hoKvma}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 4,
+      "url": "yk72LV",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": "select SUM('quantity') as 'total_quantity'",
+      "chartUrl": "yk72LV",
+      "jsonConfig": [
+        {
+          "limit": 0,
+          "metrics": [
+            {
+              "customized": false,
+              "fieldName": "quantity",
+              "fieldType": "java.lang.Double",
+              "label": "total_quantity",
+              "operation": "SUM",
+              "operationStr": "SUM"
+            }
+          ]
+        }
+      ],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

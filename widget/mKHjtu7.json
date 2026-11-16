@@ -1,0 +1,35 @@
+{
+  "categoryAssets": [
+    {
+      "categoryIdentifier": "${ref:category:_00001O}",
+      "identifier": "mKHjtu7",
+      "objectType": 2
+    }
+  ],
+  "chartProperties": [
+    {
+      "chartUrl": "mKHjtu7",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "spreadsheet"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "Sales - Data",
+      "datasetId": "${ref:dataset:hoKvma}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 24,
+      "url": "mKHjtu7",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

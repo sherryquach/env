@@ -1,0 +1,50 @@
+{
+  "dataConfigs": [
+    {
+      "datasetIdentifier": "${ref:dataset:hoKvma}",
+      "queryIdentifier": "Fuq7aG",
+      "queryStrId": "QApqpv"
+    }
+  ],
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:CmeR9b}",
+      "description": "",
+      "direct": false,
+      "directPush": true,
+      "entityName": "Copy of Sales",
+      "identifier": "Fuq7aG",
+      "inUse": true,
+      "jsonConfig": {
+        "c9ExportDataset": "${ref:dataset:hoKvma}",
+        "c9ExportEntityName": "Sales",
+        "c9ExportIdentifier": "hoKvma",
+        "datasourceId": "${ref:datasource:CmeR9b}",
+        "direct": false,
+        "discovery": {
+          "limit": 10000,
+          "tableName": "${ref:dataset:hoKvma}"
+        },
+        "entityName": "Copy of Sales",
+        "frequency": "5",
+        "frequencyType": "minute",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "queryStr": "select *",
+        "startTime": "03/31/2026 16:15 America/Los_Angeles",
+        "triggerOnAny": false,
+        "triggered": false,
+        "visual": false
+      },
+      "op": 4,
+      "scheduled": 1,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "QApqpv",
+      "triggerDatasetId": 0
+    }
+  ]
+}

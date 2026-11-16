@@ -1,0 +1,379 @@
+{
+  "assetFilterSets": [
+    {
+      "dashboardIdentifier": "_0000i9",
+      "enabled": 1,
+      "filterSetIdentifier": "${ref:filterSet:_00001C}",
+      "filters": null,
+      "locked": 1,
+      "visible": 1
+    }
+  ],
+  "categoryAssets": [
+    {
+      "categoryIdentifier": "${ref:category:_00001D}",
+      "identifier": "_0000i9",
+      "objectType": 1
+    }
+  ],
+  "chartProperties": [
+    {
+      "chartUrl": "${ref:widget:6QEyXf}",
+      "dashboardIdentifier": "_0000i9",
+      "property": "chart.dataset.limit",
+      "value": "200"
+    },
+    {
+      "chartUrl": "${ref:widget:6QEyXf}",
+      "dashboardIdentifier": "_0000i9",
+      "property": "chart.firstRow",
+      "value": "[null,null,null,null,null,\"T20250729115418000\",\"Tue Jul 29 11:54:18 UTC 2025\",\"SFO01\",\"Bay Bistro - SoMa\",\"Cheeseburger\",\"Entree\",\"None\",1,14]"
+    },
+    {
+      "chartUrl": "${ref:widget:6QEyXf}",
+      "dashboardIdentifier": "_0000i9",
+      "property": "chart.quickpickers",
+      "value": "0"
+    },
+    {
+      "chartUrl": "${ref:widget:6QEyXf}",
+      "dashboardIdentifier": "_0000i9",
+      "property": "chart.type",
+      "value": "datagrid2"
+    },
+    {
+      "chartUrl": "${ref:widget:6QEyXf}",
+      "dashboardIdentifier": "_0000i9",
+      "property": "chart.wBorderVisibility",
+      "value": "inherit_from_dash"
+    },
+    {
+      "chartUrl": "${ref:widget:6QEyXf}",
+      "dashboardIdentifier": "_0000i9",
+      "property": "chart.wTitleVisibility",
+      "value": "inherit_from_dash"
+    },
+    {
+      "chartUrl": "${ref:widget:6QEyXf}",
+      "dashboardIdentifier": "_0000i9",
+      "property": "grid.aggregation.header",
+      "value": "false"
+    },
+    {
+      "chartUrl": "${ref:widget:6QEyXf}",
+      "dashboardIdentifier": "_0000i9",
+      "property": "grid.collapsible",
+      "value": "false"
+    },
+    {
+      "chartUrl": "${ref:widget:6QEyXf}",
+      "dashboardIdentifier": "_0000i9",
+      "property": "grid.columnLines",
+      "value": "false"
+    },
+    {
+      "chartUrl": "${ref:widget:6QEyXf}",
+      "dashboardIdentifier": "_0000i9",
+      "property": "grid.disableClickToSort",
+      "value": "false"
+    },
+    {
+      "chartUrl": "${ref:widget:6QEyXf}",
+      "dashboardIdentifier": "_0000i9",
+      "property": "grid.hideGroupingColumn",
+      "value": "false"
+    },
+    {
+      "chartUrl": "${ref:widget:6QEyXf}",
+      "dashboardIdentifier": "_0000i9",
+      "property": "grid.resetColumnWidth",
+      "value": "false"
+    },
+    {
+      "chartUrl": "${ref:widget:6QEyXf}",
+      "dashboardIdentifier": "_0000i9",
+      "property": "grid2.default.cellWrap",
+      "value": "false"
+    },
+    {
+      "chartUrl": "${ref:widget:6QEyXf}",
+      "dashboardIdentifier": "_0000i9",
+      "property": "grid2.default.headerWrap",
+      "value": "false"
+    },
+    {
+      "chartUrl": "${ref:widget:6QEyXf}",
+      "dashboardIdentifier": "_0000i9",
+      "property": "grid2.merge_cells",
+      "value": "false"
+    },
+    {
+      "chartUrl": "${ref:widget:6QEyXf}",
+      "dashboardIdentifier": "_0000i9",
+      "property": "grid2.pagination.computeTotalCount",
+      "value": "true"
+    },
+    {
+      "chartUrl": "${ref:widget:6QEyXf}",
+      "dashboardIdentifier": "_0000i9",
+      "property": "grid2.pagination.navigationMode",
+      "value": "scroll"
+    },
+    {
+      "chartUrl": "${ref:widget:6QEyXf}",
+      "dashboardIdentifier": "_0000i9",
+      "property": "loadUponPrompt",
+      "value": "false"
+    },
+    {
+      "chartUrl": "${ref:widget:6QEyXf}",
+      "dashboardIdentifier": "_0000i9",
+      "property": "repeatableWidget.showRepeatingPanel",
+      "value": "false"
+    },
+    {
+      "chartUrl": "${ref:widget:6QEyXf}",
+      "dashboardIdentifier": "_0000i9",
+      "property": "scale",
+      "value": "false"
+    },
+    {
+      "chartUrl": "${ref:widget:6QEyXf}",
+      "dashboardIdentifier": "_0000i9",
+      "property": "widgetCache.enabled",
+      "value": "true"
+    },
+    {
+      "chartUrl": "${ref:widget:6QEyXf}",
+      "dashboardIdentifier": "_0000i9",
+      "property": "widgetDisplayOptions",
+      "value": "w-export-to-excel:true,highchart-context-menu:true"
+    },
+    {
+      "chartUrl": null,
+      "dashboardIdentifier": "_0000i9",
+      "property": "view.backgroundColor",
+      "value": "#FFFFFF"
+    },
+    {
+      "chartUrl": null,
+      "dashboardIdentifier": "_0000i9",
+      "property": "view.border",
+      "value": "false"
+    },
+    {
+      "chartUrl": null,
+      "dashboardIdentifier": "_0000i9",
+      "property": "view.dashGrain",
+      "value": "4"
+    },
+    {
+      "chartUrl": null,
+      "dashboardIdentifier": "_0000i9",
+      "property": "view.dashTitle",
+      "value": "true"
+    },
+    {
+      "chartUrl": null,
+      "dashboardIdentifier": "_0000i9",
+      "property": "view.title",
+      "value": "false"
+    },
+    {
+      "chartUrl": null,
+      "dashboardIdentifier": "_0000i9",
+      "property": "view.widgetSpacing",
+      "value": "5"
+    }
+  ],
+  "dashboardCharts": [
+    {
+      "chartUrl": "${ref:widget:4QUiiQx}",
+      "col": 1,
+      "dashboardIdentifier": "_0000i9",
+      "grain": 4,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 145,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 48,
+      "sizeY": 48,
+      "sizeYOriginal": 0,
+      "width": 0
+    },
+    {
+      "chartUrl": "${ref:widget:5Lx7nf}",
+      "col": 1,
+      "dashboardIdentifier": "_0000i9",
+      "grain": 4,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 49,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 48,
+      "sizeY": 48,
+      "sizeYOriginal": 24,
+      "width": 0
+    },
+    {
+      "chartUrl": "${ref:widget:6QEyXf}",
+      "col": 1,
+      "dashboardIdentifier": "_0000i9",
+      "grain": 4,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 193,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 96,
+      "sizeY": 768,
+      "sizeYOriginal": 48,
+      "width": 0
+    },
+    {
+      "chartUrl": "${ref:widget:Z39YqC}",
+      "col": 49,
+      "dashboardIdentifier": "_0000i9",
+      "grain": 4,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 145,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 48,
+      "sizeY": 48,
+      "sizeYOriginal": 0,
+      "width": 0
+    },
+    {
+      "chartUrl": "${ref:widget:_121}",
+      "col": 1,
+      "dashboardIdentifier": "_0000i9",
+      "grain": 4,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 97,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 48,
+      "sizeY": 48,
+      "sizeYOriginal": 0,
+      "width": 0
+    },
+    {
+      "chartUrl": "${ref:widget:_122}",
+      "col": 49,
+      "dashboardIdentifier": "_0000i9",
+      "grain": 4,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 49,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 48,
+      "sizeY": 48,
+      "sizeYOriginal": 24,
+      "width": 0
+    },
+    {
+      "chartUrl": "${ref:widget:byw4L6}",
+      "col": 49,
+      "dashboardIdentifier": "_0000i9",
+      "grain": 4,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 97,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 48,
+      "sizeY": 48,
+      "sizeYOriginal": 0,
+      "width": 0
+    },
+    {
+      "chartUrl": "${ref:widget:gRX7Bf}",
+      "col": 49,
+      "dashboardIdentifier": "_0000i9",
+      "grain": 4,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 1,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 48,
+      "sizeY": 48,
+      "sizeYOriginal": 24,
+      "width": 0
+    },
+    {
+      "chartUrl": "${ref:widget:pW0d5K}",
+      "col": 1,
+      "dashboardIdentifier": "_0000i9",
+      "grain": 4,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 1,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 48,
+      "sizeY": 48,
+      "sizeYOriginal": 24,
+      "width": 0
+    }
+  ],
+  "dashboards": [
+    {
+      "dashAccessLevel": 0,
+      "displayOrder": 0,
+      "filterSettings": null,
+      "identifier": "_0000i9",
+      "jsonConfig": {
+        "excludeExpandedGridFromPdfExport": false,
+        "excludeGridWidgetsFromPdfExport": false,
+        "pdfExportSettings": {
+          "currentDate": true,
+          "currentTime": true,
+          "customerLogo": "images/logo/logo.png",
+          "expandGridWidgets": true,
+          "expandedGridPageBreak": true,
+          "exportName": "Test123",
+          "headerFooterFontColor": "#667085",
+          "headerFooterFontFamily": "Open Sans",
+          "headerFooterFontSize": 14,
+          "layout": "fitwidth",
+          "margin": "small",
+          "orientation": "landscape",
+          "pageNumbers": true,
+          "reportTitle": true,
+          "showGridWidgets": true,
+          "singleColumn": false,
+          "spreadsheetExportAllSheets": true
+        },
+        "view": {
+          "backgroundColor": "#FFFFFF",
+          "border": "false",
+          "title": "false"
+        }
+      },
+      "locked": 0,
+      "name": "ReportBuilder_Etf7sWY",
+      "screenAdjust": 1,
+      "screenHeight": 0,
+      "screenWidth": 0,
+      "type": 2,
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

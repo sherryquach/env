@@ -1,0 +1,28 @@
+{
+  "datasources": [
+    {
+      "acl": null,
+      "connectSchema": false,
+      "connectorId": 1,
+      "datasource": "jira",
+      "directQueryOnly": false,
+      "inUse": true,
+      "jsonConfig": {
+        "authToken": "${secret:datasource:iihzb9i:authToken}",
+        "datasource": "jira",
+        "enableQueryAgent": true,
+        "headerFormat": "Basic {authToken:base64encode}",
+        "headerName": "Authorization",
+        "host": "coffeesocietyco.atlassian.net",
+        "name": "Jira"
+      },
+      "name": "Jira",
+      "op": 1,
+      "proxy": false,
+      "strId": "iihzb9i",
+      "tunnel": false,
+      "writable": false
+    }
+  ],
+  "format": 1
+}

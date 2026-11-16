@@ -1,0 +1,192 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "Ovpww0",
+      "dashboardIdentifier": null,
+      "property": "chart.firstRow",
+      "value": "[\"Acme Corp\",\"12500\",45000,2024,\"Electronics & Gadgets\"]"
+    },
+    {
+      "chartUrl": "Ovpww0",
+      "dashboardIdentifier": null,
+      "property": "chart.quickpickers",
+      "value": "0"
+    },
+    {
+      "chartUrl": "Ovpww0",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "datagrid2"
+    },
+    {
+      "chartUrl": "Ovpww0",
+      "dashboardIdentifier": null,
+      "property": "chart.wBorderVisibility",
+      "value": "inherit_from_dash"
+    },
+    {
+      "chartUrl": "Ovpww0",
+      "dashboardIdentifier": null,
+      "property": "chart.wTitleVisibility",
+      "value": "inherit_from_dash"
+    },
+    {
+      "chartUrl": "Ovpww0",
+      "dashboardIdentifier": null,
+      "property": "formatOptions",
+      "value": "{\"Initial Draft Form 5500 &amp;&amp;&amp;&amp;&amp;\":[{\"mode\":\"number\",\"decimal\":\"2\",\"separator\":true}]}"
+    },
+    {
+      "chartUrl": "Ovpww0",
+      "dashboardIdentifier": null,
+      "property": "grid.aggregation.header",
+      "value": "false"
+    },
+    {
+      "chartUrl": "Ovpww0",
+      "dashboardIdentifier": null,
+      "property": "grid.collapsible",
+      "value": "false"
+    },
+    {
+      "chartUrl": "Ovpww0",
+      "dashboardIdentifier": null,
+      "property": "grid.column.Customer Name.widthPerc",
+      "value": "0.2"
+    },
+    {
+      "chartUrl": "Ovpww0",
+      "dashboardIdentifier": null,
+      "property": "grid.column.Initial Draft Form 5500 &amp;&amp;&amp;&amp;&amp;.widthPerc",
+      "value": "0.2"
+    },
+    {
+      "chartUrl": "Ovpww0",
+      "dashboardIdentifier": null,
+      "property": "grid.column.Product & Category.widthPerc",
+      "value": "0.2"
+    },
+    {
+      "chartUrl": "Ovpww0",
+      "dashboardIdentifier": null,
+      "property": "grid.column.Sales & Revenue.widthPerc",
+      "value": "0.2"
+    },
+    {
+      "chartUrl": "Ovpww0",
+      "dashboardIdentifier": null,
+      "property": "grid.column.Year.widthPerc",
+      "value": "0.2"
+    },
+    {
+      "chartUrl": "Ovpww0",
+      "dashboardIdentifier": null,
+      "property": "grid.columnLines",
+      "value": "false"
+    },
+    {
+      "chartUrl": "Ovpww0",
+      "dashboardIdentifier": null,
+      "property": "grid.columnWidths",
+      "value": "[]"
+    },
+    {
+      "chartUrl": "Ovpww0",
+      "dashboardIdentifier": null,
+      "property": "grid.disableClickToSort",
+      "value": "false"
+    },
+    {
+      "chartUrl": "Ovpww0",
+      "dashboardIdentifier": null,
+      "property": "grid.hideGroupingColumn",
+      "value": "false"
+    },
+    {
+      "chartUrl": "Ovpww0",
+      "dashboardIdentifier": null,
+      "property": "grid.resetColumnWidth",
+      "value": "false"
+    },
+    {
+      "chartUrl": "Ovpww0",
+      "dashboardIdentifier": null,
+      "property": "grid2.merge_cells",
+      "value": "false"
+    },
+    {
+      "chartUrl": "Ovpww0",
+      "dashboardIdentifier": null,
+      "property": "loadUponPrompt",
+      "value": "false"
+    },
+    {
+      "chartUrl": "Ovpww0",
+      "dashboardIdentifier": null,
+      "property": "repeatableWidget.showRepeatingPanel",
+      "value": "false"
+    },
+    {
+      "chartUrl": "Ovpww0",
+      "dashboardIdentifier": null,
+      "property": "scale",
+      "value": "false"
+    },
+    {
+      "chartUrl": "Ovpww0",
+      "dashboardIdentifier": null,
+      "property": "widgetDisplayOptions",
+      "value": "w-export-to-excel:false,highchart-context-menu:true"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "test_ampersand_fields.csv",
+      "datasetId": "${ref:dataset:Ovpww0}",
+      "description": "",
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": {
+        "fields": [
+          {
+            "fieldName": "Customer Name",
+            "fieldType": "java.lang.String"
+          },
+          {
+            "fieldName": "Initial Draft Form 5500 &amp;&amp;&amp;&amp;&amp;",
+            "fieldType": "java.lang.Integer"
+          },
+          {
+            "fieldName": "Product & Category",
+            "fieldType": "java.lang.String"
+          },
+          {
+            "fieldName": "Sales & Revenue",
+            "fieldType": "java.lang.Integer"
+          },
+          {
+            "fieldName": "Year",
+            "fieldType": "java.lang.Integer"
+          }
+        ]
+      },
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 21,
+      "url": "Ovpww0",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "Ovpww0",
+      "jsonConfig": [],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

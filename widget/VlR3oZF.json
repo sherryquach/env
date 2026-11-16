@@ -1,0 +1,196 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "VlR3oZF",
+      "dashboardIdentifier": null,
+      "property": "chart.firstRow",
+      "value": "[358,\"Reinhalter, Shanessa\",\"Capuzzi, Kevin M.\",\"\",\"Medium Low\",\"\",19351,18829.01,\"79187-00002\",\"\",\"\",\"\",\"Restructuring\",\"\",1,1,1]"
+    },
+    {
+      "chartUrl": "VlR3oZF",
+      "dashboardIdentifier": null,
+      "property": "chart.quickpickers",
+      "value": "0"
+    },
+    {
+      "chartUrl": "VlR3oZF",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "recommendation"
+    },
+    {
+      "chartUrl": "VlR3oZF",
+      "dashboardIdentifier": null,
+      "property": "recommendation.chunking",
+      "value": "true"
+    },
+    {
+      "chartUrl": "VlR3oZF",
+      "dashboardIdentifier": null,
+      "property": "recommendation.mode",
+      "value": "1"
+    },
+    {
+      "chartUrl": "VlR3oZF",
+      "dashboardIdentifier": null,
+      "property": "recommendation.prompt",
+      "value": "Your goal is to identify the highest-priority (explain why they are high priority) clients for the CSM who works with the respective attorney to target right now in order to reduce the overall fee balance as quickly as possible. \nPrioritization logic:\nLikelihood of Payment — prioritize High, then High-Medium, then Medium. Deprioritize Low and unknown ratings but do not omit them if other signals are strong.\nFee Balance size — within the same likelihood tier, larger balances take priority and if the projection is not the same as the fee balance note the projection.\nExpected Pay Date — flag any matters where the expected pay date is approaching within the next 30 days or is already past due.\nDays Since Last Contact — ideal outreach cadence is every 10 days or fewer. Matters where days since last contact exceeds 10 should be flagged as overdue for follow-up and ranked higher within their tier. Matters with 20+ days since last contact should be treated as urgent regardless of likelihood rating. Matters contacted within the last 10 days are considered active and may be ranked lower unless other signals (large balance, imminent pay date) override.\nNotes / recent activity — review the CSM notes for signs of momentum (e.g. client responded, payment promised, invoice disputed) or stagnation (e.g. no response, repeated follow-ups with no reply). Cross-reference with days since last contact to assess whether the stagnation is recent or prolonged.\n\nFor each recommended client or matter, you must provide in the insight:\n\nClient name and Matter ID (if matter-specific )\nCSM assigned and attorney of record\nDays since last contact and whether outreach is overdue\nA brief reason why this is a priority target\nA summary of recent activity from the notes (1 sentence)\nA strategic action with details from the insight on exactly why with exact dates (due dates, contact dates) and contact information from the notes. Include how to follow up, with who, and why?\n\nOutput format:\nInclude Matter ID. 3 to 4 sentences per entry. Use plain business language suitable for a collections team meeting. Do not repeat raw data fields unless they add meaningful context to the recommendation. Need a strategic action with details from the insight on exactly why with exact dates (due dates, contact dates) and contact information from the notes. Include how to follow up, with who, and why?\nIf the notes indicate a matter is already resolved, in dispute, or on a payment plan, note this briefly and exclude it from the active target list. the Matter ID value should be displayed as a string and not a number."
+    },
+    {
+      "chartUrl": "VlR3oZF",
+      "dashboardIdentifier": null,
+      "property": "recommendation.showActions",
+      "value": "true"
+    },
+    {
+      "chartUrl": "VlR3oZF",
+      "dashboardIdentifier": null,
+      "property": "repeatableWidget.showRepeatingPanel",
+      "value": "false"
+    },
+    {
+      "chartUrl": "VlR3oZF",
+      "dashboardIdentifier": null,
+      "property": "widgetCache.enabled",
+      "value": "true"
+    },
+    {
+      "chartUrl": "VlR3oZF",
+      "dashboardIdentifier": null,
+      "property": "widgetDisplayOptions",
+      "value": "w-export-to-excel:true,highchart-context-menu:true"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "Frontline Chunking",
+      "datasetId": "${ref:dataset:eGYnv8r}",
+      "description": "",
+      "drilldown": 0,
+      "filterSettings": "{\"state\":\"enable\",\"fields\":false,\"cascadingSuggestions\":\"enable\",\"filteringResult\":false,\"lockFilterSet\":false}",
+      "jsonConfig": {
+        "fields": [
+          {
+            "fieldName": "Age Bucket",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "billingattorney",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "CLIENT_NAME",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "clientid",
+            "fieldType": "java.lang.Integer",
+            "ntz": false
+          },
+          {
+            "fieldName": "csm",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "DATEOFLASTPAYMENT",
+            "fieldType": "java.util.Date",
+            "ntz": false
+          },
+          {
+            "fieldName": "Days Since Last Contact",
+            "fieldType": "java.lang.Double",
+            "ntz": false
+          },
+          {
+            "fieldName": "Default Prompt",
+            "fieldType": "java.lang.Integer",
+            "ntz": false
+          },
+          {
+            "fieldName": "expected_pay_date",
+            "fieldType": "java.util.Date",
+            "ntz": false
+          },
+          {
+            "fieldName": "Fee Balance",
+            "fieldType": "java.lang.Double",
+            "ntz": false
+          },
+          {
+            "fieldName": "Likelihood Of Payment",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "matter",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "notes",
+            "fieldType": "java.util.Date",
+            "ntz": false
+          },
+          {
+            "fieldName": "Practice Group",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "Projection",
+            "fieldType": "java.lang.Double",
+            "ntz": false
+          },
+          {
+            "fieldName": "Prompt",
+            "fieldType": "java.lang.Integer",
+            "ntz": false
+          },
+          {
+            "fieldName": "Target",
+            "fieldType": "java.lang.Integer",
+            "ntz": false
+          }
+        ],
+        "filters": [
+          {
+            "dateLimit": "",
+            "dateLimitOptions": "",
+            "dynamic": false,
+            "enabled": true,
+            "fieldName": "csm",
+            "fieldType": "java.lang.String",
+            "inclusiveTime": false,
+            "operator": "Equals",
+            "plainControlType": "multiple",
+            "transientFilter": false,
+            "type": "java.lang.String",
+            "values": [],
+            "visible": true
+          }
+        ]
+      },
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 26,
+      "url": "VlR3oZF",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "VlR3oZF",
+      "jsonConfig": [],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

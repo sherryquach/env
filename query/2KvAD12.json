@@ -1,0 +1,43 @@
+{
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "",
+      "jsonConfig": [],
+      "queryIdentifier": "eGYnv8r",
+      "queryStrId": "2KvAD12"
+    }
+  ],
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:UxzvWSj}",
+      "description": null,
+      "direct": false,
+      "directPush": true,
+      "entityName": "Frontline",
+      "identifier": "eGYnv8r",
+      "inUse": true,
+      "jsonConfig": {
+        "datasourceId": "${ref:datasource:UxzvWSj}",
+        "direct": false,
+        "entityName": "Frontline",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "sheetId": "1EmcSgFnvqD2w7-Qp8h2EbnGsaVbGX3003BT00BbegAg",
+        "sheetName": "Sheet1",
+        "triggerOnAny": false,
+        "triggered": false,
+        "visual": true
+      },
+      "op": 4,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "2KvAD12",
+      "triggerDatasetId": 0
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "cQG6KSM",
+      "dashboardIdentifier": null,
+      "property": "chart.quickpickers",
+      "value": "0"
+    },
+    {
+      "chartUrl": "cQG6KSM",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "textBase"
+    },
+    {
+      "chartUrl": "cQG6KSM",
+      "dashboardIdentifier": null,
+      "property": "chart.wBorderVisibility",
+      "value": "inherit_from_dash"
+    },
+    {
+      "chartUrl": "cQG6KSM",
+      "dashboardIdentifier": null,
+      "property": "chart.wTitleVisibility",
+      "value": "inherit_from_dash"
+    },
+    {
+      "chartUrl": "cQG6KSM",
+      "dashboardIdentifier": null,
+      "property": "repeatableWidget.showRepeatingPanel",
+      "value": "false"
+    },
+    {
+      "chartUrl": "cQG6KSM",
+      "dashboardIdentifier": null,
+      "property": "text.widget",
+      "value": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Knowi</title>\n  <link href=\"https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap\" rel=\"stylesheet\">\n  <style>\n    * { box-sizing: border-box; margin: 0; padding: 0; }\n\n    body {\n      font-family: 'Inter', Arial, sans-serif;\n      background: #f5f7fa;\n      color: #2c3a4f;\n    }\n\n    /* Banner */\n    .banner {\n      background: #0b2e6e;\n      padding: 18px 32px;\n      display: flex;\n      align-items: center;\n      justify-content: space-between;\n      gap: 16px;\n      flex-wrap: wrap;\n    }\n\n    .brand {\n      display: flex;\n      align-items: center;\n      gap: 10px;\n    }\n\n    .brand-icon {\n      width: 34px;\n      height: 34px;\n      background: #00c4b4;\n      border-radius: 8px;\n      display: flex;\n      align-items: center;\n      justify-content: center;\n    }\n\n    .brand-name {\n      font-size: 20px;\n      font-weight: 700;\n      color: #fff;\n      letter-spacing: -0.3px;\n    }\n\n    .brand-name span { color: #00c4b4; }\n\n    .banner-tagline {\n      font-size: 13px;\n      color: rgba(255,255,255,0.5);\n    }\n\n    .banner-btn {\n      display: inline-block;\n      padding: 9px 22px;\n      background: #00c4b4;\n      color: #0b2e6e;\n      font-size: 13px;\n      font-weight: 600;\n      border-radius: 6px;\n      text-decoration: none;\n    }\n\n    /* Content */\n    .content {\n      max-width: 700px;\n      margin: 56px auto;\n      padding: 0 24px;\n    }\n\n    .eyebrow {\n      font-size: 11px;\n      font-weight: 600;\n      letter-spacing: 1.2px;\n      text-transform: uppercase;\n      color: #1e5fa8;\n      margin-bottom: 12px;\n    }\n\n    h1 {\n      font-size: 36px;\n      font-weight: 700;\n      color: #0b2e6e;\n      line-height: 1.15;\n      margin-bottom: 16px;\n    }\n\n    .lead {\n      font-size: 16px;\n      line-height: 1.75;\n      color: #6a7d96;\n      margin-bottom: 32px;\n    }\n\n    .cards {\n      display: flex;\n      gap: 16px;\n      flex-wrap: wrap;\n      margin-bottom: 36px;\n    }\n\n    .card {\n      flex: 1 1 180px;\n      background: #fff;\n      border-radius: 10px;\n      padding: 20px;\n      border-top: 3px solid #00c4b4;\n      box-shadow: 0 2px 8px rgba(11,46,110,0.08);\n    }\n\n    .card h3 {\n      font-size: 14px;\n      font-weight: 600;\n      color: #0b2e6e;\n      margin-bottom: 6px;\n    }\n\n    .card p {\n      font-size: 13px;\n      color: #6a7d96;\n      line-height: 1.6;\n    }\n\n    .cta-row {\n      display: flex;\n      gap: 12px;\n      flex-wrap: wrap;\n    }\n\n    .btn-primary {\n      padding: 12px 28px;\n      background: #1e5fa8;\n      color: #fff;\n      font-size: 14px;\n      font-weight: 600;\n      border-radius: 7px;\n      text-decoration: none;\n    }\n\n    .btn-outline {\n      padding: 12px 28px;\n      border: 1.5px solid #1e5fa8;\n      color: #1e5fa8;\n      font-size: 14px;\n      font-weight: 600;\n      border-radius: 7px;\n      text-decoration: none;\n    }\n  </style>\n</head>\n<body>\n\n  <header class=\"banner\">\n    <div class=\"brand\">\n      <div class=\"brand-icon\">\n        <svg width=\"18\" height=\"18\" viewBox=\"0 0 18 18\" fill=\"none\">\n          <rect x=\"3\" y=\"2\" width=\"3\" height=\"14\" rx=\"1\" fill=\"#0b2e6e\"/>\n          <path d=\"M6 9 L15 3\" stroke=\"#0b2e6e\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n          <path d=\"M6 9 L15 15\" stroke=\"#0b2e6e\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n        </svg>\n      </div>\n      <span class=\"brand-name\">know<span>i</span></span>\n    </div>\n    <span class=\"banner-tagline\">Analytics for every data source</span>\n    <a class=\"banner-btn\" href=\"#\">Get Started</a>\n  </header>\n\n  <main class=\"content\">\n    <p class=\"eyebrow\">Business Intelligence</p>\n    <h1>Data insights without the complexity</h1>\n    <p class=\"lead\">\n      Knowi connects to SQL, NoSQL, and REST APIs out of the box so your\n      team can build dashboards and run queries without waiting on engineering.\n    </p>\n\n    <div class=\"cards\">\n      <div class=\"card\">\n        <h3>Any Data Source</h3>\n        <p>Connect MongoDB, Postgres, Elasticsearch, and more in minutes.</p>\n      </div>\n      <div class=\"card\">\n        <h3>Search Analytics</h3>\n        <p>Ask questions in plain English and get instant visualizations.</p>\n      </div>\n      <div class=\"card\">\n        <h3>Live Dashboards</h3>\n        <p>Auto-refreshing widgets keep every team aligned in real time.</p>\n      </div>\n    </div>\n\n    <div class=\"cta-row\">\n      <a class=\"btn-primary\" href=\"#\">Start Free Trial</a>\n      <a class=\"btn-outline\" href=\"#\">Watch Demo</a>\n    </div>\n  </main>\n\n</body>\n</html>"
+    },
+    {
+      "chartUrl": "cQG6KSM",
+      "dashboardIdentifier": null,
+      "property": "widgetCache.enabled",
+      "value": "true"
+    },
+    {
+      "chartUrl": "cQG6KSM",
+      "dashboardIdentifier": null,
+      "property": "widgetDisplayOptions",
+      "value": "w-export-to-excel:false,highchart-context-menu:true"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "Custom Widget",
+      "datasetId": "${ref:dataset:_W9rBX1O}",
+      "description": "",
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 18,
+      "url": "cQG6KSM",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "cQG6KSM",
+      "jsonConfig": [],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    {
+      "agenticDefault": false,
+      "bypassOverrideLimit": false,
+      "dataExpirationDate": null,
+      "datasetName": "SALES - Cached",
+      "identifier": "4Vwq3nq",
+      "injectStreamTime": false,
+      "metaHash": 1825791302,
+      "metadataConfig": "{\"fields\":[{\"fieldName\":\"CATEGORY\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"CITY\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"ITEM_NAME\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"ITEM_PRICE\",\"fieldType\":\"java.lang.Double\",\"ntz\":false},{\"fieldName\":\"LINE_TOTAL\",\"fieldType\":\"java.lang.Double\",\"ntz\":false},{\"fieldName\":\"LOCATION_ID\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"LOCATION_NAME\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"MODIFIER_CHARGE\",\"fieldType\":\"java.lang.Double\",\"ntz\":false},{\"fieldName\":\"MODIFIERS\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"ORDER_CHANNEL\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"ORDER_DATE_NTZ\",\"fieldType\":\"com.cloud9.core.DateNTZ\",\"ntz\":true},{\"fieldName\":\"ORDER_ID\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"ORDER_MONTH\",\"fieldType\":\"java.util.Date\",\"ntz\":false},{\"fieldName\":\"ORDER_TIMESTAMP_TZ\",\"fieldType\":\"java.util.Date\",\"ntz\":false},{\"fieldName\":\"PAYMENT_METHOD\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"QUANTITY\",\"fieldType\":\"java.lang.Long\",\"ntz\":false},{\"fieldName\":\"STATE\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"_stream_time\",\"fieldType\":\"java.util.Date\",\"ntz\":false}]}",
+      "mongoConnectUri": "provisioned",
+      "nlpBotEnabled": true,
+      "nlpConfig": null,
+      "nlpEnabled": true,
+      "nlpIndexInterval": 360,
+      "refreshMeta": false,
+      "synonymHash": 0,
+      "timeZone": null
+    }
+  ],
+  "format": 1
+}

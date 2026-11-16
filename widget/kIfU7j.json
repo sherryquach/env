@@ -1,0 +1,136 @@
+{
+  "categoryAssets": [
+    {
+      "categoryIdentifier": "${ref:category:_00001O}",
+      "identifier": "kIfU7j",
+      "objectType": 2
+    }
+  ],
+  "chartProperties": [
+    {
+      "chartUrl": "kIfU7j",
+      "dashboardIdentifier": null,
+      "property": "chart.legend.column",
+      "value": "sales_category"
+    },
+    {
+      "chartUrl": "kIfU7j",
+      "dashboardIdentifier": null,
+      "property": "chart.primary.ylabel",
+      "value": "total_line"
+    },
+    {
+      "chartUrl": "kIfU7j",
+      "dashboardIdentifier": null,
+      "property": "chart.series.data",
+      "value": "total_line"
+    },
+    {
+      "chartUrl": "kIfU7j",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "column"
+    },
+    {
+      "chartUrl": "kIfU7j",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.column",
+      "value": "sales_category"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "Revenue by Location and Category",
+      "datasetId": "${ref:dataset:hoKvma}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": {
+        "fields": [
+          {
+            "fieldName": "sales_category",
+            "fieldType": "java.lang.String"
+          },
+          {
+            "fieldName": "total_line",
+            "fieldType": "java.lang.Double"
+          },
+          {
+            "fieldName": "transaction_count",
+            "fieldType": "java.lang.Integer"
+          }
+        ]
+      },
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 1,
+      "url": "kIfU7j",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": [
+        "select 'sales_category', SUM('line_total') as 'total_line',",
+        "  COUNT(*) as 'transaction_count'",
+        "group by 'sales_category'",
+        "order by 'total_line' desc"
+      ],
+      "chartUrl": "kIfU7j",
+      "jsonConfig": [
+        {
+          "dimensions": [
+            {
+              "customized": false,
+              "fieldName": "sales_category",
+              "fieldType": "java.lang.String",
+              "label": "sales_category"
+            }
+          ],
+          "limit": 0,
+          "metrics": [
+            {
+              "customized": false,
+              "fieldName": "sales_category",
+              "fieldType": "java.lang.String",
+              "label": "sales_category"
+            },
+            {
+              "customized": false,
+              "fieldName": "line_total",
+              "fieldType": "java.lang.Double",
+              "label": "total_line",
+              "operation": "SUM",
+              "operationStr": "SUM"
+            },
+            {
+              "customized": false,
+              "fieldName": "All",
+              "fieldType": "java.lang.Object",
+              "label": "transaction_count",
+              "operation": "COUNT",
+              "operationStr": "COUNT"
+            }
+          ],
+          "sort": [
+            {
+              "field": {
+                "customized": false,
+                "fieldName": "total_line",
+                "fieldType": "java.lang.Double",
+                "label": "total_line"
+              },
+              "operation": "DESC",
+              "operationStr": "DESC"
+            }
+          ]
+        }
+      ],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

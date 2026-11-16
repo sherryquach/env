@@ -1,0 +1,375 @@
+{
+  "categoryAssets": [
+    {
+      "categoryIdentifier": "${ref:category:_00001O}",
+      "identifier": "15B1ZEJ",
+      "objectType": 2
+    }
+  ],
+  "chartProperties": [
+    {
+      "chartUrl": "15B1ZEJ",
+      "dashboardIdentifier": null,
+      "property": "chart.firstRow",
+      "value": "[\"WEAPONS\",\"Thu Jan 08 08:02:00 UTC 2026\",\"26-001057\",\"82ND AV & INTERNATIONAL BLVD\",\"Oakland\",\"Thu Jan 08 00:00:00 UTC 2026\",\"37.75541\",\"-122.1792\",\"Thu Jan 01 00:00:00 UTC 2026\",\"Thu Jan 01 00:00:00 UTC 2026\",\"Jan-26\",\"2026\",[\"ADW NOT F/ARM:PO/FIRE:GBI\",\"POSS STOLEN VEH/VES/ETC\",\"CARRY LOADED FIREARM ON/IN PERSON/VEH: PUBLIC PLACE\",\"FELON/ADDICT/POSSESS/OWN/ETC FIREARM\"],\"WEAPONS\",\"33X\",\"$c9_token$[token]$\"]"
+    },
+    {
+      "chartUrl": "15B1ZEJ",
+      "dashboardIdentifier": null,
+      "property": "chart.quickpickers",
+      "value": "0"
+    },
+    {
+      "chartUrl": "15B1ZEJ",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "datagrid2"
+    },
+    {
+      "chartUrl": "15B1ZEJ",
+      "dashboardIdentifier": null,
+      "property": "chart.wBorderVisibility",
+      "value": "inherit_from_dash"
+    },
+    {
+      "chartUrl": "15B1ZEJ",
+      "dashboardIdentifier": null,
+      "property": "chart.wTitleVisibility",
+      "value": "inherit_from_dash"
+    },
+    {
+      "chartUrl": "15B1ZEJ",
+      "dashboardIdentifier": null,
+      "property": "grid.aggregation.header",
+      "value": "false"
+    },
+    {
+      "chartUrl": "15B1ZEJ",
+      "dashboardIdentifier": null,
+      "property": "grid.collapsible",
+      "value": "false"
+    },
+    {
+      "chartUrl": "15B1ZEJ",
+      "dashboardIdentifier": null,
+      "property": "grid.column.$c9_token$[token]$.widthPerc",
+      "value": "0.0625"
+    },
+    {
+      "chartUrl": "15B1ZEJ",
+      "dashboardIdentifier": null,
+      "property": "grid.column.address.widthPerc",
+      "value": "0.0625"
+    },
+    {
+      "chartUrl": "15B1ZEJ",
+      "dashboardIdentifier": null,
+      "property": "grid.column.casenumber.widthPerc",
+      "value": "0.0625"
+    },
+    {
+      "chartUrl": "15B1ZEJ",
+      "dashboardIdentifier": null,
+      "property": "grid.column.city.widthPerc",
+      "value": "0.0625"
+    },
+    {
+      "chartUrl": "15B1ZEJ",
+      "dashboardIdentifier": null,
+      "property": "grid.column.crimetype.widthPerc",
+      "value": "0.0625"
+    },
+    {
+      "chartUrl": "15B1ZEJ",
+      "dashboardIdentifier": null,
+      "property": "grid.column.date2.widthPerc",
+      "value": "0.0625"
+    },
+    {
+      "chartUrl": "15B1ZEJ",
+      "dashboardIdentifier": null,
+      "property": "grid.column.datetime.widthPerc",
+      "value": "0.0625"
+    },
+    {
+      "chartUrl": "15B1ZEJ",
+      "dashboardIdentifier": null,
+      "property": "grid.column.description.widthPerc",
+      "value": "0.0625"
+    },
+    {
+      "chartUrl": "15B1ZEJ",
+      "dashboardIdentifier": null,
+      "property": "grid.column.latitude.widthPerc",
+      "value": "0.0625"
+    },
+    {
+      "chartUrl": "15B1ZEJ",
+      "dashboardIdentifier": null,
+      "property": "grid.column.longitude.widthPerc",
+      "value": "0.0625"
+    },
+    {
+      "chartUrl": "15B1ZEJ",
+      "dashboardIdentifier": null,
+      "property": "grid.column.month.widthPerc",
+      "value": "0.0625"
+    },
+    {
+      "chartUrl": "15B1ZEJ",
+      "dashboardIdentifier": null,
+      "property": "grid.column.month_str.widthPerc",
+      "value": "0.0625"
+    },
+    {
+      "chartUrl": "15B1ZEJ",
+      "dashboardIdentifier": null,
+      "property": "grid.column.policebeat.widthPerc",
+      "value": "0.0625"
+    },
+    {
+      "chartUrl": "15B1ZEJ",
+      "dashboardIdentifier": null,
+      "property": "grid.column.type.widthPerc",
+      "value": "0.0625"
+    },
+    {
+      "chartUrl": "15B1ZEJ",
+      "dashboardIdentifier": null,
+      "property": "grid.column.year.widthPerc",
+      "value": "0.0625"
+    },
+    {
+      "chartUrl": "15B1ZEJ",
+      "dashboardIdentifier": null,
+      "property": "grid.column.year_num.widthPerc",
+      "value": "0.0625"
+    },
+    {
+      "chartUrl": "15B1ZEJ",
+      "dashboardIdentifier": null,
+      "property": "grid.columnLines",
+      "value": "false"
+    },
+    {
+      "chartUrl": "15B1ZEJ",
+      "dashboardIdentifier": null,
+      "property": "grid.columnWidths",
+      "value": "[]"
+    },
+    {
+      "chartUrl": "15B1ZEJ",
+      "dashboardIdentifier": null,
+      "property": "grid.disableClickToSort",
+      "value": "false"
+    },
+    {
+      "chartUrl": "15B1ZEJ",
+      "dashboardIdentifier": null,
+      "property": "grid.hideGroupingColumn",
+      "value": "false"
+    },
+    {
+      "chartUrl": "15B1ZEJ",
+      "dashboardIdentifier": null,
+      "property": "grid.resetColumnWidth",
+      "value": "false"
+    },
+    {
+      "chartUrl": "15B1ZEJ",
+      "dashboardIdentifier": null,
+      "property": "grid2.default.cellWrap",
+      "value": "false"
+    },
+    {
+      "chartUrl": "15B1ZEJ",
+      "dashboardIdentifier": null,
+      "property": "grid2.default.headerWrap",
+      "value": "false"
+    },
+    {
+      "chartUrl": "15B1ZEJ",
+      "dashboardIdentifier": null,
+      "property": "grid2.merge_cells",
+      "value": "false"
+    },
+    {
+      "chartUrl": "15B1ZEJ",
+      "dashboardIdentifier": null,
+      "property": "grid2.pagination.computeTotalCount",
+      "value": "true"
+    },
+    {
+      "chartUrl": "15B1ZEJ",
+      "dashboardIdentifier": null,
+      "property": "grid2.pagination.navigationMode",
+      "value": "scroll"
+    },
+    {
+      "chartUrl": "15B1ZEJ",
+      "dashboardIdentifier": null,
+      "property": "loadUponPrompt",
+      "value": "false"
+    },
+    {
+      "chartUrl": "15B1ZEJ",
+      "dashboardIdentifier": null,
+      "property": "repeatableWidget.showRepeatingPanel",
+      "value": "false"
+    },
+    {
+      "chartUrl": "15B1ZEJ",
+      "dashboardIdentifier": null,
+      "property": "scale",
+      "value": "false"
+    },
+    {
+      "chartUrl": "15B1ZEJ",
+      "dashboardIdentifier": null,
+      "property": "spreadsheet.dataConfigList",
+      "value": "H4sIAAAAAAAAAD2NMQ7CMAxF7+K5A12zwglYqw4GXGEpsVFiimiUu7eWAtt7/l/fFcqTyAqEqYJgIghwQUMYoBia68qFb5GOy13FSAxChYd3wjR77RupdObtjy+UjovmhPYTjka5y8r06WjoP47lJetGclUPxqHrWeM7+d6ptTa3HZx8b8e2AAAA"
+    },
+    {
+      "chartUrl": "15B1ZEJ",
+      "dashboardIdentifier": null,
+      "property": "widgetCache.enabled",
+      "value": "true"
+    },
+    {
+      "chartUrl": "15B1ZEJ",
+      "dashboardIdentifier": null,
+      "property": "widgetDisplayOptions",
+      "value": "w-export-to-excel:true,highchart-context-menu:true"
+    }
+  ],
+  "chartQueries": [
+    {
+      "chartUrl": "15B1ZEJ",
+      "queryStr": "select *, $c9_token$[token]$"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "Oakland Crime This Year - Data",
+      "datasetId": "${ref:dataset:bytVkLe}",
+      "description": "",
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": {
+        "fields": [
+          {
+            "fieldName": "$c9_token$[token]$",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "address",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "casenumber",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "city",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "crimetype",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "date2",
+            "fieldType": "java.util.Date",
+            "ntz": false
+          },
+          {
+            "fieldName": "datetime",
+            "fieldType": "java.util.Date",
+            "ntz": false
+          },
+          {
+            "fieldName": "description",
+            "fieldType": "java.util.List",
+            "nestedFields": [
+              {
+                "fieldName": "[*]",
+                "fieldType": "java.lang.String",
+                "ntz": false
+              }
+            ],
+            "ntz": false
+          },
+          {
+            "fieldName": "latitude",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "longitude",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "month",
+            "fieldType": "java.util.Date",
+            "ntz": false
+          },
+          {
+            "fieldName": "month_str",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "policebeat",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "type",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "year",
+            "fieldType": "java.util.Date",
+            "ntz": false
+          },
+          {
+            "fieldName": "year_num",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          }
+        ],
+        "macroFields": [
+          {
+            "fieldName": "token",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          }
+        ]
+      },
+      "liveRefresh": -1,
+      "query": 1,
+      "type": 21,
+      "url": "15B1ZEJ",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "15B1ZEJ",
+      "jsonConfig": [],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

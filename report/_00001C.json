@@ -1,0 +1,35 @@
+{
+  "emailReportSchedules": [
+    {
+      "emailReportIdentifier": "_00001C",
+      "frequency": 1,
+      "frequencyType": "days",
+      "startTime": "08/14/2026 11:42 America/Los_Angeles",
+      "type": 0
+    }
+  ],
+  "emailReports": [
+    {
+      "identifier": "_00001C",
+      "jsonConfig": {
+        "dashboards": [
+          {
+            "exportInsights": false,
+            "exportRecommendations": false,
+            "id": "${ref:dashboard:_0000hM}"
+          }
+        ],
+        "reportContainsWidgetExport": false,
+        "sendTo": [
+          "sherry@knowi.com"
+        ],
+        "skipReportIfAttachmentsAreBlank": true,
+        "subject": "Email Report"
+      },
+      "status": 1,
+      "subject": "Sales Email Report",
+      "text": "{EmbedRecommendations}"
+    }
+  ],
+  "format": 1
+}

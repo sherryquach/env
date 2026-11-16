@@ -1,0 +1,65 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "V69xFeC",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "text"
+    },
+    {
+      "chartUrl": "V69xFeC",
+      "dashboardIdentifier": null,
+      "property": "scale",
+      "value": "true"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "Total Recorded Crimes",
+      "datasetId": "${ref:dataset:bytVkLe}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": {
+        "fields": [
+          {
+            "fieldName": "total_crimes",
+            "fieldType": "java.lang.Integer",
+            "ntz": false
+          }
+        ]
+      },
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 4,
+      "url": "V69xFeC",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": "select COUNT(*) as 'total_crimes'",
+      "chartUrl": "V69xFeC",
+      "jsonConfig": [
+        {
+          "limit": 0,
+          "metrics": [
+            {
+              "customized": false,
+              "fieldName": "All",
+              "fieldType": "java.lang.Object",
+              "label": "total_crimes",
+              "operation": "COUNT",
+              "operationStr": "COUNT"
+            }
+          ]
+        }
+      ],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

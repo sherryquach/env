@@ -1,0 +1,46 @@
+{
+  "dataConfigs": [
+    {
+      "datasetIdentifier": "${ref:dataset:jORcJID}",
+      "queryIdentifier": "jORcJID",
+      "queryStrId": "7A2PYcS"
+    }
+  ],
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:CmeR9b}",
+      "description": null,
+      "direct": false,
+      "directPush": true,
+      "entityName": "States",
+      "identifier": "jORcJID",
+      "inUse": true,
+      "jsonConfig": {
+        "c9ExportDataset": "${ref:dataset:jORcJID}",
+        "c9ExportEntityName": "States",
+        "c9ExportIdentifier": "jORcJID",
+        "datasourceId": "${ref:datasource:CmeR9b}",
+        "direct": false,
+        "discovery": {
+          "limit": 10000,
+          "tableName": "${ref:dataset:jORcJID}"
+        },
+        "entityName": "States",
+        "identifier": "jORcJID",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "queryStr": "select *",
+        "triggered": false
+      },
+      "op": 1,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "7A2PYcS",
+      "triggerDatasetId": 0
+    }
+  ]
+}

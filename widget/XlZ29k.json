@@ -1,0 +1,93 @@
+{
+  "categoryAssets": [
+    {
+      "categoryIdentifier": "${ref:category:_00001O}",
+      "identifier": "XlZ29k",
+      "objectType": 2
+    }
+  ],
+  "chartProperties": [
+    {
+      "chartUrl": "XlZ29k",
+      "dashboardIdentifier": null,
+      "property": "chart.legend.column",
+      "value": "message_type"
+    },
+    {
+      "chartUrl": "XlZ29k",
+      "dashboardIdentifier": null,
+      "property": "chart.series.data",
+      "value": "sent_count"
+    },
+    {
+      "chartUrl": "XlZ29k",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "pie"
+    },
+    {
+      "chartUrl": "XlZ29k",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.column",
+      "value": "message_type"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "Sent by Message Type",
+      "datasetId": "${ref:dataset:ExSYzO}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 1,
+      "url": "XlZ29k",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": [
+        "select 'message_type', SUM('Sent') as 'sent_count'",
+        "group by 'message_type'"
+      ],
+      "chartUrl": "XlZ29k",
+      "jsonConfig": [
+        {
+          "dimensions": [
+            {
+              "customized": false,
+              "fieldName": "message_type",
+              "fieldType": "java.lang.String",
+              "label": "message_type"
+            }
+          ],
+          "limit": 0,
+          "metrics": [
+            {
+              "customized": false,
+              "fieldName": "message_type",
+              "fieldType": "java.lang.String",
+              "label": "message_type"
+            },
+            {
+              "customized": false,
+              "fieldName": "Sent",
+              "fieldType": "java.lang.Double",
+              "label": "sent_count",
+              "operation": "SUM",
+              "operationStr": "SUM"
+            }
+          ]
+        }
+      ],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

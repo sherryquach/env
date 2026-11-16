@@ -1,0 +1,38 @@
+{
+  "datasources": [
+    {
+      "acl": null,
+      "connectSchema": false,
+      "connectorId": 1,
+      "datasource": "tiktok",
+      "directQueryOnly": false,
+      "inUse": true,
+      "jsonConfig": {
+        "authRefreshToken": "${secret:datasource:ZdFdBl2:authRefreshToken}",
+        "authToken": "${secret:datasource:ZdFdBl2:authToken}",
+        "authURL": "https://www.tiktok.com/v2/auth/authorize/?client_key={clientId}&scope={scope:url}&response_type=code&redirect_uri={callbackURL}&state=tiktok:{knowiSessionToken}",
+        "callbackURL": "https://dumping-retriever-unhitched.ngrok-free.dev/service/oauth/redirect",
+        "clientId": "sbawtsbnczpjx0dvjd",
+        "clientSecret": "${secret:datasource:ZdFdBl2:clientSecret}",
+        "datasource": "tiktok",
+        "enableQueryAgent": true,
+        "name": "TikTok",
+        "refreshTokenHeader": "Content-Type: application/x-www-form-urlencoded",
+        "refreshTokenPayload": "client_key={clientId}&client_secret={clientSecret}&grant_type=refresh_token&refresh_token={refresh_token}",
+        "refreshTokenURL": "https://open.tiktokapis.com/v2/oauth/token/",
+        "refreshType": "LongLivedRefreshToken",
+        "scope": "user.info.basic,user.info.profile,user.info.stats,video.list",
+        "tokenHeader": "Content-Type: application/x-www-form-urlencoded",
+        "tokenPayload": "client_key={clientId}&client_secret={clientSecret}&code={code}&grant_type=authorization_code&redirect_uri={callbackURL}",
+        "tokenURL": "https://open.tiktokapis.com/v2/oauth/token/"
+      },
+      "name": "TikTok",
+      "op": 1,
+      "proxy": false,
+      "strId": "ZdFdBl2",
+      "tunnel": false,
+      "writable": false
+    }
+  ],
+  "format": 1
+}

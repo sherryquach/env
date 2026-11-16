@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    {
+      "agenticDefault": false,
+      "bypassOverrideLimit": false,
+      "dataExpirationDate": null,
+      "datasetName": "test",
+      "identifier": "rbWvakb",
+      "injectStreamTime": false,
+      "metaHash": -14704948,
+      "metadataConfig": "{\"fields\":[{\"fieldName\":\"_links\",\"fieldType\":\"java.util.List\",\"nestedFields\":[{\"fieldName\":\"[*]\",\"fieldType\":\"java.util.Map\",\"nestedFields\":[{\"fieldName\":\"href\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"method\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"rel\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"schema\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"targetSchema\",\"fieldType\":\"java.lang.String\",\"ntz\":false}],\"ntz\":false}],\"ntz\":false},{\"fieldName\":\"total_items\",\"fieldType\":\"java.lang.Integer\",\"ntz\":false},{\"fieldName\":\"_stream_time\",\"fieldType\":\"java.util.Date\",\"ntz\":false}]}",
+      "mongoConnectUri": "provisioned",
+      "nlpBotEnabled": true,
+      "nlpConfig": null,
+      "nlpEnabled": true,
+      "nlpIndexInterval": 360,
+      "refreshMeta": false,
+      "synonymHash": 0,
+      "timeZone": null
+    }
+  ],
+  "format": 1
+}

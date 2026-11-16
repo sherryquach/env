@@ -1,0 +1,137 @@
+{
+  "categoryAssets": [
+    {
+      "categoryIdentifier": "${ref:category:_00001O}",
+      "identifier": "7xIcmYw",
+      "objectType": 2
+    }
+  ],
+  "chartProperties": [
+    {
+      "chartUrl": "7xIcmYw",
+      "dashboardIdentifier": null,
+      "property": "chart.series.data",
+      "value": "revenue"
+    },
+    {
+      "chartUrl": "7xIcmYw",
+      "dashboardIdentifier": null,
+      "property": "chart.series.type",
+      "value": "time"
+    },
+    {
+      "chartUrl": "7xIcmYw",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "line"
+    },
+    {
+      "chartUrl": "7xIcmYw",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.column",
+      "value": "month"
+    },
+    {
+      "chartUrl": "7xIcmYw",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.order",
+      "value": "1"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "QA Steak Frites Monthly",
+      "datasetId": "${ref:dataset:hoKvma}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": {
+        "fields": [
+          {
+            "fieldName": "month",
+            "fieldType": "java.util.Date",
+            "ntz": false
+          },
+          {
+            "fieldName": "revenue",
+            "fieldType": "java.lang.Double",
+            "ntz": false
+          }
+        ]
+      },
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 1,
+      "url": "7xIcmYw",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": [
+        "select MONTH(datetime) as 'month',",
+        "  SUM('line_total') as 'revenue'",
+        "where 'item_name' = 'Steak Frites'",
+        "  and 'location_name' = 'Lakefront Kitchen - Loop'",
+        "group by MONTH(datetime)"
+      ],
+      "chartUrl": "7xIcmYw",
+      "jsonConfig": [
+        {
+          "dimensions": [
+            {
+              "customized": true,
+              "fieldName": "MONTH(datetime)",
+              "label": "month"
+            }
+          ],
+          "filters": [
+            {
+              "field": {
+                "customized": false,
+                "fieldName": "item_name",
+                "fieldType": "java.lang.String",
+                "label": "item_name"
+              },
+              "operator": "EQUALS",
+              "operatorStr": "=",
+              "value": "Steak Frites"
+            },
+            {
+              "field": {
+                "customized": false,
+                "fieldName": "location_name",
+                "fieldType": "java.lang.String",
+                "label": "location_name"
+              },
+              "operator": "EQUALS",
+              "operatorStr": "=",
+              "value": "Lakefront Kitchen - Loop"
+            }
+          ],
+          "limit": 0,
+          "metrics": [
+            {
+              "customized": true,
+              "fieldName": "MONTH(datetime)",
+              "label": "month"
+            },
+            {
+              "customized": false,
+              "fieldName": "line_total",
+              "fieldType": "java.lang.Double",
+              "label": "revenue",
+              "operation": "SUM",
+              "operationStr": "SUM"
+            }
+          ]
+        }
+      ],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

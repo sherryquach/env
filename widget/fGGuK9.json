@@ -1,0 +1,95 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "fGGuK9",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "recommendation"
+    },
+    {
+      "chartUrl": "fGGuK9",
+      "dashboardIdentifier": null,
+      "property": "recommendation.mode",
+      "value": "1"
+    },
+    {
+      "chartUrl": "fGGuK9",
+      "dashboardIdentifier": null,
+      "property": "recommendation.prompt",
+      "value": "total sent by customer\n"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "Sending Activity - Recommendations",
+      "datasetId": "${ref:dataset:ExSYzO}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": {
+        "fields": [
+          {
+            "fieldName": "Bounced",
+            "fieldType": "java.lang.Integer"
+          },
+          {
+            "fieldName": "Campaign_name",
+            "fieldType": "java.lang.String"
+          },
+          {
+            "fieldName": "Clicks",
+            "fieldType": "java.lang.Integer"
+          },
+          {
+            "fieldName": "Conversions",
+            "fieldType": "java.lang.Integer"
+          },
+          {
+            "fieldName": "Customer",
+            "fieldType": "java.lang.String"
+          },
+          {
+            "fieldName": "Date",
+            "fieldType": "java.util.Date"
+          },
+          {
+            "fieldName": "Delivered",
+            "fieldType": "java.lang.Integer"
+          },
+          {
+            "fieldName": "id",
+            "fieldType": "java.lang.Long"
+          },
+          {
+            "fieldName": "message_type",
+            "fieldType": "java.lang.String"
+          },
+          {
+            "fieldName": "Opened",
+            "fieldType": "java.lang.Integer"
+          },
+          {
+            "fieldName": "Sent",
+            "fieldType": "java.lang.Integer"
+          },
+          {
+            "fieldName": "Spam",
+            "fieldType": "java.lang.Integer"
+          },
+          {
+            "fieldName": "Week",
+            "fieldType": "java.util.Date"
+          }
+        ]
+      },
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 26,
+      "url": "fGGuK9",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

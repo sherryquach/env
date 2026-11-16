@@ -1,0 +1,35 @@
+{
+  "categoryAssets": [
+    {
+      "categoryIdentifier": "${ref:category:_00001O}",
+      "identifier": "zWxoC7G",
+      "objectType": 2
+    }
+  ],
+  "chartProperties": [
+    {
+      "chartUrl": "zWxoC7G",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "spreadsheet"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "SALES - Cached - Data",
+      "datasetId": "${ref:dataset:4Vwq3nq}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 24,
+      "url": "zWxoC7G",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

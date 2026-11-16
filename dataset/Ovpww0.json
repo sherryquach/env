@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    {
+      "agenticDefault": false,
+      "bypassOverrideLimit": false,
+      "dataExpirationDate": null,
+      "datasetName": "test_ampersand_fields.csv",
+      "identifier": "Ovpww0",
+      "injectStreamTime": false,
+      "metaHash": -518825783,
+      "metadataConfig": "{\"fields\":[{\"fieldName\":\"Customer Name\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"Initial Draft Form 5500 &amp;&amp;&amp;&amp;&amp;\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"Product & Category\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"Sales & Revenue\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"Year\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"_stream_time\",\"fieldType\":\"java.util.Date\"}]}",
+      "mongoConnectUri": "provisioned",
+      "nlpBotEnabled": true,
+      "nlpConfig": null,
+      "nlpEnabled": true,
+      "nlpIndexInterval": 360,
+      "refreshMeta": false,
+      "synonymHash": 0,
+      "timeZone": null
+    }
+  ],
+  "format": 1
+}

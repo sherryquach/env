@@ -1,0 +1,37 @@
+{
+  "dashboardCharts": [
+    {
+      "chartUrl": "${ref:widget:noIOSqL}",
+      "col": 1,
+      "dashboardIdentifier": "_0000i8",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 1,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 24,
+      "sizeY": 17,
+      "sizeYOriginal": 0,
+      "width": 0
+    }
+  ],
+  "dashboards": [
+    {
+      "dashAccessLevel": 0,
+      "displayOrder": 0,
+      "filterSettings": null,
+      "identifier": "_0000i8",
+      "jsonConfig": null,
+      "locked": 0,
+      "name": "NTZ",
+      "screenAdjust": 1,
+      "screenHeight": 0,
+      "screenWidth": 2092,
+      "type": 1,
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

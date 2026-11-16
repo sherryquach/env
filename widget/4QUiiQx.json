@@ -1,0 +1,151 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "4QUiiQx",
+      "dashboardIdentifier": null,
+      "property": "chart.alignTicks",
+      "value": "true"
+    },
+    {
+      "chartUrl": "4QUiiQx",
+      "dashboardIdentifier": null,
+      "property": "chart.firstRow",
+      "value": "[\"NO_LINK_OTHER\",1,0]"
+    },
+    {
+      "chartUrl": "4QUiiQx",
+      "dashboardIdentifier": null,
+      "property": "chart.quickpickers",
+      "value": "0"
+    },
+    {
+      "chartUrl": "4QUiiQx",
+      "dashboardIdentifier": null,
+      "property": "chart.secondary.sync",
+      "value": "false"
+    },
+    {
+      "chartUrl": "4QUiiQx",
+      "dashboardIdentifier": null,
+      "property": "chart.secondary.zIndex",
+      "value": "false"
+    },
+    {
+      "chartUrl": "4QUiiQx",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "column"
+    },
+    {
+      "chartUrl": "4QUiiQx",
+      "dashboardIdentifier": null,
+      "property": "chart.useLocalTime",
+      "value": "false"
+    },
+    {
+      "chartUrl": "4QUiiQx",
+      "dashboardIdentifier": null,
+      "property": "chart.wBorderVisibility",
+      "value": "inherit_from_dash"
+    },
+    {
+      "chartUrl": "4QUiiQx",
+      "dashboardIdentifier": null,
+      "property": "chart.wTitleVisibility",
+      "value": "inherit_from_dash"
+    },
+    {
+      "chartUrl": "4QUiiQx",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.column",
+      "value": "trafficSource"
+    },
+    {
+      "chartUrl": "4QUiiQx",
+      "dashboardIdentifier": null,
+      "property": "chart.xaxis.scroll",
+      "value": "false"
+    },
+    {
+      "chartUrl": "4QUiiQx",
+      "dashboardIdentifier": null,
+      "property": "chartColor",
+      "value": "#9D763E:views,#E971CC:estimatedMinutesWatched,#5AA9E6,#729B79,#F4A261,#455BA1,#E56B6F,#20C799,#88CCF1,#4C956C,#FF9F1C,#6D84D8,#A8C686,#EE6C4D,#52796F,#C59746,#3C91E6,#2B8859,#E3C567,#577590,#81B29A,#C57C98,#5B9AA0,#F2CC8F,#264653,#9EC896,#8D99AE,#00A6A6,#B8936D,#78ABFF,#84A59D,#5C5470,#98C1D9,#D4A574,#495867,#74A0B0,#9A8C98,#1D3557"
+    },
+    {
+      "chartUrl": "4QUiiQx",
+      "dashboardIdentifier": null,
+      "property": "legendAlias",
+      "value": "{}"
+    },
+    {
+      "chartUrl": "4QUiiQx",
+      "dashboardIdentifier": null,
+      "property": "loadUponPrompt",
+      "value": "false"
+    },
+    {
+      "chartUrl": "4QUiiQx",
+      "dashboardIdentifier": null,
+      "property": "repeatableWidget.showRepeatingPanel",
+      "value": "false"
+    },
+    {
+      "chartUrl": "4QUiiQx",
+      "dashboardIdentifier": null,
+      "property": "widgetCache.enabled",
+      "value": "true"
+    },
+    {
+      "chartUrl": "4QUiiQx",
+      "dashboardIdentifier": null,
+      "property": "widgetDisplayOptions",
+      "value": "w-export-to-excel:false,highchart-context-menu:true"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "Traffic Sources",
+      "datasetId": "${ref:dataset:4QUiiQx}",
+      "description": "",
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": {
+        "fields": [
+          {
+            "fieldName": "estimatedMinutesWatched",
+            "fieldType": "java.lang.Integer",
+            "ntz": false
+          },
+          {
+            "fieldName": "trafficSource",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "views",
+            "fieldType": "java.lang.Integer",
+            "ntz": false
+          }
+        ]
+      },
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 1,
+      "url": "4QUiiQx",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "4QUiiQx",
+      "jsonConfig": [],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

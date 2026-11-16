@@ -1,0 +1,38 @@
+{
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:BQkYx31}",
+      "description": null,
+      "direct": false,
+      "directPush": true,
+      "entityName": "Test Agent",
+      "identifier": "IrCLKnJ",
+      "inUse": true,
+      "jsonConfig": {
+        "c9QLFilter": "select *",
+        "datasourceId": "${ref:datasource:BQkYx31}",
+        "direct": false,
+        "discovery": {
+          "limit": 10,
+          "tableName": "sendingActivity"
+        },
+        "entityName": "Test Agent",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "queryStr": "db['sendingActivity'].find().limit(10)",
+        "triggerOnAny": false,
+        "triggered": false,
+        "visual": true
+      },
+      "op": 7,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "sNwK73i",
+      "triggerDatasetId": 0
+    }
+  ]
+}

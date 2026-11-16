@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    {
+      "agenticDefault": false,
+      "bypassOverrideLimit": false,
+      "dataExpirationDate": null,
+      "datasetName": "Linked Dataset",
+      "identifier": "89UuUpZ",
+      "injectStreamTime": false,
+      "metaHash": -997303220,
+      "metadataConfig": "{\"fields\":[{\"fieldName\":\"address\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"casenumber\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"city\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"crimetype\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"datetime\",\"fieldType\":\"java.util.Date\",\"ntz\":false},{\"fieldName\":\"description\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"location\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"policebeat\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"state\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"_stream_time\",\"fieldType\":\"java.util.Date\",\"ntz\":false}]}",
+      "mongoConnectUri": "provisioned",
+      "nlpBotEnabled": true,
+      "nlpConfig": null,
+      "nlpEnabled": true,
+      "nlpIndexInterval": 360,
+      "refreshMeta": false,
+      "synonymHash": 0,
+      "timeZone": null
+    }
+  ],
+  "format": 1
+}

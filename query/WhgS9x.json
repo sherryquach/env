@@ -1,0 +1,66 @@
+{
+  "dataConfigs": [
+    {
+      "datasetIdentifier": "${ref:dataset:6vhVii}",
+      "queryIdentifier": "6QEyXf",
+      "queryStrId": "WhgS9x"
+    },
+    {
+      "datasetIdentifier": "${ref:dataset:Fuq7aG}",
+      "queryIdentifier": "6QEyXf",
+      "queryStrId": "WhgS9x"
+    }
+  ],
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:CmeR9b}",
+      "description": null,
+      "direct": false,
+      "directPush": true,
+      "entityName": "Triggered",
+      "identifier": "6QEyXf",
+      "inUse": true,
+      "jsonConfig": {
+        "c9ExportDataset": "${ref:dataset:6vhVii}",
+        "c9ExportEntityName": "pageHits",
+        "c9ExportIdentifier": "6vhVii",
+        "datasourceId": "${ref:datasource:CmeR9b}",
+        "direct": false,
+        "discovery": {
+          "limit": 10000,
+          "tableName": "${ref:dataset:6vhVii}"
+        },
+        "entityName": "Triggered",
+        "joinQueries": [
+          {
+            "c9ExportDataset": "${ref:dataset:Fuq7aG}",
+            "c9ExportEntityName": "Copy of Sales",
+            "c9ExportIdentifier": "Fuq7aG",
+            "datasourceId": "${ref:datasource:CmeR9b}",
+            "discovery": {
+              "limit": 10000,
+              "tableName": "${ref:dataset:Fuq7aG}"
+            },
+            "queryStr": "select *\nlimit 10000",
+            "visual": true
+          }
+        ],
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "queryStr": "select *\nlimit 10000",
+        "triggerOnAny": true,
+        "triggered": true,
+        "visual": true
+      },
+      "op": 4,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "WhgS9x",
+      "triggerDatasetId": null
+    }
+  ]
+}

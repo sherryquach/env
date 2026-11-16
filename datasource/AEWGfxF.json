@@ -1,0 +1,33 @@
+{
+  "datasources": [
+    {
+      "acl": null,
+      "connectSchema": false,
+      "connectorId": 1,
+      "datasource": "mongo",
+      "directQueryOnly": false,
+      "inUse": true,
+      "jsonConfig": {
+        "datasource": "mongo",
+        "dbName": "other${c9_wildcard}",
+        "dbProperties": "${secret:datasource:AEWGfxF:dbProperties}",
+        "enableQueryAgent": true,
+        "host": "mongo7",
+        "legacyVersionSupport": false,
+        "name": "Mongo Database Wildcard",
+        "password": "${secret:datasource:AEWGfxF:password}",
+        "port": "27017",
+        "proxy": false,
+        "userId": "mongouser",
+        "writable": false
+      },
+      "name": "Mongo Database Wildcard",
+      "op": 2,
+      "proxy": false,
+      "strId": "AEWGfxF",
+      "tunnel": false,
+      "writable": false
+    }
+  ],
+  "format": 1
+}

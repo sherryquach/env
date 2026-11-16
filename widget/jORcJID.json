@@ -1,0 +1,40 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "jORcJID",
+      "dashboardIdentifier": null,
+      "property": "chart.series.data",
+      "value": "Total Dependent Students"
+    },
+    {
+      "chartUrl": "jORcJID",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "column"
+    },
+    {
+      "chartUrl": "jORcJID",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.column",
+      "value": "State"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "States",
+      "datasetId": "${ref:dataset:jORcJID}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 1,
+      "url": "jORcJID",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

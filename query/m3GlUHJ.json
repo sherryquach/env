@@ -1,0 +1,51 @@
+{
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "",
+      "jsonConfig": [],
+      "queryIdentifier": "v9urF5r",
+      "queryStrId": "m3GlUHJ"
+    }
+  ],
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:TgipXB}",
+      "description": "",
+      "direct": false,
+      "directPush": true,
+      "entityName": "Copy of DBWrite Restaurants",
+      "identifier": "v9urF5r",
+      "inUse": true,
+      "jsonConfig": {
+        "c9QLFilter": "select *",
+        "datasourceId": "${ref:datasource:TgipXB}",
+        "direct": false,
+        "discovery": {
+          "limit": 10000,
+          "tableName": "restaurants"
+        },
+        "entityName": "Copy of DBWrite Restaurants",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "queryStr": "db['restaurants'].find().limit(10000)",
+        "storeConfig": "{\"table\":\"restaurants1\"}",
+        "storeDatasourceId": 120,
+        "triggerOnAny": false,
+        "triggered": false,
+        "visual": true
+      },
+      "op": 4,
+      "scheduled": 0,
+      "storeConfig": {
+        "table": "restaurants1"
+      },
+      "storeDatasourceId": "${ref:datasource:1TX1is8}",
+      "strId": "m3GlUHJ",
+      "triggerDatasetId": 0
+    }
+  ]
+}

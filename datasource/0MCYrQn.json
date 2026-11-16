@@ -1,0 +1,26 @@
+{
+  "datasources": [
+    {
+      "acl": null,
+      "connectSchema": false,
+      "connectorId": 100,
+      "datasource": "cloud9charts",
+      "directQueryOnly": false,
+      "inUse": true,
+      "jsonConfig": {
+        "datasource": "cloud9charts",
+        "enableQueryAgent": true,
+        "forceTimeZone": false,
+        "name": "Knowi ElasticStore",
+        "privateConnector": "100"
+      },
+      "name": "Knowi ElasticStore",
+      "op": 1,
+      "proxy": false,
+      "strId": "0MCYrQn",
+      "tunnel": false,
+      "writable": false
+    }
+  ],
+  "format": 1
+}

@@ -1,0 +1,47 @@
+{
+  "dataConfigs": [
+    {
+      "datasetIdentifier": "${ref:dataset:6tPTaP}",
+      "queryIdentifier": "6tPTaP",
+      "queryStrId": "3Ozref"
+    }
+  ],
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:CmeR9b}",
+      "description": null,
+      "direct": false,
+      "directPush": true,
+      "entityName": "supply_chain_dataset_100k.csv",
+      "identifier": "6tPTaP",
+      "inUse": true,
+      "jsonConfig": {
+        "c9ExportDataset": "${ref:dataset:6tPTaP}",
+        "c9ExportEntityName": "supply_chain_dataset_100k.csv",
+        "c9ExportIdentifier": "6tPTaP",
+        "datasourceId": "${ref:datasource:CmeR9b}",
+        "direct": false,
+        "discovery": {
+          "discoveryForSuggestions": false,
+          "limit": 10000,
+          "tableName": "${ref:dataset:6tPTaP}"
+        },
+        "entityName": "supply_chain_dataset_100k.csv",
+        "identifier": "6tPTaP",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "queryStr": "select *",
+        "triggered": false
+      },
+      "op": 4,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "3Ozref",
+      "triggerDatasetId": 0
+    }
+  ]
+}

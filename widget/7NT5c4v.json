@@ -1,0 +1,101 @@
+{
+  "categoryAssets": [
+    {
+      "categoryIdentifier": "${ref:category:_00001O}",
+      "identifier": "7NT5c4v",
+      "objectType": 2
+    }
+  ],
+  "chartProperties": [
+    {
+      "chartUrl": "7NT5c4v",
+      "dashboardIdentifier": null,
+      "property": "chart.series.data",
+      "value": "total_quantity"
+    },
+    {
+      "chartUrl": "7NT5c4v",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "bar"
+    },
+    {
+      "chartUrl": "7NT5c4v",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.column",
+      "value": "item_name"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "Top 10 Items by Quantity",
+      "datasetId": "${ref:dataset:hoKvma}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 1,
+      "url": "7NT5c4v",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": [
+        "select 'item_name', SUM('quantity') as 'total_quantity'",
+        "group by 'item_name'",
+        "order by 'total_quantity' desc",
+        "limit 10"
+      ],
+      "chartUrl": "7NT5c4v",
+      "jsonConfig": [
+        {
+          "dimensions": [
+            {
+              "customized": false,
+              "fieldName": "item_name",
+              "fieldType": "java.lang.String",
+              "label": "item_name"
+            }
+          ],
+          "limit": 10,
+          "metrics": [
+            {
+              "customized": false,
+              "fieldName": "item_name",
+              "fieldType": "java.lang.String",
+              "label": "item_name"
+            },
+            {
+              "customized": false,
+              "fieldName": "quantity",
+              "fieldType": "java.lang.Double",
+              "label": "total_quantity",
+              "operation": "SUM",
+              "operationStr": "SUM"
+            }
+          ],
+          "sort": [
+            {
+              "field": {
+                "customized": false,
+                "fieldName": "total_quantity",
+                "fieldType": "java.lang.Double",
+                "label": "total_quantity"
+              },
+              "operation": "DESC",
+              "operationStr": "DESC"
+            }
+          ]
+        }
+      ],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

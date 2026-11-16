@@ -1,0 +1,32 @@
+{
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:NetGVC7}",
+      "description": null,
+      "direct": false,
+      "directPush": true,
+      "entityName": "Release Notes ",
+      "identifier": "OAJ1WU7",
+      "inUse": true,
+      "jsonConfig": {
+        "datasourceId": "${ref:datasource:NetGVC7}",
+        "direct": false,
+        "entityName": "Release Notes ",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "queryStr": "{\"id\":\"1fBE3TB36fdaX1FVwnmIF3wiv9KXJGW3RAGoe_Wnu8r8\",\"itemId\":\"1fBE3TB36fdaX1FVwnmIF3wiv9KXJGW3RAGoe_Wnu8r8\",\"name\":\"Release Notes \",\"mimeType\":\"application/vnd.google-apps.document\",\"folder\":false,\"refresh\":\"once\"}",
+        "triggered": false,
+        "visual": false
+      },
+      "op": 4,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "G0qCrmj",
+      "triggerDatasetId": 0
+    }
+  ]
+}

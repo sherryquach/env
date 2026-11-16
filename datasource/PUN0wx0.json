@@ -1,0 +1,27 @@
+{
+  "datasources": [
+    {
+      "acl": null,
+      "connectSchema": false,
+      "connectorId": 1,
+      "datasource": "mailchimp",
+      "directQueryOnly": false,
+      "inUse": true,
+      "jsonConfig": {
+        "authToken": "${secret:datasource:PUN0wx0:authToken}",
+        "datasource": "mailchimp",
+        "enableQueryAgent": true,
+        "host": "us17",
+        "name": "MailChimp Connection",
+        "userKey": "sherryq@berkeley.edu"
+      },
+      "name": "MailChimp Connection",
+      "op": 1,
+      "proxy": false,
+      "strId": "PUN0wx0",
+      "tunnel": false,
+      "writable": false
+    }
+  ],
+  "format": 1
+}

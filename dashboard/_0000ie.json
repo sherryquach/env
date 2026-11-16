@@ -1,0 +1,196 @@
+{
+  "dashboardCharts": [
+    {
+      "chartUrl": "${ref:widget:BLiiwh7}",
+      "col": 13,
+      "dashboardIdentifier": "_0000ie",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 13,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 12,
+      "sizeY": 12,
+      "sizeYOriginal": 0,
+      "width": 0
+    },
+    {
+      "chartUrl": "${ref:widget:Elc8vpP}",
+      "col": 1,
+      "dashboardIdentifier": "_0000ie",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 1,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 12,
+      "sizeY": 12,
+      "sizeYOriginal": 0,
+      "width": 0
+    },
+    {
+      "chartUrl": "${ref:widget:OfLcR8G}",
+      "col": 13,
+      "dashboardIdentifier": "_0000ie",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 1,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 12,
+      "sizeY": 12,
+      "sizeYOriginal": 0,
+      "width": 0
+    },
+    {
+      "chartUrl": "${ref:widget:vubt7Un}",
+      "col": 1,
+      "dashboardIdentifier": "_0000ie",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 13,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 12,
+      "sizeY": 12,
+      "sizeYOriginal": 0,
+      "width": 0
+    }
+  ],
+  "dashboards": [
+    {
+      "dashAccessLevel": 0,
+      "displayOrder": 0,
+      "filterSettings": "{\"state\":\"enable\",\"fields\":false,\"cascadingSuggestions\":\"disable\",\"filteringResult\":true,\"lockFilterSet\":false,\"filterBarPlacement\":\"top\",\"filterBarStyle\":\"compact\"}",
+      "identifier": "_0000ie",
+      "jsonConfig": {
+        "excludeExpandedGridFromPdfExport": false,
+        "excludeGridWidgetsFromPdfExport": false,
+        "filters": [
+          {
+            "dateLimit": "",
+            "dateLimitOptions": "",
+            "dynamic": false,
+            "enabled": true,
+            "fieldName": "crimetype",
+            "fieldType": "java.lang.String",
+            "inclusiveTime": false,
+            "operator": "Equals",
+            "plainControlType": "multiple",
+            "transientFilter": false,
+            "type": "java.lang.String",
+            "values": [
+              "BURG - OTHER"
+            ],
+            "visible": true
+          },
+          {
+            "dateLimit": "",
+            "dateLimitOptions": "",
+            "dynamic": false,
+            "enabled": true,
+            "fieldName": "billingattorney",
+            "fieldType": "java.lang.String",
+            "inclusiveTime": false,
+            "operator": "Equals",
+            "plainControlType": "multiple",
+            "transientFilter": false,
+            "type": "java.lang.String",
+            "values": [],
+            "visible": true
+          },
+          {
+            "dateLimit": "",
+            "dateLimitOptions": "",
+            "dynamic": false,
+            "enabled": true,
+            "fieldName": "restaurant_id",
+            "fieldType": "java.lang.String",
+            "inclusiveTime": false,
+            "operator": "Equals",
+            "plainControlType": "multiple",
+            "transientFilter": false,
+            "type": "java.lang.String",
+            "values": [
+              "40356151",
+              "30191841",
+              "30112340",
+              "40356018",
+              "40356731"
+            ],
+            "visible": true
+          },
+          {
+            "dateLimit": "",
+            "dateLimitOptions": "",
+            "dynamic": false,
+            "enabled": true,
+            "fieldName": "CLIENT_NAME",
+            "fieldType": "java.lang.String",
+            "inclusiveTime": false,
+            "operator": "Equals",
+            "plainControlType": "multiple",
+            "transientFilter": false,
+            "type": "java.lang.String",
+            "values": [
+              "Bankwell Bank",
+              "Central Garden & Pet",
+              "Consolidated Representation of SDC Direc",
+              "Ambient Enterprises LLC"
+            ],
+            "visible": true
+          },
+          {
+            "dateLimit": "",
+            "dateLimitOptions": "",
+            "dynamic": false,
+            "enabled": true,
+            "fieldName": "Default Prompt",
+            "fieldType": "java.lang.Integer",
+            "inclusiveTime": false,
+            "operator": "Equals",
+            "plainControlType": "multiple",
+            "transientFilter": false,
+            "type": "java.lang.Integer",
+            "values": [],
+            "visible": true
+          },
+          {
+            "dateLimit": "",
+            "dateLimitOptions": "",
+            "dynamic": false,
+            "enabled": true,
+            "fieldName": "test",
+            "fieldType": "java.lang.String",
+            "filteringResult": true,
+            "inclusiveTime": false,
+            "operator": "Equals",
+            "plainControlType": "multiple",
+            "transientFilter": false,
+            "type": "java.lang.String",
+            "values": [
+              "test"
+            ],
+            "visible": true
+          }
+        ]
+      },
+      "locked": 0,
+      "name": "Recommendations Testing",
+      "screenAdjust": 1,
+      "screenHeight": 0,
+      "screenWidth": 1642,
+      "type": 1,
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

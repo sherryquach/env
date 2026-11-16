@@ -1,0 +1,218 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "pW0d5K",
+      "dashboardIdentifier": null,
+      "property": "chart.changeDataset",
+      "value": "118"
+    },
+    {
+      "chartUrl": "pW0d5K",
+      "dashboardIdentifier": null,
+      "property": "chart.firstRow",
+      "value": "[\"Lakefront Kitchen - Loop\",246820]"
+    },
+    {
+      "chartUrl": "pW0d5K",
+      "dashboardIdentifier": null,
+      "property": "chart.labelPercentValue",
+      "value": "true"
+    },
+    {
+      "chartUrl": "pW0d5K",
+      "dashboardIdentifier": null,
+      "property": "chart.labelValue",
+      "value": "true"
+    },
+    {
+      "chartUrl": "pW0d5K",
+      "dashboardIdentifier": null,
+      "property": "chart.legend.column",
+      "value": "location_name"
+    },
+    {
+      "chartUrl": "pW0d5K",
+      "dashboardIdentifier": null,
+      "property": "chart.legend.ordering",
+      "value": "abc-asc"
+    },
+    {
+      "chartUrl": "pW0d5K",
+      "dashboardIdentifier": null,
+      "property": "chart.percent",
+      "value": "true"
+    },
+    {
+      "chartUrl": "pW0d5K",
+      "dashboardIdentifier": null,
+      "property": "chart.primary.ylabel",
+      "value": "total_sales"
+    },
+    {
+      "chartUrl": "pW0d5K",
+      "dashboardIdentifier": null,
+      "property": "chart.quickpickers",
+      "value": "0"
+    },
+    {
+      "chartUrl": "pW0d5K",
+      "dashboardIdentifier": null,
+      "property": "chart.series.data",
+      "value": "total_sales"
+    },
+    {
+      "chartUrl": "pW0d5K",
+      "dashboardIdentifier": null,
+      "property": "chart.totalLabel",
+      "value": "true"
+    },
+    {
+      "chartUrl": "pW0d5K",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "donut"
+    },
+    {
+      "chartUrl": "pW0d5K",
+      "dashboardIdentifier": null,
+      "property": "chart.wBorderVisibility",
+      "value": "inherit_from_dash"
+    },
+    {
+      "chartUrl": "pW0d5K",
+      "dashboardIdentifier": null,
+      "property": "chart.wTitleVisibility",
+      "value": "inherit_from_dash"
+    },
+    {
+      "chartUrl": "pW0d5K",
+      "dashboardIdentifier": null,
+      "property": "chartColor",
+      "value": "#144764:Lakefront Kitchen - Loop,#1E90FF:Hudson House - Midtown,#00BFFF:Lone Star Grill - Downtown,#87CEFA:Bay Bistro - SoMa"
+    },
+    {
+      "chartUrl": "pW0d5K",
+      "dashboardIdentifier": null,
+      "property": "custom.field",
+      "value": "plotOptions.series.pointWidth:35, plotOptions.series.dataLabels.enabled:true,  yAxis.0.stackLabels.enabled:false, custom.labelFormatter.total:$0,000"
+    },
+    {
+      "chartUrl": "pW0d5K",
+      "dashboardIdentifier": null,
+      "property": "legendAlias",
+      "value": "{}"
+    },
+    {
+      "chartUrl": "pW0d5K",
+      "dashboardIdentifier": null,
+      "property": "loadUponPrompt",
+      "value": "false"
+    },
+    {
+      "chartUrl": "pW0d5K",
+      "dashboardIdentifier": null,
+      "property": "repeatableWidget.showRepeatingPanel",
+      "value": "false"
+    },
+    {
+      "chartUrl": "pW0d5K",
+      "dashboardIdentifier": null,
+      "property": "widgetDisplayOptions",
+      "value": "w-export-to-excel:false,highchart-context-menu:true"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "Sales by Location",
+      "datasetId": "${ref:dataset:hoKvma}",
+      "description": "",
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": {
+        "fields": [
+          {
+            "fieldName": "location_name",
+            "fieldType": "java.lang.String"
+          },
+          {
+            "fieldName": "total_sales",
+            "fieldType": "java.lang.Double"
+          }
+        ]
+      },
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 1,
+      "url": "pW0d5K",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": [
+        "select 'location_name', SUM('line_total') as 'total_sales'",
+        "group by 'location_name'",
+        "order by 'total_sales' desc"
+      ],
+      "chartUrl": "pW0d5K",
+      "jsonConfig": [
+        {
+          "dataFieldNames": [
+            "transaction_id",
+            "datetime",
+            "location_id",
+            "location_name",
+            "item_name",
+            "sales_category",
+            "modifier",
+            "quantity",
+            "line_total"
+          ],
+          "dimensions": [
+            {
+              "customized": false,
+              "fieldName": "location_name",
+              "fieldType": "java.lang.String",
+              "label": "location_name"
+            }
+          ],
+          "discoveryForSuggestions": false,
+          "limit": 0,
+          "metrics": [
+            {
+              "customized": false,
+              "fieldName": "location_name",
+              "fieldType": "java.lang.String",
+              "label": "location_name"
+            },
+            {
+              "customized": false,
+              "fieldName": "line_total",
+              "fieldType": "java.lang.Double",
+              "label": "total_sales",
+              "operation": "SUM",
+              "operationStr": "sum"
+            }
+          ],
+          "sort": [
+            {
+              "field": {
+                "customized": false,
+                "fieldName": "total_sales",
+                "fieldType": "java.lang.Double",
+                "label": "total_sales"
+              },
+              "operation": "DESC",
+              "operationStr": "desc"
+            }
+          ]
+        }
+      ],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

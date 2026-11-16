@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    {
+      "agenticDefault": false,
+      "bypassOverrideLimit": false,
+      "dataExpirationDate": null,
+      "datasetName": "Jira",
+      "identifier": "bViiwJL",
+      "injectStreamTime": false,
+      "metaHash": 1409975912,
+      "metadataConfig": "{\"fields\":[{\"fieldName\":\"id\",\"fieldType\":\"java.lang.Integer\",\"ntz\":false},{\"fieldName\":\"key\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"lead\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"name\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"projectTypeKey\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"style\",\"fieldType\":\"java.lang.String\",\"ntz\":false}]}",
+      "mongoConnectUri": "provisioned",
+      "nlpBotEnabled": true,
+      "nlpConfig": null,
+      "nlpEnabled": true,
+      "nlpIndexInterval": 360,
+      "refreshMeta": false,
+      "synonymHash": 0,
+      "timeZone": null
+    }
+  ],
+  "format": 1
+}

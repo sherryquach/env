@@ -1,0 +1,55 @@
+{
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "",
+      "jsonConfig": [],
+      "queryIdentifier": "Elc8vpP",
+      "queryStrId": "9TUhcrd"
+    }
+  ],
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:UxzvWSj}",
+      "description": null,
+      "direct": false,
+      "directPush": true,
+      "entityName": "Copy of Frontline",
+      "identifier": "Elc8vpP",
+      "inUse": true,
+      "jsonConfig": {
+        "datasourceId": "${ref:datasource:UxzvWSj}",
+        "direct": false,
+        "entityName": "Copy of Frontline",
+        "joinQueries": [
+          {
+            "c9QLFilter": "select *",
+            "datasourceId": "${ref:datasource:TgipXB}",
+            "discovery": {
+              "limit": 10000,
+              "tableName": "rosters"
+            },
+            "queryStr": "db['rosters'].find().limit(10000)",
+            "visual": true
+          }
+        ],
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "sheetId": "1EmcSgFnvqD2w7-Qp8h2EbnGsaVbGX3003BT00BbegAg",
+        "sheetName": "Sheet1",
+        "triggerOnAny": false,
+        "triggered": false,
+        "visual": true
+      },
+      "op": 4,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "9TUhcrd",
+      "triggerDatasetId": 0
+    }
+  ]
+}

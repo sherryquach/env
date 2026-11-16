@@ -1,0 +1,49 @@
+{
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "",
+      "jsonConfig": [],
+      "queryIdentifier": "vcS6EdH",
+      "queryStrId": "eOisAxf"
+    }
+  ],
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:ZdFdBl2}",
+      "description": null,
+      "direct": false,
+      "directPush": true,
+      "entityName": "TikTok",
+      "identifier": "vcS6EdH",
+      "inUse": true,
+      "jsonConfig": {
+        "apiConfig": {
+          "endPoint": "https://open.tiktokapis.com/v2/user/info/?fields=open_id,display_name,is_verified,follower_count,following_count,likes_count,video_count",
+          "headers": "Authorization: Bearer {access_token}",
+          "type": "GET"
+        },
+        "c9QLFilter": "select data.user;",
+        "collections": "user_info",
+        "datasourceId": "${ref:datasource:ZdFdBl2}",
+        "direct": false,
+        "entityName": "TikTok",
+        "fields": "open_id,display_name,is_verified,follower_count,following_count,likes_count,video_count",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "triggerOnAny": false,
+        "triggered": false,
+        "visual": true
+      },
+      "op": 4,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "eOisAxf",
+      "triggerDatasetId": 0
+    }
+  ]
+}

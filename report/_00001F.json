@@ -1,0 +1,35 @@
+{
+  "emailReportSchedules": [
+    {
+      "emailReportIdentifier": "_00001F",
+      "frequency": 1,
+      "frequencyType": "weekly",
+      "startTime": "08/14/2026 11:43 America/Los_Angeles",
+      "type": 0
+    }
+  ],
+  "emailReports": [
+    {
+      "identifier": "_00001F",
+      "jsonConfig": {
+        "dashboards": [
+          {
+            "exportInsights": false,
+            "exportRecommendations": false,
+            "id": "${ref:dashboard:_0000hM}"
+          }
+        ],
+        "reportContainsWidgetExport": false,
+        "sendTo": [
+          "sherry@knowi.com"
+        ],
+        "skipReportIfAttachmentsAreBlank": false,
+        "subject": "Sales Analysis Dashboard - Weekly Report"
+      },
+      "status": 1,
+      "subject": "Sales Analysis Dashboard - Weekly Report",
+      "text": "Your weekly Sales Analysis Dashboard report is attached. Please see below for AI-powered insights and recommendations based on your latest data."
+    }
+  ],
+  "format": 1
+}

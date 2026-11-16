@@ -1,0 +1,23 @@
+{
+  "datasources": [
+    {
+      "acl": null,
+      "connectSchema": false,
+      "connectorId": 1,
+      "datasource": "cloud9charts",
+      "directQueryOnly": false,
+      "inUse": true,
+      "jsonConfig": {
+        "datasource": "cloud9charts",
+        "name": "Data Warehouse"
+      },
+      "name": "Data Warehouse",
+      "op": 1,
+      "proxy": false,
+      "strId": "CmeR9b",
+      "tunnel": false,
+      "writable": false
+    }
+  ],
+  "format": 1
+}

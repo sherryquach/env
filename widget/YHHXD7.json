@@ -1,0 +1,80 @@
+{
+  "categoryAssets": [
+    {
+      "categoryIdentifier": "${ref:category:_00001O}",
+      "identifier": "YHHXD7",
+      "objectType": 2
+    }
+  ],
+  "chartProperties": [
+    {
+      "chartUrl": "YHHXD7",
+      "dashboardIdentifier": null,
+      "property": "recommendation.mode",
+      "value": "1"
+    },
+    {
+      "chartUrl": "YHHXD7",
+      "dashboardIdentifier": null,
+      "property": "recommendation.prompt",
+      "value": "total sales over time\ntop 5 item_name by quantity sold\n"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "Copy of Sales - Recommendations",
+      "datasetId": "${ref:dataset:Fuq7aG}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": {
+        "fields": [
+          {
+            "fieldName": "datetime",
+            "fieldType": "java.util.Date"
+          },
+          {
+            "fieldName": "item_name",
+            "fieldType": "java.lang.String"
+          },
+          {
+            "fieldName": "line_total",
+            "fieldType": "java.lang.Double"
+          },
+          {
+            "fieldName": "location_id",
+            "fieldType": "java.lang.String"
+          },
+          {
+            "fieldName": "location_name",
+            "fieldType": "java.lang.String"
+          },
+          {
+            "fieldName": "modifier",
+            "fieldType": "java.lang.String"
+          },
+          {
+            "fieldName": "quantity",
+            "fieldType": "java.lang.Integer"
+          },
+          {
+            "fieldName": "sales_category",
+            "fieldType": "java.lang.String"
+          },
+          {
+            "fieldName": "transaction_id",
+            "fieldType": "java.lang.String"
+          }
+        ]
+      },
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 26,
+      "url": "YHHXD7",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

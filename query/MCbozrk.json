@@ -1,0 +1,37 @@
+{
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:1TX1is8}",
+      "description": null,
+      "direct": true,
+      "directPush": true,
+      "entityName": "Test",
+      "identifier": "fnipQRb",
+      "inUse": true,
+      "jsonConfig": {
+        "c9QLFilter": "select *",
+        "datasourceId": "${ref:datasource:1TX1is8}",
+        "direct": true,
+        "discovery": {
+          "limit": 10000,
+          "tableName": [
+            "restaurants1"
+          ]
+        },
+        "entityName": "Test",
+        "queryStr": "select *\nfrom `restaurants1`\nlimit 10000",
+        "triggerOnAny": false,
+        "triggered": false,
+        "visual": true
+      },
+      "op": 1,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "MCbozrk",
+      "triggerDatasetId": 0
+    }
+  ]
+}

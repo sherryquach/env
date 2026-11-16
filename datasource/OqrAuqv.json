@@ -1,0 +1,26 @@
+{
+  "datasources": [
+    {
+      "acl": null,
+      "connectSchema": false,
+      "connectorId": 1,
+      "datasource": "judgeme",
+      "directQueryOnly": false,
+      "inUse": true,
+      "jsonConfig": {
+        "authToken": "${secret:datasource:OqrAuqv:authToken}",
+        "datasource": "judgeme",
+        "enableQueryAgent": true,
+        "host": "coffeesocietyco.myshopify.com",
+        "name": "Judge.me"
+      },
+      "name": "Judge.me",
+      "op": 1,
+      "proxy": false,
+      "strId": "OqrAuqv",
+      "tunnel": false,
+      "writable": false
+    }
+  ],
+  "format": 1
+}

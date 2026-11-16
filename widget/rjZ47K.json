@@ -1,0 +1,242 @@
+{
+  "categoryAssets": [
+    {
+      "categoryIdentifier": "${ref:category:_00001O}",
+      "identifier": "rjZ47K",
+      "objectType": 2
+    }
+  ],
+  "chartProperties": [
+    {
+      "chartUrl": "rjZ47K",
+      "dashboardIdentifier": null,
+      "property": "chart.firstRow",
+      "value": "[\"Bay Bistro - SoMa\",271103,14,1,\"Entree\",\"Tue Jul 29 11:54:18 UTC 2025\"]"
+    },
+    {
+      "chartUrl": "rjZ47K",
+      "dashboardIdentifier": null,
+      "property": "chart.primary.ylabel",
+      "value": "total"
+    },
+    {
+      "chartUrl": "rjZ47K",
+      "dashboardIdentifier": null,
+      "property": "chart.quickpickers",
+      "value": "0"
+    },
+    {
+      "chartUrl": "rjZ47K",
+      "dashboardIdentifier": null,
+      "property": "chart.quickpickers.xaxis",
+      "value": "false"
+    },
+    {
+      "chartUrl": "rjZ47K",
+      "dashboardIdentifier": null,
+      "property": "chart.quickpickers.yaxis",
+      "value": "true"
+    },
+    {
+      "chartUrl": "rjZ47K",
+      "dashboardIdentifier": null,
+      "property": "chart.series.data",
+      "value": "total"
+    },
+    {
+      "chartUrl": "rjZ47K",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "heatmap"
+    },
+    {
+      "chartUrl": "rjZ47K",
+      "dashboardIdentifier": null,
+      "property": "chart.useLocalTime",
+      "value": "false"
+    },
+    {
+      "chartUrl": "rjZ47K",
+      "dashboardIdentifier": null,
+      "property": "chart.wBorderVisibility",
+      "value": "inherit_from_dash"
+    },
+    {
+      "chartUrl": "rjZ47K",
+      "dashboardIdentifier": null,
+      "property": "chart.wTitleVisibility",
+      "value": "inherit_from_dash"
+    },
+    {
+      "chartUrl": "rjZ47K",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.column",
+      "value": "location_name"
+    },
+    {
+      "chartUrl": "rjZ47K",
+      "dashboardIdentifier": null,
+      "property": "chart.xaxis.scroll",
+      "value": "false"
+    },
+    {
+      "chartUrl": "rjZ47K",
+      "dashboardIdentifier": null,
+      "property": "chart.yAxis.category",
+      "value": "sales_category"
+    },
+    {
+      "chartUrl": "rjZ47K",
+      "dashboardIdentifier": null,
+      "property": "chart.yaxis.scroll",
+      "value": "false"
+    },
+    {
+      "chartUrl": "rjZ47K",
+      "dashboardIdentifier": null,
+      "property": "loadUponPrompt",
+      "value": "false"
+    },
+    {
+      "chartUrl": "rjZ47K",
+      "dashboardIdentifier": null,
+      "property": "repeatableWidget.showRepeatingPanel",
+      "value": "false"
+    },
+    {
+      "chartUrl": "rjZ47K",
+      "dashboardIdentifier": null,
+      "property": "widgetCache.enabled",
+      "value": "true"
+    },
+    {
+      "chartUrl": "rjZ47K",
+      "dashboardIdentifier": null,
+      "property": "widgetDisplayOptions",
+      "value": "w-export-to-excel:false,highchart-context-menu:true"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "Total Sales by Location",
+      "datasetId": "${ref:dataset:hoKvma}",
+      "description": "",
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": {
+        "fields": [
+          {
+            "fieldName": "datetime",
+            "fieldType": "java.util.Date",
+            "ntz": false
+          },
+          {
+            "fieldName": "line_total",
+            "fieldType": "java.lang.Double",
+            "ntz": false
+          },
+          {
+            "fieldName": "location_name",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "quantity",
+            "fieldType": "java.lang.Integer",
+            "ntz": false
+          },
+          {
+            "fieldName": "sales_category",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "total",
+            "fieldType": "java.lang.Double",
+            "ntz": false
+          }
+        ]
+      },
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 1,
+      "url": "rjZ47K",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": [
+        "select 'location_name', SUM('line_total') as 'total',",
+        "  'line_total', 'quantity', 'sales_category',",
+        "  'datetime'",
+        "group by 'location_name', 'sales_category'"
+      ],
+      "chartUrl": "rjZ47K",
+      "jsonConfig": [
+        {
+          "dimensions": [
+            {
+              "customized": false,
+              "fieldName": "location_name",
+              "fieldType": "java.lang.String",
+              "label": "location_name"
+            },
+            {
+              "customized": false,
+              "fieldName": "sales_category",
+              "fieldType": "java.lang.String",
+              "label": "sales_category"
+            }
+          ],
+          "limit": 0,
+          "metrics": [
+            {
+              "customized": false,
+              "fieldName": "location_name",
+              "fieldType": "java.lang.String",
+              "label": "location_name"
+            },
+            {
+              "customized": false,
+              "fieldName": "line_total",
+              "fieldType": "java.lang.Double",
+              "label": "total",
+              "operation": "SUM",
+              "operationStr": "sum"
+            },
+            {
+              "customized": false,
+              "fieldName": "line_total",
+              "fieldType": "java.lang.Double",
+              "label": "line_total"
+            },
+            {
+              "customized": false,
+              "fieldName": "quantity",
+              "fieldType": "java.lang.Integer",
+              "label": "quantity"
+            },
+            {
+              "customized": false,
+              "fieldName": "sales_category",
+              "fieldType": "java.lang.String",
+              "label": "sales_category"
+            },
+            {
+              "customized": false,
+              "fieldName": "datetime",
+              "fieldType": "java.util.Date",
+              "label": "datetime"
+            }
+          ]
+        }
+      ],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

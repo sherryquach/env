@@ -1,0 +1,57 @@
+{
+  "categoryAssets": [
+    {
+      "categoryIdentifier": "${ref:category:_00001F}",
+      "identifier": "YFrpOr",
+      "objectType": 4
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "",
+      "jsonConfig": [],
+      "queryIdentifier": "6vhVii",
+      "queryStrId": "YFrpOr"
+    }
+  ],
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:TgipXB}",
+      "description": "",
+      "direct": false,
+      "directPush": true,
+      "entityName": "pageHits",
+      "identifier": "6vhVii",
+      "inUse": true,
+      "jsonConfig": {
+        "c9QLFilter": "select *",
+        "datasourceId": "${ref:datasource:TgipXB}",
+        "direct": false,
+        "discovery": {
+          "limit": 10000,
+          "tableName": "pagehits"
+        },
+        "entityName": "pageHits",
+        "frequency": "5",
+        "frequencyType": "minute",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "queryStr": "db['pagehits'].find().limit(10000)",
+        "startTime": "03/31/2026 16:11 America/Los_Angeles",
+        "triggerOnAny": false,
+        "triggered": false,
+        "visual": true
+      },
+      "op": 4,
+      "scheduled": 1,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "YFrpOr",
+      "triggerDatasetId": 0
+    }
+  ]
+}

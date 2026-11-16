@@ -1,0 +1,164 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "p5UI4Yz",
+      "dashboardIdentifier": null,
+      "property": "chart.firstRow",
+      "value": "[\"WEAPONS\",\"Thu Jan 08 08:02:00 UTC 2026\",\"26-001057\",\"82ND AV & INTERNATIONAL BLVD\",\"Oakland\",\"Thu Jan 08 00:00:00 UTC 2026\",\"37.75541\",\"-122.1792\",\"Thu Jan 01 00:00:00 UTC 2026\",\"Thu Jan 01 00:00:00 UTC 2026\",\"Jan-26\",\"2026\",[\"ADW NOT F/ARM:PO/FIRE:GBI\",\"POSS STOLEN VEH/VES/ETC\",\"CARRY LOADED FIREARM ON/IN PERSON/VEH: PUBLIC PLACE\",\"FELON/ADDICT/POSSESS/OWN/ETC FIREARM\"],\"WEAPONS\",\"33X\"]"
+    },
+    {
+      "chartUrl": "p5UI4Yz",
+      "dashboardIdentifier": null,
+      "property": "chart.quickpickers",
+      "value": "0"
+    },
+    {
+      "chartUrl": "p5UI4Yz",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "geocluster"
+    },
+    {
+      "chartUrl": "p5UI4Yz",
+      "dashboardIdentifier": null,
+      "property": "chart.wBorderVisibility",
+      "value": "inherit_from_dash"
+    },
+    {
+      "chartUrl": "p5UI4Yz",
+      "dashboardIdentifier": null,
+      "property": "chart.wTitleVisibility",
+      "value": "inherit_from_dash"
+    },
+    {
+      "chartUrl": "p5UI4Yz",
+      "dashboardIdentifier": null,
+      "property": "widget.footnote",
+      "value": "JPEG / PNG Export - works\n<br>PDF Export - does NOT work"
+    },
+    {
+      "chartUrl": "p5UI4Yz",
+      "dashboardIdentifier": null,
+      "property": "widgetCache.enabled",
+      "value": "true"
+    },
+    {
+      "chartUrl": "p5UI4Yz",
+      "dashboardIdentifier": null,
+      "property": "widgetDisplayOptions",
+      "value": "w-export-to-excel:false,highchart-context-menu:true"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "Geo Clusters",
+      "datasetId": "${ref:dataset:bytVkLe}",
+      "description": "",
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": {
+        "fields": [
+          {
+            "fieldName": "address",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "casenumber",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "city",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "crimetype",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "date2",
+            "fieldType": "java.util.Date",
+            "ntz": false
+          },
+          {
+            "fieldName": "datetime",
+            "fieldType": "java.util.Date",
+            "ntz": false
+          },
+          {
+            "fieldName": "description",
+            "fieldType": "java.util.List",
+            "nestedFields": [
+              {
+                "fieldName": "[*]",
+                "fieldType": "java.lang.String",
+                "ntz": false
+              }
+            ],
+            "ntz": false
+          },
+          {
+            "fieldName": "latitude",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "longitude",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "month",
+            "fieldType": "java.util.Date",
+            "ntz": false
+          },
+          {
+            "fieldName": "month_str",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "policebeat",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "type",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "year",
+            "fieldType": "java.util.Date",
+            "ntz": false
+          },
+          {
+            "fieldName": "year_num",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          }
+        ]
+      },
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 13,
+      "url": "p5UI4Yz",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "p5UI4Yz",
+      "jsonConfig": [],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

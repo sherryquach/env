@@ -1,0 +1,32 @@
+{
+  "datasources": [
+    {
+      "acl": null,
+      "connectSchema": false,
+      "connectorId": 1,
+      "datasource": "mongo",
+      "directQueryOnly": false,
+      "inUse": true,
+      "jsonConfig": {
+        "datasource": "mongo",
+        "dbName": "Knowi_GK34hz",
+        "dbProperties": "${secret:datasource:qIJUE6:dbProperties}",
+        "enableQueryAgent": false,
+        "host": "mongo",
+        "legacyVersionSupport": true,
+        "name": "Mongo Database Local",
+        "password": "${secret:datasource:qIJUE6:password}",
+        "port": "27017",
+        "proxy": false,
+        "userId": "mongouser"
+      },
+      "name": "Mongo Database Local",
+      "op": 2,
+      "proxy": false,
+      "strId": "qIJUE6",
+      "tunnel": false,
+      "writable": false
+    }
+  ],
+  "format": 1
+}

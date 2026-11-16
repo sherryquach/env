@@ -1,0 +1,55 @@
+{
+  "filterSets": [
+    {
+      "color": "#8ec8dc",
+      "filters": [
+        {
+          "dateLimit": "",
+          "dateLimitOptions": "",
+          "dynamic": false,
+          "enabled": true,
+          "fieldName": "location_name",
+          "fieldType": "java.lang.String",
+          "inclusiveTime": false,
+          "locked": true,
+          "operator": "Equals",
+          "plainControlType": "multiple",
+          "requireValue": true,
+          "transientFilter": false,
+          "type": "java.lang.String",
+          "values": [
+            "Bay Bistro - SoMa"
+          ],
+          "visible": true
+        },
+        {
+          "dynamic": false,
+          "enabled": true,
+          "fieldName": "Test",
+          "groupHeading": true,
+          "inclusiveTime": false,
+          "transientFilter": false,
+          "visible": true
+        },
+        {
+          "dateLimit": "",
+          "dateLimitOptions": "",
+          "dynamic": false,
+          "enabled": true,
+          "fieldName": "location_name",
+          "fieldType": "java.lang.String",
+          "inclusiveTime": false,
+          "operator": "Equals",
+          "plainControlType": "multiple",
+          "transientFilter": false,
+          "type": "java.lang.String",
+          "values": [],
+          "visible": true
+        }
+      ],
+      "identifier": "_00001C",
+      "name": "New"
+    }
+  ],
+  "format": 1
+}

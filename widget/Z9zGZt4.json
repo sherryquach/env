@@ -1,0 +1,28 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "Z9zGZt4",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "datagrid2"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "yt newst",
+      "datasetId": "${ref:dataset:Z9zGZt4}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 21,
+      "url": "Z9zGZt4",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

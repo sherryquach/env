@@ -1,0 +1,110 @@
+{
+  "categoryAssets": [
+    {
+      "categoryIdentifier": "${ref:category:_00001O}",
+      "identifier": "zlHDcf",
+      "objectType": 2
+    }
+  ],
+  "chartProperties": [
+    {
+      "chartUrl": "zlHDcf",
+      "dashboardIdentifier": null,
+      "property": "chart.series.data",
+      "value": "delivery_rate"
+    },
+    {
+      "chartUrl": "zlHDcf",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "bar"
+    },
+    {
+      "chartUrl": "zlHDcf",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.column",
+      "value": "Customer"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "Delivery Rate by Customer",
+      "datasetId": "${ref:dataset:ExSYzO}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": {
+        "fields": [
+          {
+            "fieldName": "Customer",
+            "fieldType": "java.lang.String"
+          },
+          {
+            "fieldName": "delivery_rate",
+            "fieldType": "java.lang.Double"
+          }
+        ]
+      },
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 1,
+      "url": "zlHDcf",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": [
+        "select 'Customer',",
+        "  SUM(Delivered) / SUM(Sent) as 'delivery_rate'",
+        "group by 'Customer'",
+        "order by 'delivery_rate' desc"
+      ],
+      "chartUrl": "zlHDcf",
+      "jsonConfig": [
+        {
+          "dimensions": [
+            {
+              "customized": false,
+              "fieldName": "Customer",
+              "fieldType": "java.lang.String",
+              "label": "Customer"
+            }
+          ],
+          "limit": 0,
+          "metrics": [
+            {
+              "customized": false,
+              "fieldName": "Customer",
+              "fieldType": "java.lang.String",
+              "label": "Customer"
+            },
+            {
+              "customized": true,
+              "fieldName": "SUM(Delivered) / SUM(Sent)",
+              "fieldType": "java.lang.String",
+              "label": "delivery_rate"
+            }
+          ],
+          "sort": [
+            {
+              "field": {
+                "customized": false,
+                "fieldName": "delivery_rate",
+                "fieldType": "java.lang.String",
+                "label": "delivery_rate"
+              },
+              "operation": "DESC",
+              "operationStr": "DESC"
+            }
+          ]
+        }
+      ],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

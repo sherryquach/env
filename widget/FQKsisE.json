@@ -1,0 +1,131 @@
+{
+  "categoryAssets": [
+    {
+      "categoryIdentifier": "${ref:category:_00001O}",
+      "identifier": "FQKsisE",
+      "objectType": 2
+    }
+  ],
+  "chartProperties": [
+    {
+      "chartUrl": "FQKsisE",
+      "dashboardIdentifier": null,
+      "property": "chart.legend.column",
+      "value": "LOCATION_NAME"
+    },
+    {
+      "chartUrl": "FQKsisE",
+      "dashboardIdentifier": null,
+      "property": "chart.series.data",
+      "value": "avg_line_total"
+    },
+    {
+      "chartUrl": "FQKsisE",
+      "dashboardIdentifier": null,
+      "property": "chart.series.type",
+      "value": "time"
+    },
+    {
+      "chartUrl": "FQKsisE",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "line"
+    },
+    {
+      "chartUrl": "FQKsisE",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.column",
+      "value": "ORDER_MONTH"
+    },
+    {
+      "chartUrl": "FQKsisE",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.order",
+      "value": "1"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "Average Location Performance Over Time",
+      "datasetId": "${ref:dataset:4Vwq3nq}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 1,
+      "url": "FQKsisE",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": [
+        "select 'ORDER_MONTH', 'LOCATION_NAME',",
+        "  AVG('LINE_TOTAL') as 'avg_line_total'",
+        "group by 'ORDER_MONTH', 'LOCATION_NAME'",
+        "order by 'ORDER_MONTH'"
+      ],
+      "chartUrl": "FQKsisE",
+      "jsonConfig": [
+        {
+          "dimensions": [
+            {
+              "customized": false,
+              "fieldName": "ORDER_MONTH",
+              "fieldType": "java.util.Date",
+              "label": "ORDER_MONTH"
+            },
+            {
+              "customized": false,
+              "fieldName": "LOCATION_NAME",
+              "fieldType": "java.lang.String",
+              "label": "LOCATION_NAME"
+            }
+          ],
+          "limit": 0,
+          "metrics": [
+            {
+              "customized": false,
+              "fieldName": "ORDER_MONTH",
+              "fieldType": "java.util.Date",
+              "label": "ORDER_MONTH"
+            },
+            {
+              "customized": false,
+              "fieldName": "LOCATION_NAME",
+              "fieldType": "java.lang.String",
+              "label": "LOCATION_NAME"
+            },
+            {
+              "customized": false,
+              "fieldName": "LINE_TOTAL",
+              "fieldType": "java.lang.Double",
+              "label": "avg_line_total",
+              "operation": "AVG",
+              "operationStr": "AVG"
+            }
+          ],
+          "sort": [
+            {
+              "field": {
+                "customized": false,
+                "fieldName": "ORDER_MONTH",
+                "fieldType": "java.util.Date",
+                "label": "ORDER_MONTH"
+              },
+              "operation": "ASC",
+              "operationStr": "ASC"
+            }
+          ]
+        }
+      ],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

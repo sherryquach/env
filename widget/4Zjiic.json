@@ -1,0 +1,83 @@
+{
+  "categoryAssets": [
+    {
+      "categoryIdentifier": "${ref:category:_00001O}",
+      "identifier": "4Zjiic",
+      "objectType": 2
+    }
+  ],
+  "chartProperties": [
+    {
+      "chartUrl": "4Zjiic",
+      "dashboardIdentifier": null,
+      "property": "chart.primary.ylabel",
+      "value": "quantity"
+    },
+    {
+      "chartUrl": "4Zjiic",
+      "dashboardIdentifier": null,
+      "property": "chart.series.data",
+      "value": "quantity"
+    },
+    {
+      "chartUrl": "4Zjiic",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "singletext"
+    },
+    {
+      "chartUrl": "4Zjiic",
+      "dashboardIdentifier": null,
+      "property": "scale",
+      "value": "true"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "Total Items Sold",
+      "datasetId": "${ref:dataset:hoKvma}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": {
+        "fields": [
+          {
+            "fieldName": "total_quantity",
+            "fieldType": "java.lang.Double"
+          }
+        ]
+      },
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 16,
+      "url": "4Zjiic",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": "select SUM('quantity') as 'total_quantity'",
+      "chartUrl": "4Zjiic",
+      "jsonConfig": [
+        {
+          "limit": 0,
+          "metrics": [
+            {
+              "customized": false,
+              "fieldName": "quantity",
+              "fieldType": "java.lang.Double",
+              "label": "total_quantity",
+              "operation": "SUM",
+              "operationStr": "SUM"
+            }
+          ]
+        }
+      ],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

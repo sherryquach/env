@@ -1,0 +1,47 @@
+{
+  "emailReportSchedules": [
+    {
+      "emailReportIdentifier": "_00001H",
+      "frequency": 1,
+      "frequencyType": "days",
+      "startTime": null,
+      "type": 0
+    }
+  ],
+  "emailReports": [
+    {
+      "identifier": "_00001H",
+      "jsonConfig": {
+        "reportContainsWidgetExport": true,
+        "sendTo": [
+          "sherry@knowi.com"
+        ],
+        "skipReportIfAttachmentsAreBlank": true,
+        "subject": "Local - custom widget PDF",
+        "widgets": [
+          {
+            "aiEnabled": false,
+            "associatedDashboardId": 0,
+            "exportCSV": true,
+            "exportExcel": false,
+            "exportInsights": true,
+            "exportPDF": true,
+            "exportRecommendations": true,
+            "id": 141,
+            "skipIfEmpty": false
+          }
+        ]
+      },
+      "status": 1,
+      "subject": "Custom Widget - Widget export",
+      "text": [
+        "<span>Email report</span><br>",
+        "<br>",
+        "Knowi Team<br>",
+        "support@knowi.com",
+        ""
+      ]
+    }
+  ],
+  "format": 1
+}

@@ -1,0 +1,47 @@
+{
+  "dataConfigs": [
+    {
+      "datasetIdentifier": "${ref:dataset:6vhVii}",
+      "queryIdentifier": "9NmTYn",
+      "queryStrId": "DtJrqn"
+    }
+  ],
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:CmeR9b}",
+      "description": null,
+      "direct": false,
+      "directPush": true,
+      "entityName": "linked",
+      "identifier": "9NmTYn",
+      "inUse": true,
+      "jsonConfig": {
+        "c9ExportDataset": "${ref:dataset:6vhVii}",
+        "c9ExportEntityName": "pageHits",
+        "c9ExportIdentifier": "6vhVii",
+        "datasourceId": "${ref:datasource:CmeR9b}",
+        "direct": false,
+        "discovery": {
+          "limit": 10000,
+          "tableName": "${ref:dataset:6vhVii}"
+        },
+        "entityName": "linked",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "queryStr": "select *\nlimit 10000",
+        "triggerOnAny": false,
+        "triggered": false,
+        "visual": true
+      },
+      "op": 4,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "DtJrqn",
+      "triggerDatasetId": 0
+    }
+  ]
+}

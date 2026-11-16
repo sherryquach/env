@@ -1,0 +1,54 @@
+{
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "",
+      "jsonConfig": [],
+      "queryIdentifier": "P7TZmkU",
+      "queryStrId": "6Y821CD"
+    }
+  ],
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:tltlsRx}",
+      "description": "",
+      "direct": false,
+      "directPush": true,
+      "entityName": "Oakland Crime 10Y",
+      "identifier": "P7TZmkU",
+      "inUse": true,
+      "jsonConfig": {
+        "datasourceId": "${ref:datasource:tltlsRx}",
+        "direct": false,
+        "entityName": "Oakland Crime 10Y",
+        "frequency": "1",
+        "frequencyType": "days",
+        "headers": "${secret:query:6Y821CD:headers.#1}",
+        "httpPost": false,
+        "httpPost2": false,
+        "ignoreHttpErrors": false,
+        "limitPages": "100",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "paginationDataPreview": false,
+        "paginationResponseKind": "Empty",
+        "paginationUseHTTPResponseHeaders": false,
+        "retryOnErrors": false,
+        "startTime": "07/28/2026 08:00 America/Los_Angeles",
+        "triggerOnAny": false,
+        "triggered": false,
+        "urlParams": "$where=datetime between '{$c9_thisyear-10y:yyyy-MM-dd}' and '{$c9_now:yyyy-MM-dd}'\n&$limit=10000000",
+        "visual": false
+      },
+      "op": 7,
+      "scheduled": 1,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "6Y821CD",
+      "triggerDatasetId": 0
+    }
+  ]
+}

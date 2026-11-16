@@ -1,0 +1,36 @@
+{
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:AEWGfxF}",
+      "description": null,
+      "direct": false,
+      "directPush": true,
+      "entityName": "Test Wildcard",
+      "identifier": "ZngXk9p",
+      "inUse": true,
+      "jsonConfig": {
+        "datasourceId": "${ref:datasource:AEWGfxF}",
+        "direct": false,
+        "discovery": {
+          "limit": 10000
+        },
+        "entityName": "Test Wildcard",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "queryStr": "db.orders.find()",
+        "triggerOnAny": false,
+        "triggered": false,
+        "visual": false
+      },
+      "op": 4,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "unsztRp",
+      "triggerDatasetId": 0
+    }
+  ]
+}

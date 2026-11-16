@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    {
+      "agenticDefault": false,
+      "bypassOverrideLimit": false,
+      "dataExpirationDate": null,
+      "datasetName": "_Custom Widget",
+      "identifier": "_W9rBX1O",
+      "injectStreamTime": false,
+      "metaHash": 537257654,
+      "metadataConfig": "{}",
+      "mongoConnectUri": "",
+      "nlpBotEnabled": true,
+      "nlpConfig": null,
+      "nlpEnabled": false,
+      "nlpIndexInterval": 360,
+      "refreshMeta": false,
+      "synonymHash": 0,
+      "timeZone": null
+    }
+  ],
+  "format": 1
+}

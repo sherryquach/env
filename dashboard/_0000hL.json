@@ -1,0 +1,63 @@
+{
+  "categoryAssets": [
+    {
+      "categoryIdentifier": "${ref:category:_00001D}",
+      "identifier": "_0000hL",
+      "objectType": 1
+    }
+  ],
+  "dashboardCharts": [
+    {
+      "chartUrl": "${ref:widget:ExSYzO}",
+      "col": 1,
+      "dashboardIdentifier": "_0000hL",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 1,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 24,
+      "sizeY": 19,
+      "sizeYOriginal": 0,
+      "width": 0
+    },
+    {
+      "chartUrl": "${ref:widget:hoKvma}",
+      "col": 1,
+      "dashboardIdentifier": "_0000hL",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 20,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 16,
+      "sizeY": 16,
+      "sizeYOriginal": 0,
+      "width": 0
+    }
+  ],
+  "dashboards": [
+    {
+      "dashAccessLevel": 1,
+      "displayOrder": 0,
+      "filterSettings": null,
+      "identifier": "_0000hL",
+      "jsonConfig": {
+        "excludeExpandedGridFromPdfExport": false,
+        "excludeGridWidgetsFromPdfExport": false
+      },
+      "locked": 0,
+      "name": "testing",
+      "screenAdjust": 1,
+      "screenHeight": 982,
+      "screenWidth": 1512,
+      "type": 1,
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

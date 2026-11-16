@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    {
+      "agenticDefault": false,
+      "bypassOverrideLimit": false,
+      "dataExpirationDate": null,
+      "datasetName": "Test",
+      "identifier": "fnipQRb",
+      "injectStreamTime": false,
+      "metaHash": 459538306,
+      "metadataConfig": "{\"fields\":[{\"fieldName\":\"_knowi_ts\",\"fieldType\":\"java.lang.Long\",\"ntz\":false},{\"fieldName\":\"address\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"borough\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"cuisine\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"grades\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"id_0\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"name\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"restaurant_id\",\"fieldType\":\"java.lang.String\",\"ntz\":false}]}",
+      "mongoConnectUri": "c9Query/${ref:query:MCbozrk}",
+      "nlpBotEnabled": true,
+      "nlpConfig": null,
+      "nlpEnabled": true,
+      "nlpIndexInterval": 360,
+      "refreshMeta": false,
+      "synonymHash": 0,
+      "timeZone": null
+    }
+  ],
+  "format": 1
+}

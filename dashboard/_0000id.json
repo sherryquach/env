@@ -1,0 +1,85 @@
+{
+  "dashboardCharts": [
+    {
+      "chartUrl": "${ref:widget:Elc8vpP}",
+      "col": 1,
+      "dashboardIdentifier": "_0000id",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 25,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 12,
+      "sizeY": 12,
+      "sizeYOriginal": 0,
+      "width": 0
+    },
+    {
+      "chartUrl": "${ref:widget:OfLcR8G}",
+      "col": 13,
+      "dashboardIdentifier": "_0000id",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 25,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 12,
+      "sizeY": 12,
+      "sizeYOriginal": 0,
+      "width": 0
+    },
+    {
+      "chartUrl": "${ref:widget:VlR3oZF}",
+      "col": 13,
+      "dashboardIdentifier": "_0000id",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 1,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 12,
+      "sizeY": 24,
+      "sizeYOriginal": 0,
+      "width": 0
+    },
+    {
+      "chartUrl": "${ref:widget:eGYnv8r}",
+      "col": 1,
+      "dashboardIdentifier": "_0000id",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 1,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 12,
+      "sizeY": 24,
+      "sizeYOriginal": 0,
+      "width": 0
+    }
+  ],
+  "dashboards": [
+    {
+      "dashAccessLevel": 0,
+      "displayOrder": 0,
+      "filterSettings": null,
+      "identifier": "_0000id",
+      "jsonConfig": null,
+      "locked": 0,
+      "name": "Frontline",
+      "screenAdjust": 1,
+      "screenHeight": 0,
+      "screenWidth": 1734,
+      "type": 1,
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

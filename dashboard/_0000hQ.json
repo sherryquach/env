@@ -1,0 +1,108 @@
+{
+  "categoryAssets": [
+    {
+      "categoryIdentifier": "${ref:category:_00001P}",
+      "identifier": "_0000hQ",
+      "objectType": 1
+    }
+  ],
+  "dashboardCharts": [
+    {
+      "chartUrl": "${ref:widget:3JXYdv}",
+      "col": 1,
+      "dashboardIdentifier": "_0000hQ",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 25,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 15,
+      "sizeY": 8,
+      "sizeYOriginal": 0,
+      "width": 0
+    },
+    {
+      "chartUrl": "${ref:widget:BFKujf}",
+      "col": 1,
+      "dashboardIdentifier": "_0000hQ",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 12,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 24,
+      "sizeY": 13,
+      "sizeYOriginal": 7,
+      "width": 0
+    },
+    {
+      "chartUrl": "${ref:widget:FQgLOA}",
+      "col": 1,
+      "dashboardIdentifier": "_0000hQ",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 1,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 16,
+      "sizeY": 11,
+      "sizeYOriginal": 7,
+      "width": 0
+    },
+    {
+      "chartUrl": "${ref:widget:GNX5XF}",
+      "col": 17,
+      "dashboardIdentifier": "_0000hQ",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 1,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 8,
+      "sizeY": 11,
+      "sizeYOriginal": 7,
+      "width": 0
+    },
+    {
+      "chartUrl": "${ref:widget:_121}",
+      "col": 1,
+      "dashboardIdentifier": "_0000hQ",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 33,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 12,
+      "sizeY": 12,
+      "sizeYOriginal": 0,
+      "width": 0
+    }
+  ],
+  "dashboards": [
+    {
+      "dashAccessLevel": 1,
+      "displayOrder": 0,
+      "filterSettings": null,
+      "identifier": "_0000hQ",
+      "jsonConfig": null,
+      "locked": 0,
+      "name": "Top Selling Items by Location",
+      "screenAdjust": 1,
+      "screenHeight": 0,
+      "screenWidth": 0,
+      "type": 1,
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

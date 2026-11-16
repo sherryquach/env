@@ -1,0 +1,143 @@
+{
+  "categoryAssets": [
+    {
+      "categoryIdentifier": "${ref:category:_00001O}",
+      "identifier": "SWPspTq",
+      "objectType": 2
+    }
+  ],
+  "chartProperties": [
+    {
+      "chartUrl": "SWPspTq",
+      "dashboardIdentifier": null,
+      "property": "chart.legend.column",
+      "value": "crimetype"
+    },
+    {
+      "chartUrl": "SWPspTq",
+      "dashboardIdentifier": null,
+      "property": "chart.series.data",
+      "value": "count"
+    },
+    {
+      "chartUrl": "SWPspTq",
+      "dashboardIdentifier": null,
+      "property": "chart.series.type",
+      "value": "time"
+    },
+    {
+      "chartUrl": "SWPspTq",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "line"
+    },
+    {
+      "chartUrl": "SWPspTq",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.column",
+      "value": "datetime"
+    },
+    {
+      "chartUrl": "SWPspTq",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.order",
+      "value": "1"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "Crimes Over Time",
+      "datasetId": "${ref:dataset:bytVkLe}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": {
+        "fields": [
+          {
+            "fieldName": "count",
+            "fieldType": "java.lang.Integer",
+            "ntz": false
+          },
+          {
+            "fieldName": "crimetype",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "datetime",
+            "fieldType": "java.util.Date",
+            "ntz": false
+          }
+        ]
+      },
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 1,
+      "url": "SWPspTq",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": [
+        "select 'crimetype', COUNT(*) as 'count', 'datetime'",
+        "where datetime >= $c9_thisyear",
+        "group by 'datetime'"
+      ],
+      "chartUrl": "SWPspTq",
+      "jsonConfig": [
+        {
+          "dimensions": [
+            {
+              "customized": false,
+              "fieldName": "datetime",
+              "fieldType": "java.util.Date",
+              "label": "datetime"
+            }
+          ],
+          "filters": [
+            {
+              "field": {
+                "customized": true,
+                "fieldName": "datetime",
+                "fieldType": "java.util.Date",
+                "label": "datetime"
+              },
+              "operator": "GREATER_THAN_OR_EQUALS",
+              "operatorStr": ">=",
+              "value": "$c9_thisyear"
+            }
+          ],
+          "limit": 0,
+          "metrics": [
+            {
+              "customized": false,
+              "fieldName": "crimetype",
+              "fieldType": "java.lang.String",
+              "label": "crimetype"
+            },
+            {
+              "customized": false,
+              "fieldName": "All",
+              "fieldType": "java.lang.Object",
+              "label": "count",
+              "operation": "COUNT",
+              "operationStr": "COUNT"
+            },
+            {
+              "customized": false,
+              "fieldName": "datetime",
+              "fieldType": "java.util.Date",
+              "label": "datetime"
+            }
+          ]
+        }
+      ],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

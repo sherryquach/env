@@ -1,0 +1,88 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "qMT5RYs",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "text"
+    },
+    {
+      "chartUrl": "qMT5RYs",
+      "dashboardIdentifier": null,
+      "property": "scale",
+      "value": "true"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "Total Recorded Crimes",
+      "datasetId": "${ref:dataset:bytVkLe}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": {
+        "fields": [
+          {
+            "fieldName": "'location_name'",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "avg_line_total",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          }
+        ]
+      },
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 4,
+      "url": "qMT5RYs",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": [
+        "select 'location_name',",
+        "  AVG('line_total') as 'avg_line_total'",
+        "group by 'location_name'"
+      ],
+      "chartUrl": "qMT5RYs",
+      "jsonConfig": [
+        {
+          "dimensions": [
+            {
+              "customized": false,
+              "fieldName": "location_name",
+              "fieldType": "java.lang.String",
+              "label": "location_name"
+            }
+          ],
+          "limit": 0,
+          "metrics": [
+            {
+              "customized": false,
+              "fieldName": "location_name",
+              "fieldType": "java.lang.String",
+              "label": "location_name"
+            },
+            {
+              "customized": false,
+              "fieldName": "line_total",
+              "fieldType": "java.lang.Double",
+              "label": "avg_line_total",
+              "operation": "AVG",
+              "operationStr": "avg"
+            }
+          ]
+        }
+      ],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

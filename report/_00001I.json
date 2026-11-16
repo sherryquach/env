@@ -1,0 +1,41 @@
+{
+  "emailReportSchedules": [
+    {
+      "emailReportIdentifier": "_00001I",
+      "frequency": 1,
+      "frequencyType": "weekly",
+      "startTime": "11/16/2026 08:00Z",
+      "type": 0
+    }
+  ],
+  "emailReports": [
+    {
+      "identifier": "_00001I",
+      "jsonConfig": {
+        "reportContainsWidgetExport": true,
+        "sendTo": [
+          "sherry@knowi.com"
+        ],
+        "skipReportIfAttachmentsAreBlank": false,
+        "subject": "Widget Report",
+        "widgets": [
+          {
+            "aiEnabled": false,
+            "associatedDashboardId": 0,
+            "exportCSV": false,
+            "exportExcel": false,
+            "exportInsights": false,
+            "exportPDF": true,
+            "exportRecommendations": false,
+            "id": 350,
+            "skipIfEmpty": false
+          }
+        ]
+      },
+      "status": 1,
+      "subject": "Widget Report",
+      "text": ""
+    }
+  ],
+  "format": 1
+}

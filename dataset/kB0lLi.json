@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    {
+      "agenticDefault": false,
+      "bypassOverrideLimit": false,
+      "dataExpirationDate": null,
+      "datasetName": "test",
+      "identifier": "kB0lLi",
+      "injectStreamTime": false,
+      "metaHash": -1254937982,
+      "metadataConfig": "{\"fields\":[{\"fieldName\":\"country\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"currency\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"customer\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"id\",\"fieldType\":\"java.lang.Long\"},{\"fieldName\":\"state\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"street\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"test\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"test_1\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"_stream_time\",\"fieldType\":\"java.util.Date\"}]}",
+      "mongoConnectUri": "provisioned",
+      "nlpBotEnabled": true,
+      "nlpConfig": null,
+      "nlpEnabled": true,
+      "nlpIndexInterval": 360,
+      "refreshMeta": false,
+      "synonymHash": 0,
+      "timeZone": null
+    }
+  ],
+  "format": 1
+}

@@ -1,0 +1,54 @@
+{
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "",
+      "jsonConfig": [],
+      "queryIdentifier": "bViiwJL",
+      "queryStrId": "mEVoZtz"
+    }
+  ],
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:iihzb9i}",
+      "description": "",
+      "direct": false,
+      "directPush": true,
+      "entityName": "Jira",
+      "identifier": "bViiwJL",
+      "inUse": true,
+      "jsonConfig": {
+        "apiConfig": {
+          "endPoint": "https://{host}/rest/agile/1.0/board?{&maxResults=50}",
+          "headers": "Authorization: Basic {authToken:base64encode}",
+          "pagination": {
+            "requestParameterName": "startAt",
+            "responseFieldName": "values",
+            "responseKind": "ArrayCount"
+          },
+          "type": "GET"
+        },
+        "c9QLFilter": "select expand(values);\nselect id, name, type, location.projectName as project;",
+        "collections": "boards",
+        "datasourceId": "${ref:datasource:iihzb9i}",
+        "direct": false,
+        "entityName": "Jira",
+        "maxResults": "50",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "triggerOnAny": false,
+        "triggered": false,
+        "visual": true
+      },
+      "op": 4,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "mEVoZtz",
+      "triggerDatasetId": 0
+    }
+  ]
+}

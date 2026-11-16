@@ -1,0 +1,47 @@
+{
+  "dataConfigs": [
+    {
+      "datasetIdentifier": "${ref:dataset:hoKvma}",
+      "queryIdentifier": "hoKvma",
+      "queryStrId": "20s5s3"
+    }
+  ],
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:CmeR9b}",
+      "description": null,
+      "direct": false,
+      "directPush": true,
+      "entityName": "Sales",
+      "identifier": "hoKvma",
+      "inUse": true,
+      "jsonConfig": {
+        "c9ExportDataset": "${ref:dataset:hoKvma}",
+        "c9ExportEntityName": "Sales",
+        "c9ExportIdentifier": "hoKvma",
+        "datasourceId": "${ref:datasource:CmeR9b}",
+        "direct": false,
+        "discovery": {
+          "discoveryForSuggestions": false,
+          "limit": 10000,
+          "tableName": "${ref:dataset:hoKvma}"
+        },
+        "entityName": "Sales",
+        "identifier": "hoKvma",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "queryStr": "select *",
+        "triggered": false
+      },
+      "op": 4,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "20s5s3",
+      "triggerDatasetId": 0
+    }
+  ]
+}

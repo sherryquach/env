@@ -1,0 +1,50 @@
+{
+  "emailReportSchedules": [
+    {
+      "emailReportIdentifier": "_00001D",
+      "frequency": 1,
+      "frequencyType": "days",
+      "startTime": "08/14/2026 11:42 America/Los_Angeles",
+      "type": 0
+    }
+  ],
+  "emailReports": [
+    {
+      "identifier": "_00001D",
+      "jsonConfig": {
+        "reportContainsWidgetExport": false,
+        "sendTo": [
+          "sherry@knowi.com"
+        ],
+        "skipReportIfAttachmentsAreBlank": true,
+        "subject": "InstantSights Report",
+        "widgets": [
+          {
+            "aiEnabled": false,
+            "associatedDashboardId": 0,
+            "exportCSV": false,
+            "exportExcel": false,
+            "exportInsights": true,
+            "exportPDF": false,
+            "exportRecommendations": true,
+            "id": 118,
+            "skipIfEmpty": false
+          }
+        ]
+      },
+      "status": 1,
+      "subject": "test",
+      "text": [
+        "<span>InstantSights report</span><br><br>",
+        "{EmbedInstantSight}",
+        "<br><br>",
+        "{EmbedRecommendations}",
+        "<br><br>",
+        "Knowi Team<br>",
+        "support@knowi.com",
+        ""
+      ]
+    }
+  ],
+  "format": 1
+}

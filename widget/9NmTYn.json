@@ -1,0 +1,28 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "9NmTYn",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "datagrid2"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "linked",
+      "datasetId": "${ref:dataset:9NmTYn}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 21,
+      "url": "9NmTYn",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

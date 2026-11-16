@@ -1,0 +1,28 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "vej7eIb",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "datagrid2"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "Copy of Judge.Me Reviews",
+      "datasetId": "${ref:dataset:vej7eIb}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 21,
+      "url": "vej7eIb",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

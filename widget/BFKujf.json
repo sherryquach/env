@@ -1,0 +1,199 @@
+{
+  "categoryAssets": [
+    {
+      "categoryIdentifier": "${ref:category:_00001O}",
+      "identifier": "BFKujf",
+      "objectType": 2
+    }
+  ],
+  "chartProperties": [
+    {
+      "chartUrl": "BFKujf",
+      "dashboardIdentifier": null,
+      "property": "chart.alignTicks",
+      "value": "true"
+    },
+    {
+      "chartUrl": "BFKujf",
+      "dashboardIdentifier": null,
+      "property": "chart.firstRow",
+      "value": "[\"Bay Bistro - SoMa\",\"Cheeseburger\",1235]"
+    },
+    {
+      "chartUrl": "BFKujf",
+      "dashboardIdentifier": null,
+      "property": "chart.legend.column",
+      "value": "location_name"
+    },
+    {
+      "chartUrl": "BFKujf",
+      "dashboardIdentifier": null,
+      "property": "chart.quickpickers",
+      "value": "0"
+    },
+    {
+      "chartUrl": "BFKujf",
+      "dashboardIdentifier": null,
+      "property": "chart.secondary.sync",
+      "value": "false"
+    },
+    {
+      "chartUrl": "BFKujf",
+      "dashboardIdentifier": null,
+      "property": "chart.secondary.zIndex",
+      "value": "false"
+    },
+    {
+      "chartUrl": "BFKujf",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "column"
+    },
+    {
+      "chartUrl": "BFKujf",
+      "dashboardIdentifier": null,
+      "property": "chart.useLocalTime",
+      "value": "false"
+    },
+    {
+      "chartUrl": "BFKujf",
+      "dashboardIdentifier": null,
+      "property": "chart.wBorderVisibility",
+      "value": "inherit_from_dash"
+    },
+    {
+      "chartUrl": "BFKujf",
+      "dashboardIdentifier": null,
+      "property": "chart.wTitleVisibility",
+      "value": "inherit_from_dash"
+    },
+    {
+      "chartUrl": "BFKujf",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.column",
+      "value": "item_name"
+    },
+    {
+      "chartUrl": "BFKujf",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.subGroup",
+      "value": "location_name"
+    },
+    {
+      "chartUrl": "BFKujf",
+      "dashboardIdentifier": null,
+      "property": "chart.xaxis.scroll",
+      "value": "false"
+    },
+    {
+      "chartUrl": "BFKujf",
+      "dashboardIdentifier": null,
+      "property": "legendAlias",
+      "value": "{}"
+    },
+    {
+      "chartUrl": "BFKujf",
+      "dashboardIdentifier": null,
+      "property": "loadUponPrompt",
+      "value": "false"
+    },
+    {
+      "chartUrl": "BFKujf",
+      "dashboardIdentifier": null,
+      "property": "repeatableWidget.showRepeatingPanel",
+      "value": "false"
+    },
+    {
+      "chartUrl": "BFKujf",
+      "dashboardIdentifier": null,
+      "property": "widgetDisplayOptions",
+      "value": "w-export-to-excel:false,highchart-context-menu:true"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "Top Items by Quantity Sold per Location",
+      "datasetId": "${ref:dataset:hoKvma}",
+      "description": "",
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": {
+        "fields": [
+          {
+            "fieldName": "item_name",
+            "fieldType": "java.lang.String"
+          },
+          {
+            "fieldName": "location_name",
+            "fieldType": "java.lang.String"
+          },
+          {
+            "fieldName": "total_quantity",
+            "fieldType": "java.lang.Double"
+          }
+        ]
+      },
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 1,
+      "url": "BFKujf",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": [
+        "select 'location_name', 'item_name',",
+        "  SUM('quantity') as 'total_quantity'",
+        "group by 'location_name', 'item_name'"
+      ],
+      "chartUrl": "BFKujf",
+      "jsonConfig": [
+        {
+          "dimensions": [
+            {
+              "customized": false,
+              "fieldName": "location_name",
+              "fieldType": "java.lang.String",
+              "label": "location_name"
+            },
+            {
+              "customized": false,
+              "fieldName": "item_name",
+              "fieldType": "java.lang.String",
+              "label": "item_name"
+            }
+          ],
+          "limit": 0,
+          "metrics": [
+            {
+              "customized": false,
+              "fieldName": "location_name",
+              "fieldType": "java.lang.String",
+              "label": "location_name"
+            },
+            {
+              "customized": false,
+              "fieldName": "item_name",
+              "fieldType": "java.lang.String",
+              "label": "item_name"
+            },
+            {
+              "customized": false,
+              "fieldName": "quantity",
+              "fieldType": "java.lang.Double",
+              "label": "total_quantity",
+              "operation": "SUM",
+              "operationStr": "sum"
+            }
+          ]
+        }
+      ],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

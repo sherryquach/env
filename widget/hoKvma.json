@@ -1,0 +1,210 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "hoKvma",
+      "dashboardIdentifier": null,
+      "property": "chart.firstRow",
+      "value": "[\"T20250729115418000\",\"Tue Jul 29 11:54:18 UTC 2025\",\"SFO01\",\"Bay Bistro - SoMa\",\"Cheeseburger\",\"Entree\",\"None\",1,14]"
+    },
+    {
+      "chartUrl": "hoKvma",
+      "dashboardIdentifier": null,
+      "property": "chart.quickpickers",
+      "value": "0"
+    },
+    {
+      "chartUrl": "hoKvma",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "recommendation"
+    },
+    {
+      "chartUrl": "hoKvma",
+      "dashboardIdentifier": null,
+      "property": "grid.column.datetime.widthPerc",
+      "value": "0.1111111111111111"
+    },
+    {
+      "chartUrl": "hoKvma",
+      "dashboardIdentifier": null,
+      "property": "grid.column.item_name.widthPerc",
+      "value": "0.1111111111111111"
+    },
+    {
+      "chartUrl": "hoKvma",
+      "dashboardIdentifier": null,
+      "property": "grid.column.line_total.widthPerc",
+      "value": "0.1111111111111111"
+    },
+    {
+      "chartUrl": "hoKvma",
+      "dashboardIdentifier": null,
+      "property": "grid.column.location_id.widthPerc",
+      "value": "0.1111111111111111"
+    },
+    {
+      "chartUrl": "hoKvma",
+      "dashboardIdentifier": null,
+      "property": "grid.column.location_name.widthPerc",
+      "value": "0.1111111111111111"
+    },
+    {
+      "chartUrl": "hoKvma",
+      "dashboardIdentifier": null,
+      "property": "grid.column.modifier.widthPerc",
+      "value": "0.1111111111111111"
+    },
+    {
+      "chartUrl": "hoKvma",
+      "dashboardIdentifier": null,
+      "property": "grid.column.quantity.widthPerc",
+      "value": "0.1111111111111111"
+    },
+    {
+      "chartUrl": "hoKvma",
+      "dashboardIdentifier": null,
+      "property": "grid.column.sales_category.widthPerc",
+      "value": "0.1111111111111111"
+    },
+    {
+      "chartUrl": "hoKvma",
+      "dashboardIdentifier": null,
+      "property": "grid.column.transaction_id.widthPerc",
+      "value": "0.1111111111111111"
+    },
+    {
+      "chartUrl": "hoKvma",
+      "dashboardIdentifier": null,
+      "property": "grid.columnWidths",
+      "value": "[]"
+    },
+    {
+      "chartUrl": "hoKvma",
+      "dashboardIdentifier": null,
+      "property": "loadUponPrompt",
+      "value": "false"
+    },
+    {
+      "chartUrl": "hoKvma",
+      "dashboardIdentifier": null,
+      "property": "recommendation.mode",
+      "value": "2"
+    },
+    {
+      "chartUrl": "hoKvma",
+      "dashboardIdentifier": null,
+      "property": "recommendation.showActions",
+      "value": "true"
+    },
+    {
+      "chartUrl": "hoKvma",
+      "dashboardIdentifier": null,
+      "property": "repeatableWidget.showRepeatingPanel",
+      "value": "false"
+    },
+    {
+      "chartUrl": "hoKvma",
+      "dashboardIdentifier": null,
+      "property": "widgetDisplayOptions",
+      "value": "w-export-to-excel:true,highchart-context-menu:true"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "Sales",
+      "datasetId": "${ref:dataset:hoKvma}",
+      "description": "",
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": {
+        "fields": [
+          {
+            "fieldName": "datetime",
+            "fieldType": "java.util.Date"
+          },
+          {
+            "fieldName": "item_name",
+            "fieldType": "java.lang.String"
+          },
+          {
+            "fieldName": "line_total",
+            "fieldType": "java.lang.Double"
+          },
+          {
+            "fieldName": "location_id",
+            "fieldType": "java.lang.String"
+          },
+          {
+            "fieldName": "location_name",
+            "fieldType": "java.lang.String"
+          },
+          {
+            "fieldName": "modifier",
+            "fieldType": "java.lang.String"
+          },
+          {
+            "fieldName": "quantity",
+            "fieldType": "java.lang.Integer"
+          },
+          {
+            "fieldName": "sales_category",
+            "fieldType": "java.lang.String"
+          },
+          {
+            "fieldName": "transaction_id",
+            "fieldType": "java.lang.String"
+          }
+        ]
+      },
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 26,
+      "url": "hoKvma",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": [
+        "select *",
+        "where 'location_id' = '1234'"
+      ],
+      "chartUrl": "hoKvma",
+      "jsonConfig": [
+        {
+          "dataFieldNames": [
+            "transaction_id",
+            "datetime",
+            "location_id",
+            "location_name",
+            "item_name",
+            "sales_category",
+            "modifier",
+            "quantity",
+            "line_total"
+          ],
+          "discoveryForSuggestions": false,
+          "filters": [
+            {
+              "field": {
+                "customized": false,
+                "fieldName": "location_id",
+                "fieldType": "java.lang.String",
+                "label": "location_id"
+              },
+              "operator": "EQUALS",
+              "operatorStr": "=",
+              "value": "1234"
+            }
+          ],
+          "limit": 0
+        }
+      ],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

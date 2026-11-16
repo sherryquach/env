@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    {
+      "agenticDefault": false,
+      "bypassOverrideLimit": false,
+      "dataExpirationDate": null,
+      "datasetName": "supply_chain_dataset_100k.csv",
+      "identifier": "6tPTaP",
+      "injectStreamTime": false,
+      "metaHash": 1489510443,
+      "metadataConfig": "{\"fields\":[{\"fieldName\":\"carbon_kg\",\"fieldType\":\"java.lang.Double\"},{\"fieldName\":\"customer\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"duty_cost\",\"fieldType\":\"java.lang.Double\"},{\"fieldName\":\"freight_cost\",\"fieldType\":\"java.lang.Double\"},{\"fieldName\":\"incoterm\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"late_by_days\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"lead_time_days\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"line_id\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"mode\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"on_time_flag\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"order_date\",\"fieldType\":\"java.util.Date\"},{\"fieldName\":\"order_id\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"planned_delivery_date\",\"fieldType\":\"java.util.Date\"},{\"fieldName\":\"planned_ship_date\",\"fieldType\":\"java.util.Date\"},{\"fieldName\":\"priority\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"product\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"quantity\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"region\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"ship_from_warehouse\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"sku\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"status\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"supplier\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"total_cost\",\"fieldType\":\"java.lang.Double\"},{\"fieldName\":\"unit_cost\",\"fieldType\":\"java.lang.Double\"},{\"fieldName\":\"_stream_time\",\"fieldType\":\"java.util.Date\"}]}",
+      "mongoConnectUri": "provisioned",
+      "nlpBotEnabled": true,
+      "nlpConfig": null,
+      "nlpEnabled": true,
+      "nlpIndexInterval": 360,
+      "refreshMeta": false,
+      "synonymHash": 0,
+      "timeZone": null
+    }
+  ],
+  "format": 1
+}

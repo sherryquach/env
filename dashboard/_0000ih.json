@@ -1,0 +1,133 @@
+{
+  "categoryAssets": [
+    {
+      "categoryIdentifier": "${ref:category:_00001P}",
+      "identifier": "_0000ih",
+      "objectType": 1
+    }
+  ],
+  "dashboardCharts": [
+    {
+      "chartUrl": "${ref:widget:52BtkjN}",
+      "col": 1,
+      "dashboardIdentifier": "_0000ih",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 1,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 24,
+      "sizeY": 5,
+      "sizeYOriginal": 5,
+      "width": 0
+    },
+    {
+      "chartUrl": "${ref:widget:Jk60GML}",
+      "col": 17,
+      "dashboardIdentifier": "_0000ih",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 18,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 8,
+      "sizeY": 12,
+      "sizeYOriginal": 0,
+      "width": 0
+    },
+    {
+      "chartUrl": "${ref:widget:SxJQeSx}",
+      "col": 1,
+      "dashboardIdentifier": "_0000ih",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 18,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 8,
+      "sizeY": 12,
+      "sizeYOriginal": 0,
+      "width": 0
+    },
+    {
+      "chartUrl": "${ref:widget:bSd32ci}",
+      "col": 9,
+      "dashboardIdentifier": "_0000ih",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 18,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 8,
+      "sizeY": 12,
+      "sizeYOriginal": 0,
+      "width": 0
+    },
+    {
+      "chartUrl": "${ref:widget:is9OdF7}",
+      "col": 1,
+      "dashboardIdentifier": "_0000ih",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 6,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 24,
+      "sizeY": 12,
+      "sizeYOriginal": 0,
+      "width": 0
+    }
+  ],
+  "dashboards": [
+    {
+      "dashAccessLevel": 1,
+      "displayOrder": 0,
+      "filterSettings": null,
+      "identifier": "_0000ih",
+      "jsonConfig": {
+        "excludeExpandedGridFromPdfExport": false,
+        "excludeGridWidgetsFromPdfExport": false,
+        "filters": [
+          {
+            "controlType": "single",
+            "dashboardDisplayValues": [
+              "Lakefront Kitchen – Loop"
+            ],
+            "dynamic": false,
+            "enabled": true,
+            "fieldName": "LOCATION_NAME",
+            "fieldType": "java.lang.String",
+            "inclusiveTime": false,
+            "label": "LOCATION_NAME",
+            "operator": "Equals",
+            "plainControlType": "single",
+            "transientFilter": false,
+            "type": "java.lang.String",
+            "values": [
+              "Lakefront Kitchen – Loop"
+            ],
+            "visible": true
+          }
+        ]
+      },
+      "locked": 0,
+      "name": "Q3 Restaurant Review",
+      "screenAdjust": 0,
+      "screenHeight": 0,
+      "screenWidth": 0,
+      "type": 1,
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

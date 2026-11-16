@@ -1,0 +1,32 @@
+{
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:BFbZtd}",
+      "description": null,
+      "direct": false,
+      "directPush": true,
+      "entityName": "SOP-TM-0330_Blood_Transfusion.pdf",
+      "identifier": "g1gaEj8",
+      "inUse": true,
+      "jsonConfig": {
+        "datasourceId": "${ref:datasource:BFbZtd}",
+        "direct": false,
+        "entityName": "SOP-TM-0330_Blood_Transfusion.pdf",
+        "identifier": "g1gaEj8",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "triggered": false,
+        "uploadedFileName": "SOP-TM-0330_Blood_Transfusion.pdf"
+      },
+      "op": 1,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "vis6ZEh",
+      "triggerDatasetId": 0
+    }
+  ]
+}

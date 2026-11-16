@@ -1,0 +1,113 @@
+{
+  "categoryAssets": [
+    {
+      "categoryIdentifier": "${ref:category:_00001O}",
+      "identifier": "bSd32ci",
+      "objectType": 2
+    }
+  ],
+  "chartProperties": [
+    {
+      "chartUrl": "bSd32ci",
+      "dashboardIdentifier": null,
+      "property": "chart.series.data",
+      "value": "line_total"
+    },
+    {
+      "chartUrl": "bSd32ci",
+      "dashboardIdentifier": null,
+      "property": "chart.series.type",
+      "value": "time"
+    },
+    {
+      "chartUrl": "bSd32ci",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "line"
+    },
+    {
+      "chartUrl": "bSd32ci",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.column",
+      "value": "ORDER_TIMESTAMP_TZ"
+    },
+    {
+      "chartUrl": "bSd32ci",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.order",
+      "value": "1"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "Sales Performance Over Time",
+      "datasetId": "${ref:dataset:4Vwq3nq}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": {
+        "fields": [
+          {
+            "fieldName": "'ORDER_TIMESTAMP_TZ'",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "line_total",
+            "fieldType": "java.lang.Double",
+            "ntz": false
+          }
+        ]
+      },
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 1,
+      "url": "bSd32ci",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": [
+        "select 'ORDER_TIMESTAMP_TZ',",
+        "  SUM('LINE_TOTAL') as 'line_total'",
+        "group by 'ORDER_TIMESTAMP_TZ'"
+      ],
+      "chartUrl": "bSd32ci",
+      "jsonConfig": [
+        {
+          "dimensions": [
+            {
+              "customized": false,
+              "fieldName": "ORDER_TIMESTAMP_TZ",
+              "fieldType": "java.util.Date",
+              "label": "ORDER_TIMESTAMP_TZ"
+            }
+          ],
+          "limit": 0,
+          "metrics": [
+            {
+              "customized": false,
+              "fieldName": "ORDER_TIMESTAMP_TZ",
+              "fieldType": "java.util.Date",
+              "label": "ORDER_TIMESTAMP_TZ"
+            },
+            {
+              "customized": false,
+              "fieldName": "LINE_TOTAL",
+              "fieldType": "java.lang.Double",
+              "label": "line_total",
+              "operation": "SUM",
+              "operationStr": "SUM"
+            }
+          ]
+        }
+      ],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

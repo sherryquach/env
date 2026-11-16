@@ -1,0 +1,219 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "BLiiwh7",
+      "dashboardIdentifier": null,
+      "property": "chart.firstRow",
+      "value": "[\"588405bd74dda0402b533a82\",{\"zipcode\":\"10065\",\"coord\":[-73.96926909999999,40.7685235],\"street\":\"East   66 Street\",\"building\":\"1\"},\"Manhattan\",\"American\",[{\"date\":1399420800000,\"score\":3,\"grade\":\"A\"},{\"date\":1367539200000,\"score\":4,\"grade\":\"A\"},{\"date\":1335744000000,\"score\":6,\"grade\":\"A\"},{\"date\":1324944000000,\"score\":0,\"grade\":\"A\"}],\"1 East 66Th Street Kitchen\",\"40359480\",1785971000954]"
+    },
+    {
+      "chartUrl": "BLiiwh7",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "datagrid2"
+    },
+    {
+      "chartUrl": "BLiiwh7",
+      "dashboardIdentifier": null,
+      "property": "grid.column._knowi_ts.widthPerc",
+      "value": "0.125"
+    },
+    {
+      "chartUrl": "BLiiwh7",
+      "dashboardIdentifier": null,
+      "property": "grid.column.address.widthPerc",
+      "value": "0.125"
+    },
+    {
+      "chartUrl": "BLiiwh7",
+      "dashboardIdentifier": null,
+      "property": "grid.column.borough.widthPerc",
+      "value": "0.125"
+    },
+    {
+      "chartUrl": "BLiiwh7",
+      "dashboardIdentifier": null,
+      "property": "grid.column.cuisine.widthPerc",
+      "value": "0.125"
+    },
+    {
+      "chartUrl": "BLiiwh7",
+      "dashboardIdentifier": null,
+      "property": "grid.column.grades.widthPerc",
+      "value": "0.125"
+    },
+    {
+      "chartUrl": "BLiiwh7",
+      "dashboardIdentifier": null,
+      "property": "grid.column.id .widthPerc",
+      "value": "0.125"
+    },
+    {
+      "chartUrl": "BLiiwh7",
+      "dashboardIdentifier": null,
+      "property": "grid.column.name.widthPerc",
+      "value": "0.2949346405228758"
+    },
+    {
+      "chartUrl": "BLiiwh7",
+      "dashboardIdentifier": null,
+      "property": "grid.column.restaurant_id.widthPerc",
+      "value": "0.125"
+    },
+    {
+      "chartUrl": "BLiiwh7",
+      "dashboardIdentifier": null,
+      "property": "grid.columnWidths",
+      "value": "[\"0.125\",\"0.125\",\"0.125\",\"0.125\",\"0.2949346405228758\",\"0.125\",\"0.125\",\"0.125\"]"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "DBWrite Restaurants",
+      "datasetId": "${ref:dataset:BLiiwh7}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": "{\"state\":\"enable\",\"fields\":false,\"cascadingSuggestions\":\"disable\",\"filteringResult\":true,\"lockFilterSet\":false,\"filterBarPlacement\":\"top\",\"filterBarStyle\":\"compact\"}",
+      "jsonConfig": {
+        "fields": [
+          {
+            "fieldName": "_knowi_ts",
+            "fieldType": "java.lang.Long",
+            "ntz": false
+          },
+          {
+            "fieldName": "address",
+            "fieldType": "java.util.Map",
+            "nestedFields": [
+              {
+                "fieldName": "building",
+                "fieldType": "java.lang.String",
+                "ntz": false
+              },
+              {
+                "fieldName": "coord",
+                "fieldType": "java.util.List",
+                "nestedFields": [
+                  {
+                    "fieldName": "[*]",
+                    "fieldType": "java.lang.Double",
+                    "ntz": false
+                  }
+                ],
+                "ntz": false
+              },
+              {
+                "fieldName": "street",
+                "fieldType": "java.lang.String",
+                "ntz": false
+              },
+              {
+                "fieldName": "zipcode",
+                "fieldType": "java.lang.String",
+                "ntz": false
+              }
+            ],
+            "ntz": false
+          },
+          {
+            "fieldName": "borough",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "cuisine",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "grades",
+            "fieldType": "java.util.List",
+            "nestedFields": [
+              {
+                "fieldName": "[*]",
+                "fieldType": "java.util.Map",
+                "nestedFields": [
+                  {
+                    "fieldName": "date",
+                    "fieldType": "java.lang.Long",
+                    "ntz": false
+                  },
+                  {
+                    "fieldName": "grade",
+                    "fieldType": "java.lang.String",
+                    "ntz": false
+                  },
+                  {
+                    "fieldName": "score",
+                    "fieldType": "java.lang.Integer",
+                    "ntz": false
+                  }
+                ],
+                "ntz": false
+              }
+            ],
+            "ntz": false
+          },
+          {
+            "fieldName": "id",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "name",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "restaurant_id",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "test",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          }
+        ]
+      },
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 21,
+      "url": "BLiiwh7",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": [
+        "select test, *",
+        "limit 5"
+      ],
+      "chartUrl": "BLiiwh7",
+      "jsonConfig": [
+        {
+          "limit": 5,
+          "metrics": [
+            {
+              "customized": true,
+              "fieldName": "test",
+              "fieldType": "java.lang.String",
+              "label": "test"
+            },
+            {
+              "customized": false,
+              "fieldName": "All",
+              "fieldType": "java.lang.Object",
+              "label": "All"
+            }
+          ]
+        }
+      ],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

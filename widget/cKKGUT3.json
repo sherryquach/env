@@ -1,0 +1,127 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "cKKGUT3",
+      "dashboardIdentifier": null,
+      "property": "chart.firstRow",
+      "value": "[\"WEAPONS\",\"Thu Jan 08 08:02:00 UTC 2026\",\"26-001057\",\"82ND AV & INTERNATIONAL BLVD\",\"Oakland\",\"Thu Jan 08 00:00:00 UTC 2026\",\"37.75541\",\"-122.1792\",\"Thu Jan 01 00:00:00 UTC 2026\",\"Thu Jan 01 00:00:00 UTC 2026\",\"Jan-26\",\"2026\",[\"ADW NOT F/ARM:PO/FIRE:GBI\",\"POSS STOLEN VEH/VES/ETC\",\"CARRY LOADED FIREARM ON/IN PERSON/VEH: PUBLIC PLACE\",\"FELON/ADDICT/POSSESS/OWN/ETC FIREARM\"],\"WEAPONS\",\"33X\"]"
+    },
+    {
+      "chartUrl": "cKKGUT3",
+      "dashboardIdentifier": null,
+      "property": "chart.quickpickers",
+      "value": "0"
+    },
+    {
+      "chartUrl": "cKKGUT3",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "geopin"
+    },
+    {
+      "chartUrl": "cKKGUT3",
+      "dashboardIdentifier": null,
+      "property": "chart.wBorderVisibility",
+      "value": "inherit_from_dash"
+    },
+    {
+      "chartUrl": "cKKGUT3",
+      "dashboardIdentifier": null,
+      "property": "chart.wTitleVisibility",
+      "value": "inherit_from_dash"
+    },
+    {
+      "chartUrl": "cKKGUT3",
+      "dashboardIdentifier": null,
+      "property": "geo.maps.type",
+      "value": "ROADMAP"
+    },
+    {
+      "chartUrl": "cKKGUT3",
+      "dashboardIdentifier": null,
+      "property": "widget.footnote",
+      "value": "JPEG / PNG / PDF Export - does NOT work"
+    },
+    {
+      "chartUrl": "cKKGUT3",
+      "dashboardIdentifier": null,
+      "property": "widgetCache.enabled",
+      "value": "true"
+    },
+    {
+      "chartUrl": "cKKGUT3",
+      "dashboardIdentifier": null,
+      "property": "widgetDisplayOptions",
+      "value": "w-export-to-excel:false,highchart-context-menu:true"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "Market Pin Widget",
+      "datasetId": "${ref:dataset:bytVkLe}",
+      "description": "",
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": {
+        "fields": [
+          {
+            "fieldName": "crimetype",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "latitude",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          },
+          {
+            "fieldName": "longitude",
+            "fieldType": "java.lang.String",
+            "ntz": false
+          }
+        ]
+      },
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 7,
+      "url": "cKKGUT3",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": "select 'latitude', 'longitude', 'crimetype'",
+      "chartUrl": "cKKGUT3",
+      "jsonConfig": [
+        {
+          "limit": 0,
+          "metrics": [
+            {
+              "customized": false,
+              "fieldName": "latitude",
+              "fieldType": "java.lang.String",
+              "label": "latitude"
+            },
+            {
+              "customized": false,
+              "fieldName": "longitude",
+              "fieldType": "java.lang.String",
+              "label": "longitude"
+            },
+            {
+              "customized": false,
+              "fieldName": "crimetype",
+              "fieldType": "java.lang.String",
+              "label": "crimetype"
+            }
+          ]
+        }
+      ],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    {
+      "agenticDefault": false,
+      "bypassOverrideLimit": false,
+      "dataExpirationDate": null,
+      "datasetName": "Sending Activity",
+      "identifier": "ExSYzO",
+      "injectStreamTime": false,
+      "metaHash": 278113734,
+      "metadataConfig": "{\"fields\":[{\"fieldName\":\"Bounced\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"Campaign_name\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"Clicks\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"Conversions\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"Customer\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"Date\",\"fieldType\":\"java.util.Date\"},{\"fieldName\":\"Delivered\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"id\",\"fieldType\":\"java.lang.Long\"},{\"fieldName\":\"message_type\",\"fieldType\":\"java.lang.String\"},{\"fieldName\":\"Opened\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"Sent\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"Spam\",\"fieldType\":\"java.lang.Integer\"},{\"fieldName\":\"Week\",\"fieldType\":\"java.util.Date\"},{\"fieldName\":\"_stream_time\",\"fieldType\":\"java.util.Date\"}]}",
+      "mongoConnectUri": "provisioned",
+      "nlpBotEnabled": true,
+      "nlpConfig": null,
+      "nlpEnabled": true,
+      "nlpIndexInterval": 360,
+      "refreshMeta": false,
+      "synonymHash": 0,
+      "timeZone": null
+    }
+  ],
+  "format": 1
+}

@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    {
+      "agenticDefault": false,
+      "bypassOverrideLimit": false,
+      "dataExpirationDate": null,
+      "datasetName": "Judge.Me Product",
+      "identifier": "z5NAxpM",
+      "injectStreamTime": false,
+      "metaHash": -955556779,
+      "metadataConfig": "{\"fields\":[{\"fieldName\":\"judgeme_product_id\",\"fieldType\":\"java.lang.Integer\",\"ntz\":false},{\"fieldName\":\"product_description\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"product_handle\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"product_product_type\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"product_title\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"shopify_product_id\",\"fieldType\":\"java.lang.Long\",\"ntz\":false},{\"fieldName\":\"_stream_time\",\"fieldType\":\"java.util.Date\",\"ntz\":false}]}",
+      "mongoConnectUri": "provisioned",
+      "nlpBotEnabled": true,
+      "nlpConfig": null,
+      "nlpEnabled": true,
+      "nlpIndexInterval": 360,
+      "refreshMeta": false,
+      "synonymHash": 0,
+      "timeZone": null
+    }
+  ],
+  "format": 1
+}

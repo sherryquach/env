@@ -1,0 +1,118 @@
+{
+  "categoryAssets": [
+    {
+      "categoryIdentifier": "${ref:category:_00001D}",
+      "identifier": "_0000hS",
+      "objectType": 1
+    }
+  ],
+  "dashboardCharts": [
+    {
+      "chartUrl": "${ref:widget:BM3TfT}",
+      "col": 1,
+      "dashboardIdentifier": "_0000hS",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 13,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 24,
+      "sizeY": 12,
+      "sizeYOriginal": 0,
+      "width": 0
+    },
+    {
+      "chartUrl": "${ref:widget:GryDjI}",
+      "col": 1,
+      "dashboardIdentifier": "_0000hS",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 1,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 12,
+      "sizeY": 12,
+      "sizeYOriginal": 0,
+      "width": 0
+    },
+    {
+      "chartUrl": "${ref:widget:_121}",
+      "col": 13,
+      "dashboardIdentifier": "_0000hS",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 1,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 12,
+      "sizeY": 12,
+      "sizeYOriginal": 0,
+      "width": 0
+    },
+    {
+      "chartUrl": "${ref:widget:rjZ47K}",
+      "col": 13,
+      "dashboardIdentifier": "_0000hS",
+      "grain": 1,
+      "height": 0,
+      "origScreenHeight": 0,
+      "origScreenWidth": 0,
+      "row": 25,
+      "screenposX": 0,
+      "screenposY": 0,
+      "sizeX": 12,
+      "sizeY": 6,
+      "sizeYOriginal": 6,
+      "width": 0
+    }
+  ],
+  "dashboards": [
+    {
+      "dashAccessLevel": 0,
+      "displayOrder": 0,
+      "filterSettings": "{\"state\":\"enable\",\"fields\":false,\"cascadingSuggestions\":\"enable\",\"filteringResult\":true,\"lockFilterSet\":false,\"filterBarPlacement\":\"left\",\"filterBarStyle\":\"expanded\"}",
+      "identifier": "_0000hS",
+      "jsonConfig": {
+        "excludeExpandedGridFromPdfExport": false,
+        "excludeGridWidgetsFromPdfExport": false,
+        "view": {
+          "actions": true,
+          "backgroundColor": "",
+          "border": true,
+          "dashFreeWidget": false,
+          "dashGrain": 1,
+          "dashGrouping": false,
+          "dashLoadUponPrompt": true,
+          "dashTheme": "",
+          "dashTitle": true,
+          "drag": true,
+          "enableDashFilterIcon": true,
+          "enableHeaders": true,
+          "enablePdfExport": true,
+          "enablePptExport": true,
+          "enablePresenter": true,
+          "filter": true,
+          "instantSightsIcon": true,
+          "resize": true,
+          "setting": true,
+          "title": true,
+          "widgetSpacing": 5
+        }
+      },
+      "locked": 0,
+      "name": "Data Format Testing",
+      "screenAdjust": 0,
+      "screenHeight": 0,
+      "screenWidth": 1789,
+      "type": 1,
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

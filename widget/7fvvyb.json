@@ -1,0 +1,74 @@
+{
+  "categoryAssets": [
+    {
+      "categoryIdentifier": "${ref:category:_00001O}",
+      "identifier": "7fvvyb",
+      "objectType": 2
+    }
+  ],
+  "chartProperties": [
+    {
+      "chartUrl": "7fvvyb",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "spreadsheet"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "Copy of Sales - Data",
+      "datasetId": "${ref:dataset:Fuq7aG}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": {
+        "fields": [
+          {
+            "fieldName": "datetime",
+            "fieldType": "java.util.Date"
+          },
+          {
+            "fieldName": "item_name",
+            "fieldType": "java.lang.String"
+          },
+          {
+            "fieldName": "line_total",
+            "fieldType": "java.lang.Double"
+          },
+          {
+            "fieldName": "location_id",
+            "fieldType": "java.lang.String"
+          },
+          {
+            "fieldName": "location_name",
+            "fieldType": "java.lang.String"
+          },
+          {
+            "fieldName": "modifier",
+            "fieldType": "java.lang.String"
+          },
+          {
+            "fieldName": "quantity",
+            "fieldType": "java.lang.Integer"
+          },
+          {
+            "fieldName": "sales_category",
+            "fieldType": "java.lang.String"
+          },
+          {
+            "fieldName": "transaction_id",
+            "fieldType": "java.lang.String"
+          }
+        ]
+      },
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 24,
+      "url": "7fvvyb",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

@@ -1,0 +1,32 @@
+{
+  "datasources": [
+    {
+      "acl": null,
+      "connectSchema": false,
+      "connectorId": 1,
+      "datasource": "mysql",
+      "directQueryOnly": false,
+      "inUse": true,
+      "jsonConfig": {
+        "connectSchema": false,
+        "datasource": "mysql",
+        "dbName": "cloud9",
+        "enableQueryAgent": true,
+        "host": "mysql",
+        "name": "Local MySQL",
+        "password": "${secret:datasource:1TX1is8:password}",
+        "port": "3306",
+        "proxy": false,
+        "userId": "cloud9",
+        "writable": true
+      },
+      "name": "Local MySQL",
+      "op": 2,
+      "proxy": false,
+      "strId": "1TX1is8",
+      "tunnel": false,
+      "writable": true
+    }
+  ],
+  "format": 1
+}

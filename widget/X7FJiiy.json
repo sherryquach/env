@@ -1,0 +1,136 @@
+{
+  "categoryAssets": [
+    {
+      "categoryIdentifier": "${ref:category:_00001O}",
+      "identifier": "X7FJiiy",
+      "objectType": 2
+    }
+  ],
+  "chartProperties": [
+    {
+      "chartUrl": "X7FJiiy",
+      "dashboardIdentifier": null,
+      "property": "chart.legend.column",
+      "value": "revenue"
+    },
+    {
+      "chartUrl": "X7FJiiy",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "pivot"
+    },
+    {
+      "chartUrl": "X7FJiiy",
+      "dashboardIdentifier": null,
+      "property": "kpi.card.version",
+      "value": "2"
+    },
+    {
+      "chartUrl": "X7FJiiy",
+      "dashboardIdentifier": null,
+      "property": "kpi.chart.color",
+      "value": "theme.chart"
+    },
+    {
+      "chartUrl": "X7FJiiy",
+      "dashboardIdentifier": null,
+      "property": "kpi.chart.enabled",
+      "value": "auto"
+    },
+    {
+      "chartUrl": "X7FJiiy",
+      "dashboardIdentifier": null,
+      "property": "kpi.chart.tooltip",
+      "value": "auto"
+    },
+    {
+      "chartUrl": "X7FJiiy",
+      "dashboardIdentifier": null,
+      "property": "kpi.chart.type",
+      "value": "area"
+    },
+    {
+      "chartUrl": "X7FJiiy",
+      "dashboardIdentifier": null,
+      "property": "kpi.comparison.display",
+      "value": "percentChange"
+    },
+    {
+      "chartUrl": "X7FJiiy",
+      "dashboardIdentifier": null,
+      "property": "kpi.comparison.showArrow",
+      "value": "true"
+    },
+    {
+      "chartUrl": "X7FJiiy",
+      "dashboardIdentifier": null,
+      "property": "kpi.comparison.type",
+      "value": "auto"
+    },
+    {
+      "chartUrl": "X7FJiiy",
+      "dashboardIdentifier": null,
+      "property": "kpi.label",
+      "value": "Revenue"
+    },
+    {
+      "chartUrl": "X7FJiiy",
+      "dashboardIdentifier": null,
+      "property": "kpi.value.field",
+      "value": "revenue"
+    },
+    {
+      "chartUrl": "X7FJiiy",
+      "dashboardIdentifier": null,
+      "property": "scale",
+      "value": "true"
+    },
+    {
+      "chartUrl": "X7FJiiy",
+      "dashboardIdentifier": null,
+      "property": "singletext.metric",
+      "value": "revenue"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "Total Sales",
+      "datasetId": "${ref:dataset:hoKvma}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 20,
+      "url": "X7FJiiy",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": "select SUM('line_total') as 'revenue'",
+      "chartUrl": "X7FJiiy",
+      "jsonConfig": [
+        {
+          "limit": 0,
+          "metrics": [
+            {
+              "customized": false,
+              "fieldName": "line_total",
+              "fieldType": "java.lang.Double",
+              "label": "revenue",
+              "operation": "SUM",
+              "operationStr": "SUM"
+            }
+          ]
+        }
+      ],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

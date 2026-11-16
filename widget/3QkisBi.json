@@ -1,0 +1,81 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "3QkisBi",
+      "dashboardIdentifier": null,
+      "property": "chart.series.data",
+      "value": "avg_line_total"
+    },
+    {
+      "chartUrl": "3QkisBi",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "bar"
+    },
+    {
+      "chartUrl": "3QkisBi",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.column",
+      "value": "location_name"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "Average Line Total by Location",
+      "datasetId": "${ref:dataset:hoKvma}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 1,
+      "url": "3QkisBi",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": [
+        "select 'location_name',",
+        "  AVG('line_total') as 'avg_line_total'",
+        "group by 'location_name'"
+      ],
+      "chartUrl": "3QkisBi",
+      "jsonConfig": [
+        {
+          "dimensions": [
+            {
+              "customized": false,
+              "fieldName": "location_name",
+              "fieldType": "java.lang.String",
+              "label": "location_name"
+            }
+          ],
+          "limit": 0,
+          "metrics": [
+            {
+              "customized": false,
+              "fieldName": "location_name",
+              "fieldType": "java.lang.String",
+              "label": "location_name"
+            },
+            {
+              "customized": false,
+              "fieldName": "line_total",
+              "fieldType": "java.lang.Double",
+              "label": "avg_line_total",
+              "operation": "AVG",
+              "operationStr": "AVG"
+            }
+          ]
+        }
+      ],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

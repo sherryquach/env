@@ -1,0 +1,305 @@
+{
+  "chartProperties": [
+    {
+      "chartUrl": "ExSYzO",
+      "dashboardIdentifier": null,
+      "property": "ai.recommendations.context",
+      "value": ""
+    },
+    {
+      "chartUrl": "ExSYzO",
+      "dashboardIdentifier": null,
+      "property": "ai.recommendations.enabled",
+      "value": "true"
+    },
+    {
+      "chartUrl": "ExSYzO",
+      "dashboardIdentifier": null,
+      "property": "chart.alignTicks",
+      "value": "true"
+    },
+    {
+      "chartUrl": "ExSYzO",
+      "dashboardIdentifier": null,
+      "property": "chart.firstRow",
+      "value": "[\"Costco\",\"Sun Nov 30 00:00:00 UTC 2014\",\"Marketing\",2690,1582516]"
+    },
+    {
+      "chartUrl": "ExSYzO",
+      "dashboardIdentifier": null,
+      "property": "chart.legend.column",
+      "value": "Customer"
+    },
+    {
+      "chartUrl": "ExSYzO",
+      "dashboardIdentifier": null,
+      "property": "chart.percent",
+      "value": "false"
+    },
+    {
+      "chartUrl": "ExSYzO",
+      "dashboardIdentifier": null,
+      "property": "chart.percentView",
+      "value": "false"
+    },
+    {
+      "chartUrl": "ExSYzO",
+      "dashboardIdentifier": null,
+      "property": "chart.primary.ylabel",
+      "value": "total_spam"
+    },
+    {
+      "chartUrl": "ExSYzO",
+      "dashboardIdentifier": null,
+      "property": "chart.quickpickers",
+      "value": "0"
+    },
+    {
+      "chartUrl": "ExSYzO",
+      "dashboardIdentifier": null,
+      "property": "chart.secondary.sync",
+      "value": "false"
+    },
+    {
+      "chartUrl": "ExSYzO",
+      "dashboardIdentifier": null,
+      "property": "chart.secondary.zIndex",
+      "value": "false"
+    },
+    {
+      "chartUrl": "ExSYzO",
+      "dashboardIdentifier": null,
+      "property": "chart.series.data",
+      "value": "total_spam"
+    },
+    {
+      "chartUrl": "ExSYzO",
+      "dashboardIdentifier": null,
+      "property": "chart.series.type",
+      "value": "time"
+    },
+    {
+      "chartUrl": "ExSYzO",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "stacked column"
+    },
+    {
+      "chartUrl": "ExSYzO",
+      "dashboardIdentifier": null,
+      "property": "chart.useLocalTime",
+      "value": "false"
+    },
+    {
+      "chartUrl": "ExSYzO",
+      "dashboardIdentifier": null,
+      "property": "chart.wBorderVisibility",
+      "value": "show"
+    },
+    {
+      "chartUrl": "ExSYzO",
+      "dashboardIdentifier": null,
+      "property": "chart.wTitleVisibility",
+      "value": "hide"
+    },
+    {
+      "chartUrl": "ExSYzO",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.column",
+      "value": "week"
+    },
+    {
+      "chartUrl": "ExSYzO",
+      "dashboardIdentifier": null,
+      "property": "chart.xAxis.order",
+      "value": "1"
+    },
+    {
+      "chartUrl": "ExSYzO",
+      "dashboardIdentifier": null,
+      "property": "chart.xaxis.scroll",
+      "value": "false"
+    },
+    {
+      "chartUrl": "ExSYzO",
+      "dashboardIdentifier": null,
+      "property": "chartColor",
+      "value": "#1E90FF,#4682B4,#5F9EA0,#7DF9FF,#ADD8E6,#AFEEEE,#B0E0E6,#CAE1FF"
+    },
+    {
+      "chartUrl": "ExSYzO",
+      "dashboardIdentifier": null,
+      "property": "legendAlias",
+      "value": "{\"Sent\":\"testing\"}"
+    },
+    {
+      "chartUrl": "ExSYzO",
+      "dashboardIdentifier": null,
+      "property": "loadUponPrompt",
+      "value": "false"
+    },
+    {
+      "chartUrl": "ExSYzO",
+      "dashboardIdentifier": null,
+      "property": "repeatableWidget.showRepeatingPanel",
+      "value": "false"
+    },
+    {
+      "chartUrl": "ExSYzO",
+      "dashboardIdentifier": null,
+      "property": "widgetDisplayOptions",
+      "value": "w-export-to-excel:true,highchart-context-menu:true"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "Sending Activity",
+      "datasetId": "${ref:dataset:ExSYzO}",
+      "description": "",
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": {
+        "fields": [
+          {
+            "fieldName": "Customer",
+            "fieldType": "java.lang.String"
+          },
+          {
+            "fieldName": "message_type",
+            "fieldType": "java.lang.String"
+          },
+          {
+            "fieldName": "Sum of Sent",
+            "fieldType": "java.lang.Double"
+          },
+          {
+            "fieldName": "total_spam",
+            "fieldType": "java.lang.Double"
+          },
+          {
+            "fieldName": "week",
+            "fieldType": "java.util.Date"
+          }
+        ]
+      },
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 1,
+      "url": "ExSYzO",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": [
+        "select 'Customer', WEEK(Date) as 'week', 'message_type',",
+        "  SUM('Spam') as 'total_spam',",
+        "  SUM('Sent') as 'Sum of Sent'",
+        "group by 'Customer', WEEK(Date), 'message_type'",
+        "order by 'Customer', 'week'"
+      ],
+      "chartUrl": "ExSYzO",
+      "jsonConfig": [
+        {
+          "dataFieldNames": [
+            "id",
+            "Sent",
+            "message_type",
+            "Customer",
+            "Week",
+            "Date",
+            "Opened",
+            "Spam",
+            "Bounced",
+            "Delivered",
+            "Clicks",
+            "Conversions",
+            "Campaign_name"
+          ],
+          "dimensions": [
+            {
+              "customized": false,
+              "fieldName": "Customer",
+              "fieldType": "java.lang.String",
+              "label": "Customer"
+            },
+            {
+              "customized": true,
+              "fieldName": "WEEK(Date)",
+              "label": "week"
+            },
+            {
+              "customized": false,
+              "fieldName": "message_type",
+              "fieldType": "java.lang.String",
+              "label": "message_type"
+            }
+          ],
+          "discoveryForSuggestions": false,
+          "limit": 0,
+          "metrics": [
+            {
+              "customized": false,
+              "fieldName": "Customer",
+              "fieldType": "java.lang.String",
+              "label": "Customer"
+            },
+            {
+              "customized": true,
+              "fieldName": "WEEK(Date)",
+              "label": "week"
+            },
+            {
+              "customized": false,
+              "fieldName": "message_type",
+              "fieldType": "java.lang.String",
+              "label": "message_type"
+            },
+            {
+              "customized": false,
+              "fieldName": "Spam",
+              "fieldType": "java.lang.Double",
+              "label": "total_spam",
+              "operation": "SUM",
+              "operationStr": "sum"
+            },
+            {
+              "customized": false,
+              "fieldName": "Sent",
+              "fieldType": "java.lang.Integer",
+              "label": "Sum of Sent",
+              "operation": "SUM",
+              "operationStr": "sum"
+            }
+          ],
+          "sort": [
+            {
+              "field": {
+                "customized": false,
+                "fieldName": "Customer",
+                "fieldType": "java.lang.String",
+                "label": "Customer"
+              },
+              "operation": "ASC",
+              "operationStr": "asc"
+            },
+            {
+              "field": {
+                "customized": false,
+                "fieldName": "week",
+                "label": "week"
+              },
+              "operation": "ASC",
+              "operationStr": "asc"
+            }
+          ]
+        }
+      ],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}

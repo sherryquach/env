@@ -1,0 +1,53 @@
+{
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "",
+      "jsonConfig": [],
+      "queryIdentifier": "NrSuQVY",
+      "queryStrId": "2ksHIcp"
+    }
+  ],
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:ZdFdBl2}",
+      "description": null,
+      "direct": false,
+      "directPush": true,
+      "entityName": "Copy of TikTok",
+      "identifier": "NrSuQVY",
+      "inUse": true,
+      "jsonConfig": {
+        "apiConfig": {
+          "endPoint": "https://open.tiktokapis.com/v2/video/list/?fields=id,title,video_description,duration,cover_image_url,share_url,create_time,view_count,like_count,comment_count,share_count",
+          "headers": "Authorization: Bearer {access_token}\nContent-Type: application/json",
+          "type": "POST"
+        },
+        "c9QLFilter": "select expand(data.videos);\nselect id, title, view_count, like_count, comment_count, share_count, create_time, video_description, share_url;",
+        "collections": "video_list",
+        "datasourceId": "${ref:datasource:ZdFdBl2}",
+        "direct": false,
+        "entityName": "Copy of TikTok",
+        "fields": "id,title,video_description,duration,cover_image_url,share_url,create_time,view_count,like_count,comment_count,share_count",
+        "frequency": "1",
+        "frequencyType": "days",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "postPayload": "{\n  \"max_count\": 20,\n  \"cursor\": 0\n}",
+        "startTime": "06/08/2026 23:51 UTC",
+        "triggerOnAny": false,
+        "triggered": false,
+        "visual": true
+      },
+      "op": 4,
+      "scheduled": 1,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "2ksHIcp",
+      "triggerDatasetId": 0
+    }
+  ]
+}

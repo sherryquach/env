@@ -1,0 +1,23 @@
+{
+  "datasets": [
+    {
+      "agenticDefault": false,
+      "bypassOverrideLimit": false,
+      "dataExpirationDate": null,
+      "datasetName": "Direct Token",
+      "identifier": "7C0zIFy",
+      "injectStreamTime": false,
+      "metaHash": 868305667,
+      "metadataConfig": "{\"macroFields\":[{\"fieldName\":\"CITY\",\"fieldType\":\"java.lang.String\",\"ntz\":false}],\"fields\":[{\"fieldName\":\"CATEGORY\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"CITY\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"id\",\"fieldType\":\"org.bson.types.ObjectId\",\"ntz\":false},{\"fieldName\":\"ITEM_NAME\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"ITEM_PRICE\",\"fieldType\":\"java.lang.Double\",\"ntz\":false},{\"fieldName\":\"LINE_TOTAL\",\"fieldType\":\"java.lang.Double\",\"ntz\":false},{\"fieldName\":\"LOCATION_ID\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"LOCATION_NAME\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"MODIFIER_CHARGE\",\"fieldType\":\"java.lang.Double\",\"ntz\":false},{\"fieldName\":\"MODIFIERS\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"ORDER_CHANNEL\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"ORDER_DATE_NTZ\",\"fieldType\":\"com.cloud9.core.DateNTZ\",\"ntz\":true},{\"fieldName\":\"ORDER_ID\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"ORDER_MONTH\",\"fieldType\":\"java.util.Date\",\"ntz\":false},{\"fieldName\":\"ORDER_TIMESTAMP_TZ\",\"fieldType\":\"java.util.Date\",\"ntz\":false},{\"fieldName\":\"PAYMENT_METHOD\",\"fieldType\":\"java.lang.String\",\"ntz\":false},{\"fieldName\":\"QUANTITY\",\"fieldType\":\"java.lang.Long\",\"ntz\":false},{\"fieldName\":\"STATE\",\"fieldType\":\"java.lang.String\",\"ntz\":false}]}",
+      "mongoConnectUri": "c9Query/${ref:query:EcD5fMT}",
+      "nlpBotEnabled": true,
+      "nlpConfig": null,
+      "nlpEnabled": true,
+      "nlpIndexInterval": 360,
+      "refreshMeta": false,
+      "synonymHash": 0,
+      "timeZone": null
+    }
+  ],
+  "format": 1
+}

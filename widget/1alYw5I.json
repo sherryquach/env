@@ -1,0 +1,47 @@
+{
+  "categoryAssets": [
+    {
+      "categoryIdentifier": "${ref:category:_00001O}",
+      "identifier": "1alYw5I",
+      "objectType": 2
+    }
+  ],
+  "chartProperties": [
+    {
+      "chartUrl": "1alYw5I",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "recommendation"
+    },
+    {
+      "chartUrl": "1alYw5I",
+      "dashboardIdentifier": null,
+      "property": "recommendation.mode",
+      "value": "4"
+    },
+    {
+      "chartUrl": "1alYw5I",
+      "dashboardIdentifier": null,
+      "property": "recommendation.prompt",
+      "value": "Build a dashboard called QA Ops Review from the restaurant Sales dataset with revenue by location, revenue by sales category, and top 10 items by quantity"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "QA Ops Review - Summary",
+      "datasetId": "${ref:dataset:hoKvma}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": null,
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 26,
+      "url": "1alYw5I",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "format": 1
+}

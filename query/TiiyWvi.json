@@ -1,0 +1,39 @@
+{
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:DY6Qg2F}",
+      "description": null,
+      "direct": false,
+      "directPush": true,
+      "entityName": "SALES - Cached",
+      "identifier": "4Vwq3nq",
+      "inUse": true,
+      "jsonConfig": {
+        "datasourceId": "${ref:datasource:DY6Qg2F}",
+        "direct": false,
+        "discovery": {
+          "limit": 10000,
+          "tableName": [
+            "SALES"
+          ]
+        },
+        "entityName": "SALES - Cached",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "queryStr": "select\n  *\nfrom\n  \"SALES\"",
+        "triggerOnAny": false,
+        "triggered": false,
+        "visual": false
+      },
+      "op": 4,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "TiiyWvi",
+      "triggerDatasetId": 0
+    }
+  ]
+}

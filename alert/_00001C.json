@@ -1,0 +1,47 @@
+{
+  "datasetAlertSchedules": [
+    {
+      "datasetAlertIdentifier": "_00001C",
+      "frequency": 1,
+      "frequencyType": "days",
+      "startTime": null,
+      "type": 0
+    }
+  ],
+  "datasetAlerts": [
+    {
+      "alertCondition": "select *",
+      "alertFrequency": 0,
+      "alertName": "test",
+      "alertType": 1,
+      "chartUrl": null,
+      "datasetIdentifier": "${ref:dataset:IrCLKnJ}",
+      "identifier": "_00001C",
+      "jsonConfig": {
+        "alertContentFilters": null,
+        "alertIfNoData": false,
+        "attachAlertData": true,
+        "attachDashboardPdf": false,
+        "attachDataset": false,
+        "attachmentConfig": {
+          "datasetId": null,
+          "query": ""
+        },
+        "classVersion": 2,
+        "dashboardPdfInfo": {
+          "dashboardPdfId": null
+        },
+        "dateTime": null,
+        "dimension": null,
+        "emailOutput": {},
+        "frequencyMarker": "custom",
+        "metric": null,
+        "skipSameAlert": true
+      },
+      "realtime": false,
+      "sendTo": null,
+      "status": 1
+    }
+  ],
+  "format": 1
+}

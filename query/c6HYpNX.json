@@ -1,0 +1,50 @@
+{
+  "discoveryConfigs": [
+    {
+      "c9Query": "",
+      "chartUrl": "",
+      "jsonConfig": [],
+      "queryIdentifier": "rbWvakb",
+      "queryStrId": "c6HYpNX"
+    }
+  ],
+  "format": 1,
+  "queries": [
+    {
+      "cacheDuration": 0,
+      "datasourceId": "${ref:datasource:PUN0wx0}",
+      "description": "",
+      "direct": false,
+      "directPush": true,
+      "entityName": "test",
+      "identifier": "rbWvakb",
+      "inUse": true,
+      "jsonConfig": {
+        "apiConfig": {
+          "endPoint": "https://{host}.api.mailchimp.com/3.0/reports?count=1000&fields=total_items,_links,reports.id,reports.campaign_title,reports.type,reports.list_id,reports.list_is_active,reports.list_name,reports.subject_line,reports.preview_text,reports.emails_sent,reports.abuse_reports,reports.unsubscribed,reports.send_time,reports.bounces,reports.forwards,reports.facebook_likes,reports.industry_stats,reports.list_stats,reports.timeseries,reports.ecommerce,reports.delivery_status&since_send_time=2023-01-01T00:00:00+00:00",
+          "headers": "Authorization: Basic {authToken}",
+          "type": "GET"
+        },
+        "c9QLFilter": "select expand(reports);\nselect expand(opens);\nselect expand(clicks);",
+        "collections": "reports",
+        "datasourceId": "${ref:datasource:PUN0wx0}",
+        "direct": false,
+        "entityName": "test",
+        "fields": "total_items,_links,reports.id,reports.campaign_title,reports.type,reports.list_id,reports.list_is_active,reports.list_name,reports.subject_line,reports.preview_text,reports.emails_sent,reports.abuse_reports,reports.unsubscribed,reports.send_time,reports.bounces,reports.forwards,reports.facebook_likes,reports.industry_stats,reports.list_stats,reports.timeseries,reports.ecommerce,reports.delivery_status",
+        "overrideVals": {
+          "replaceAll": true
+        },
+        "sinceSent": "2023-01-01T00:00:00+00:00",
+        "triggerOnAny": false,
+        "triggered": false,
+        "visual": true
+      },
+      "op": 6,
+      "scheduled": 0,
+      "storeConfig": null,
+      "storeDatasourceId": 0,
+      "strId": "c6HYpNX",
+      "triggerDatasetId": 0
+    }
+  ]
+}

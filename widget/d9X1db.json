@@ -1,0 +1,81 @@
+{
+  "categoryAssets": [
+    {
+      "categoryIdentifier": "${ref:category:_00001O}",
+      "identifier": "d9X1db",
+      "objectType": 2
+    }
+  ],
+  "chartProperties": [
+    {
+      "chartUrl": "d9X1db",
+      "dashboardIdentifier": null,
+      "property": "chart.primary.ylabel",
+      "value": "transaction_id"
+    },
+    {
+      "chartUrl": "d9X1db",
+      "dashboardIdentifier": null,
+      "property": "chart.series.data",
+      "value": "transaction_id"
+    },
+    {
+      "chartUrl": "d9X1db",
+      "dashboardIdentifier": null,
+      "property": "chart.type",
+      "value": "singletext"
+    },
+    {
+      "chartUrl": "d9X1db",
+      "dashboardIdentifier": null,
+      "property": "scale",
+      "value": "true"
+    }
+  ],
+  "charts": [
+    {
+      "access": 0,
+      "category": null,
+      "chartName": "Total Transactions",
+      "datasetId": "${ref:dataset:hoKvma}",
+      "description": null,
+      "drilldown": 0,
+      "filterSettings": null,
+      "jsonConfig": {
+        "fields": [
+          {
+            "fieldName": "count_transaction_id",
+            "fieldType": "java.lang.Integer"
+          }
+        ]
+      },
+      "liveRefresh": -1,
+      "query": 0,
+      "type": 16,
+      "url": "d9X1db",
+      "urlShareWhitelistDomain": null
+    }
+  ],
+  "discoveryConfigs": [
+    {
+      "c9Query": "select COUNT(transaction_id) as 'count_transaction_id'",
+      "chartUrl": "d9X1db",
+      "jsonConfig": [
+        {
+          "limit": 0,
+          "metrics": [
+            {
+              "customized": true,
+              "fieldName": "COUNT(transaction_id)",
+              "fieldType": "java.lang.Number",
+              "label": "count_transaction_id"
+            }
+          ]
+        }
+      ],
+      "queryIdentifier": "",
+      "queryStrId": ""
+    }
+  ],
+  "format": 1
+}
