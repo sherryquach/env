@@ -41,6 +41,7 @@
           "replaceAll": true
         },
         "queryStr": "select *",
+        "tableName": "${ref:dataset:P7TZmkU}",
         "triggerOnAny": false,
         "triggered": false,
         "visual": true

@@ -34,6 +34,7 @@
           "replaceAll": true
         },
         "queryStr": "select *",
+        "tableName": "${ref:dataset:hoKvma}",
         "triggered": false
       },
       "op": 4,

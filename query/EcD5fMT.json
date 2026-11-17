@@ -38,6 +38,7 @@
         },
         "entityName": "Direct Token",
         "queryStr": "select *\nwhere city in ($c9_city$[CITY]${list|'|,}$)",
+        "tableName": "${ref:dataset:4Vwq3nq}",
         "triggerOnAny": false,
         "triggered": false,
         "visual": false

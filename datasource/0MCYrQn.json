@@ -3,7 +3,7 @@
     {
       "acl": null,
       "connectSchema": false,
-      "connectorId": 100,
+      "connectorId": 1,
       "datasource": "cloud9charts",
       "directQueryOnly": false,
       "inUse": true,

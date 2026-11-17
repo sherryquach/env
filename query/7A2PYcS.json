@@ -33,6 +33,7 @@
           "replaceAll": true
         },
         "queryStr": "select *",
+        "tableName": "${ref:dataset:jORcJID}",
         "triggered": false
       },
       "op": 1,
