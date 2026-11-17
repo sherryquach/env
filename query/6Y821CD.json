@@ -43,7 +43,7 @@
         "urlParams": "$where=datetime between '{$c9_thisyear-10y:yyyy-MM-dd}' and '{$c9_now:yyyy-MM-dd}'\n&$limit=10000000",
         "visual": false
       },
-      "op": 7,
+      "op": 6,
       "scheduled": 1,
       "storeConfig": null,
       "storeDatasourceId": 0,

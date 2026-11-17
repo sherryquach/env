@@ -34,6 +34,7 @@
           "replaceAll": true
         },
         "queryStr": "select *",
+        "tableName": "${ref:dataset:6tPTaP}",
         "triggered": false
       },
       "op": 4,

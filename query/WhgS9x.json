@@ -44,6 +44,7 @@
               "tableName": "${ref:dataset:Fuq7aG}"
             },
             "queryStr": "select *\nlimit 10000",
+            "tableName": "${ref:dataset:Fuq7aG}",
             "visual": true
           }
         ],
@@ -51,6 +52,7 @@
           "replaceAll": true
         },
         "queryStr": "select *\nlimit 10000",
+        "tableName": "${ref:dataset:6vhVii}",
         "triggerOnAny": true,
         "triggered": true,
         "visual": true
@@ -60,7 +62,7 @@
       "storeConfig": null,
       "storeDatasourceId": 0,
       "strId": "WhgS9x",
-      "triggerDatasetId": null
+      "triggerDatasetId": 0
     }
   ]
 }

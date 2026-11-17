@@ -32,6 +32,7 @@
           "replaceAll": true
         },
         "queryStr": "select *\nlimit 10000",
+        "tableName": "${ref:dataset:6vhVii}",
         "triggerOnAny": false,
         "triggered": false,
         "visual": true

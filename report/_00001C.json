@@ -26,7 +26,7 @@
         "skipReportIfAttachmentsAreBlank": true,
         "subject": "Email Report"
       },
-      "status": 1,
+      "status": 3,
       "subject": "Sales Email Report",
       "text": "{EmbedRecommendations}"
     }

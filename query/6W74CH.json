@@ -62,6 +62,7 @@
         },
         "queryStr": "select 1 as test\nlimit 1",
         "startTime": "undefined undefined",
+        "tableName": "${ref:dataset:hoKvma}",
         "triggered": false,
         "visual": false
       },
