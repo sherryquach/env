@@ -3,7 +3,7 @@
     {
       "datasetAlertIdentifier": "_00001C",
       "frequency": 1,
-      "frequencyType": "days",
+      "frequencyType": "weeks",
       "startTime": null,
       "type": 0
     }
